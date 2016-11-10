@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>누구나 평등한 IT세상 웹퍼블리셔 :: 이명종</title>
+<meta charset="UTF-8" />
+<meta name="description" content="이명종의 포트폴리오" />
+<meta name="author" content="이명종" />
+<meta name="keywords" content="웹퍼블리셔, 퍼블리셔, html, css, jquery, javascript, 웹표준, 웹접근성, 반응형웹, mobile, w3c, 크로스 브라우징, 웹디자인, html5, css3, 나라비전" />
+<meta name="robot" content="index, follow" />
+<meta name="naver-site-verification" content="08d78571c34735553d6231e82b7d4b5c4eb1b801"/>
+<link rel="stylesheet" type="text/css" href="./common/common.css" />
+<link rel="stylesheet" type="text/css" href="./common/themes.css" />
+<link rel="stylesheet" type="text/css" href="./common/main.css" />
+<link rel="shortcut icon" href="./common/favicon.png" type="image/x-icon" />
+<script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+<script src="./common/responsiveslides.min.js"></script>
+<script>
+(function($) {
+	$(document).ready(function(){
+		$("#slider2").responsiveSlides({
+		auto: false,
+		pager: true,
+		nav: false,
+		speed: 500,
+		maxwidth: 1000,
+		time: 100,
+		namespace: "transparent-btns"
+		});
+	});	
+
+	// 스마트폰 체크
+      var smartphone = new Array('iPhone','iPod','ipad','Android','BlackBerry','Windows Phone','Windows CE','LG','MOT','SAMSUNG','SonyEricsson','Nokia');
+         if(document.URL.match('desktop')) smartphone = null; 
+	         for(i in smartphone){
+	             if(navigator.userAgent.match(smartphone[i]) != null){
+	                 document.location.href = "http://www.publishermj.pe.kr/portfolio/mobile"; 
+	                 break;
+	             }
+	         }
+})(jQuery);
+
+</script>
+	<!--[if lt IE 9]> 
+		<script>
+			alert('IE9 이상에 최적화된 웹사이트 입니다.\n');
+			location.href = 'http://windows.microsoft.com/ko-kr/internet-explorer/download-ie';
+		</script>
+	 <![endif]-->
+</head>
+<body>
+<div id="wrap">   
+
+	<!-- Header -->
+	<header>
+			<h1 class=" "><a href=""><img src="./images/logo.jpg" alt="웹퍼블리셔 :: 이명종" /></a></h1>
+		<p><img src="./images/top_pannel.jpg" alt="Contacus" /></p>
+	</header>
+
+	<!-- // Header -->
+
+	<!-- Container -->
+	<section id="container" class="rslides_container">
+		<ul id="slider2">
+		<li><img src="./images/about_con.jpg" alt="About LMJ" longdesc="./page/about_me.html" /></li>
+		<li><img src="./images/skil_con.jpg" alt="SKILL" longdesc="./page/skill.html" /></li>
+		<li><img src="./images/portfolio_con1.jpg" alt="portfolio" usemap="#Map" />		 
+			 <map name="Map">
+			<area shape="rect" coords="38,148,345,468" href="./portfolio/wooribooks/index.html" target="_blank" alt="우리문고">
+			<area shape="rect" coords="352,151,661,469" href="./portfolio/eclean/index.html" target="_blank" alt="이례크린">
+			<area shape="rect" coords="666,149,979,474" href="http://www.whatwhy.co.kr" target="_blank" alt="왓앤와이 어린이집">
+			</map>
+
+		</li>
+		<li><img src="./images/portfolio_con2.jpg" alt="portfolio" usemap="#Map2" />
+		 	<map name="Map2">
+			<area shape="rect" coords="33,143,349,494" href="#modal1" class="modalLink" alt="CAD2010">
+			<area shape="rect" coords="354,145,662,494" href="#modal2" class="modalLink" alt="ihans">
+			<area shape="rect" coords="668,143,975,497" href="./portfolio/hankookr" target="_blank" alt="한국재활용산업개발">
+			</map>
+
+			<div class="overlay"></div>
+			<div id="modal1" class="modal">
+       		 <p class="closeBtn">Close</p>
+      		 <p><img src="./images/port_1.jpg" alt="2010CAD" /></p>
+    		</div>
+    		
+    		<div class="overlay"></div>
+			<div id="modal2" class="modal">
+       		 <p class="closeBtn">Close</p>
+      		 <p><img src="./images/port_2.jpg" alt="ihans" /></p>
+    		</div> 	
+		</li>
+		<li><img src="./images/portfolio_con3.jpg" alt="portfolio" usemap="#Map3" />
+		    <map name="Map3">
+		  	<area shape="rect" coords="32,146,348,456" href="./portfolio/intec" target="_blank" alt="intec English">
+		  	<area shape="rect" coords="353,145,665,472" href="./portfolio/motor" target="_blank" alt="웹으로 배우는 가솔린기관">
+			<area shape="rect" coords="667,148,974,506" href="#modal3" class="modalLink" alt="한국펜션">
+			</map>
+      		<div class="overlay"></div>
+			<div id="modal3" class="modal">
+       		 <p class="closeBtn">Close</p>
+      		 <p><img src="./images/port_3_1.jpg" alt="한국펜션" /></p>
+    		</div>   			
+        </li>
+        <li><img src="./images/portfolio_con4.jpg" alt="portfolio" usemap="#Map4" />
+	 	   <map name="Map4">
+            	<area shape="rect" coords="27,150,347,492" href="./portfolio/portfolio" target="_blank" alt="포트폴리오 사이트(2010)">
+           		<area shape="rect" coords="353,146,661,494" href="./portfolio/raphaeloffice" target="_blank" alt="라파엘오피스텔">
+           	    <area shape="rect" coords="664,148,974,474" href="./portfolio/motor2" target="_blank" alt="웹으로 배우는 가솔린기관(2010)">
+            </map>
+         </li>        
+         <li><img src="./images/portfolio_con5.jpg" alt="portfolio" /></li>
+	  </ul>
+	</section>
+	<section class="quick">
+		<ul class="quick_bt">
+		<li><img src="./images/quick_bt2.jpg" alt="010-3919-4011" /></li>
+		<li><a href="https://www.facebook.com/Lmyeongjong" target="_blank"><img src="./images/quick_bt3.jpg" alt="Lmyeongjong" /></a></li>
+		<li><a href="mailto:qnfzks55@nara.co.kr/"><img src="./images/quick_bt1.jpg" alt="qnfzks55@nara.co.kr" /></a></li>
+		</ul>
+	</section>
+	<!-- // Container -->
+
+	<!-- Footer -->
+	<footer><img src="./images/foot_bg.jpg" alt="Copyright (c) 2014 LEE MYEONG JONG All Right Reserverd." /></footer>
+	<!-- // Footer -->
+    <script type='text/javascript' src='./common/jquery.modal.js'></script>
+    <script type='text/javascript' src='./common/site.js'></script>	
+</div>
+
+</body>
+</html>

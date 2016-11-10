@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>누구나 평등한 IT세상 웹퍼블리셔 :: 이명종</title>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="description" content="이명종의 포트폴리오" />
+<meta name="author" content="이명종" />
+<link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.4.css" />
+<link rel="stylesheet" type="text/css" href="owl.carousel.css" />
+<link rel="stylesheet" type="text/css" href="owl.theme.css" />
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+<script src="jquery-1.10.2.js"></script>
+<script src="jquery.mobile-1.4.4.js"></script>
+<script src="//www.google-analytics.com/analytics.js" async=""></script>
+<script type="text/javascript">
+  window.addEventListener('load', function() {
+   setTimeout(scrollTo, 0, 0, 1);
+  }, false);
+
+  // 새로고침 방지
+	function noEvent() {
+	 if (event.keyCode == 116) {
+	 		event.keyCode= 2;
+	 		return false;
+	 	}else if(event.ctrlKey && (event.keyCode==78 || event.keyCode == 82)){
+	 		return false;
+	 	}
+	}
+	document.onkeydown = noEvent;
+
+// 패널 Swipe
+$(document).on( "pageinit", "#page", function() {
+    $(document).on( "swiperight", "#page", function(e) {
+        if ( $.mobile.activePage.jqmData( "panel" ) !== "open" ) {
+			if ( e.type === "swiperight" ) {
+                $( "#left-panel" ).panel( "open" );
+            }
+        }
+    });
+});
+
+</script>
+</head>
+<body>
+<div data-role="page" id="page">
+	<div data-role="panel" data-display="overlay" id="left-panel">
+		<h3><img src="happy.jpg" alt="박효신 15주년 콘서트" class="pf_img" /></h3>
+		<table class="panel_c">
+			<tr>
+				<td><img src="lmj.jpg" alt="관리자" class="circle" /></td>
+				<td><div class="red">♥</div></td>
+				<td><img src="okin.jpg" alt="여자친구" class="circle" /></td>
+			</tr>
+		</table>
+		<p class="txt_over">
+			@ 공연명 : 박효신 15주년 기념 라이브 투어 〈HAPPY TOGETHER〉<br />
+			@ 공연일시 : 2014년 12월 13일 (토) 7PM / 2014년 12월 14일 (일) 6PM<br /><br />
+			@ 공연장소 : 올림픽공원 체조경기장<br /><br />
+			@ 티켓가격 : VVIP석 143,000원 / VIP석 132,000원 / R석 121,000원 / S석 99,000원 / A석 77,000원 / B석 55,000원<br /><br />
+			@ 관람등급 : 만7세 이상 관람가 (미취학아동 입장불가)<br /><br />
+			@ 예매처 : 인터파크<br />
+			<a href="http://ticket.interpark.com/Webzine/Paper/TPNoticeView.asp?bbsno=34&amp;pageno=1&amp;stext=&amp;no=20488&amp;groupno=20488&amp;seq=0&amp;KindOfGoods=TICKET&amp;Genre=2&amp;sort=WriteDate">http://ticket.interpark.com/Webzine/Paper/TPNoticeView.asp?bbsno=34&amp;pageno=1&amp;stext=&amp;no=20488&amp;groupno=20488&amp;seq=0&amp;KindOfGoods=TICKET&amp;Genre=2&amp;sort=WriteDate</a><br /><br />
+			@ 티켓 오픈일 : 2014년 10월 15일(수) 오후 8시
+			</p>		
+	</div>
+	<header data-role="header">
+		<h1><a href="index.html" rel="external"><span class="logo">누구나 평등한 IT세상 웹퍼블리셔 :: 이명종</span></a></h1>
+		<div data-role="navbar">
+	    <nav>
+		    <ul>
+		      <li><a href="index.html" rel="external" data-transition="pop">ABOUT</a></li>
+		      <li><a href="skill.html" rel="external" data-transition="pop" class="mu_hlt">SKILL</a></li>
+		      <li><a href="portfolio.html" rel="external" data-transition="pop">PORTFOLIO</a></li>
+		    </ul>
+		</nav>
+	  </div>
+	</header><!-- /header -->
+	<div data-role="content" role="main">
+		<ul data-role="listview" data-inset="true" data-filter-placeholder="궁금한 스킬을 검색 해 보세요." data-filter="true" data-count-theme="b">
+			<li data-role="list-divider">WEB PUBLISHING</li>
+		    <li><a href="#xhtml" data-rel="dialog">XHTML &amp; CSS2<span class="ui-li-count">중급</span></a></li>
+		    <li><a href="#html5" data-rel="dialog">HTML5 &amp; CSS3<span class="ui-li-count">초급</span></a></li>
+		    <li data-role="list-divider">SEMANTIC MARKUP</li>
+		    <li><a href="#semantic" data-rel="dialog">웹접근성 &amp; 웹표준<span class="ui-li-count">중급</span></a></li>
+		    <li><a href="#semantic" data-rel="dialog">웹 기획<span class="ui-li-count">초급</span></a></li>
+		    <li data-role="list-divider">FRONT-END DEVELOP</li>		    
+		    <li><a href="#jquery" data-rel="dialog">jQuery &amp; jQuery Mobile<span class="ui-li-count">초급</span></a></li>
+		    <li><a href="#js" data-rel="dialog">Javascript<span class="ui-li-count">초급</span></a></li>
+		    <li data-role="list-divider">PROGRAMMING</li>		    
+		    <li><a href="#php" data-rel="dialog">PHP &amp; mySQL<span class="ui-li-count">초급</span></a></li>
+		    <li data-role="list-divider">MOBILE PUBLISHING</li>		    
+		    <li><a href="#mobile" data-rel="dialog">모바일 웹 &amp; 앱<span class="ui-li-count">초급</span></a></li>
+		    <li><a href="#responsive" data-rel="dialog">반응형 웹<span class="ui-li-count">초급</span></a></li>
+		    <li data-role="list-divider">SOFTWARE TOOL</li>		    
+		    <li><a href="#adobe" data-rel="dialog">Adobe Photoshop &amp; Adobe Dreamwever<span class="ui-li-count">중급</span></a></li>
+		</ul>							
+	</div>
+	<footer data-role="footer">
+		<div class="center"><a class="ui-btn ui-btn-inline ui-icon-delete pc_bt" href="http://www.publishermj.pe.kr/?desktop" data-ajax="false">PC버젼</a></div>
+		<h4 class="mj_footer">Copyright (c) 2014 LEE MYEONG JONG All Right Reserverd.</h4>
+	</footer><!-- /footer -->
+</div>
+
+<!-- POP contents -->
+<div data-role="page" id="xhtml">
+	<header data-role="header">
+		<h1><a href="index.html" rel="external"><span class="logo">누구나 평등한 IT세상 웹퍼블리셔 :: 이명종</span></a></h1>
+	</header><!-- /header -->
+	<div data-role="content" role="main">
+		<ul data-role="listview" data-inset="true" data-divider-theme="a">
+		    <li data-role="list-divider">XHTML &amp; CSS2</li>
+		    <li>09년도부터 개인사업자, 쇼핑몰 등 기초를 탄탄하게 웹표준 접근성 마크와 Strict 엄격버젼 까지 경험을 쌓았고 앞으로 쭉 발전중입니다. </li>
+		</ul>						
+	</div>
+	<footer data-role="footer">
+		<div class="center"><a class="ui-btn ui-btn-inline ui-icon-delete pc_bt" href="http://www.publishermj.pe.kr/?desktop" data-ajax="false">PC버젼</a></div>
+		<h4 class="mj_footer">Copyright (c) 2014 LEE MYEONG JONG All Right Reserverd.</h4>
+	</footer><!-- /footer -->
+</div>
+
+<div data-role="page" id="html5">
+	<header data-role="header">
+		<h1><a href="index.html" rel="external"><span class="logo">누구나 평등한 IT세상 웹퍼블리셔 :: 이명종</span></a></h1>
+	</header><!-- /header -->
+	<div data-role="content" role="main">
+		<ul data-role="listview" data-inset="true" data-divider-theme="a">
+		    <li data-role="list-divider">HTML5 &amp; CSS3</li>
+		    <li>HTML5와 CSS3 의 등장으로 플래시의 지지율이 떨어질 무렵, 공부를 시작해서 현재 지원하지 않는 구형IE와 모든 브라우저들이 똑같이 보여지도록 공부 하고 발전하고 있습니다.</li>
+		</ul>						
+	</div>
+	<footer data-role="footer">
+		<div class="center"><a class="ui-btn ui-btn-inline ui-icon-delete pc_bt" href="http://www.publishermj.pe.kr/?desktop" data-ajax="false">PC버젼</a></div>
+		<h4 class="mj_footer">Copyright (c) 2014 LEE MYEONG JONG All Right Reserverd.</h4>
+	</footer><!-- /footer -->
+</div>
+
+<div data-role="page" id="semantic">
+	<header data-role="header">
+		<h1><a href="index.html" rel="external"><span class="logo">누구나 평등한 IT세상 웹퍼블리셔 :: 이명종</span></a></h1>
+	</header><!-- /header -->
+	<div data-role="content" role="main">
+		<ul data-role="listview" data-inset="true" data-divider-theme="a">
+		    <li data-role="list-divider">웹 접근성 &amp; 웹 표준 &amp; 웹 기획</li>
+		    <li>크로스 브라우징 및 스크린 리더기를 바탕으로 모든연령 &amp; 장애인 등 모든 사용자들이 볼수 있도록 하고 있습니다. 유비쿼터스 시대의 필수라고 생각합니다.<br /><br />
+웹기획기초설계 공부 2년간 하였고, PPT를 이용한 기획서 제작 및 웹기획 
+2번 참여한 경험이 있습니다. 개인 사이트 및 개인 업체 사이트 웹 기획 
+경험을 가지고 있습니다.
+		    </li>
+		</ul>						
+	</div>
+	<footer data-role="footer">
+		<div class="center"><a class="ui-btn ui-btn-inline ui-icon-delete pc_bt" href="http://www.publishermj.pe.kr/?desktop" data-ajax="false">PC버젼</a></div>
+		<h4 class="mj_footer">Copyright (c) 2014 LEE MYEONG JONG All Right Reserverd.</h4>
+	</footer><!-- /footer -->
+</div>
+
+<div data-role="page" id="jquery">
+	<header data-role="header">
+		<h1><a href="index.html" rel="external"><span class="logo">누구나 평등한 IT세상 웹퍼블리셔 :: 이명종</span></a></h1>
+	</header><!-- /header -->
+	<div data-role="content" role="main">
+		<ul data-role="listview" data-inset="true" data-divider-theme="a">
+		    <li data-role="list-divider">jquery &amp; jQuery Mobile</li>
+		    <li>BASIC 라이브러리 활용 가능 하고, jQuery 모바일 라이브러리 활용 가능하며, jQuery 를 활용한 배너 애니메이션, 기타 애니메이션 효과  또환 활용 가능합니다.<br /><br />
+		    	jQuery Mobile 라이브러리를 이용한 하이브리드앱 제작 및 커스터마이징 가능하며, 모바일 퍼블리싱의 선두주자 라고 생각합니다.
+		    </li>
+		</ul>						
+	</div>
+	<footer data-role="footer">
+		<div class="center"><a class="ui-btn ui-btn-inline ui-icon-delete pc_bt" href="http://www.publishermj.pe.kr/?desktop" data-ajax="false">PC버젼</a></div>
+		<h4 class="mj_footer">Copyright (c) 2014 LEE MYEONG JONG All Right Reserverd.</h4>
+	</footer><!-- /footer -->
+</div>
+
+<div data-role="page" id="js">
+	<header data-role="header">
+		<h1><a href="index.html" rel="external"><span class="logo">누구나 평등한 IT세상 웹퍼블리셔 :: 이명종</span></a></h1>
+	</header><!-- /header -->
+	<div data-role="content" role="main">
+		<ul data-role="listview" data-inset="true" data-divider-theme="a">
+		    <li data-role="list-divider">Javascript</li>
+		    <li>자바스크립트를 사용한 기본적인 Front-end 개발 구현이 가능하며, 라이브러리를 활용한 UI 또한 활용 가능합니다. 현재 공부중에 있고 꾸준히 향상 하는 중입니다.
+		    </li>
+		</ul>						
+	</div>
+	<footer data-role="footer">
+		<div class="center"><a class="ui-btn ui-btn-inline ui-icon-delete pc_bt" href="http://www.publishermj.pe.kr/?desktop" data-ajax="false">PC버젼</a></div>
+		<h4 class="mj_footer">Copyright (c) 2014 LEE MYEONG JONG All Right Reserverd.</h4>
+	</footer><!-- /footer -->
+</div>
+
+<div data-role="page" id="php">
+	<header data-role="header">
+		<h1><a href="index.html" rel="external"><span class="logo">누구나 평등한 IT세상 웹퍼블리셔 :: 이명종</span></a></h1>
+	</header><!-- /header -->
+	<div data-role="content" role="main">
+		<ul data-role="listview" data-inset="true" data-divider-theme="a">
+		    <li data-role="list-divider">PHP &amp; mySQL</li>
+		    <li>PHP &amp; MYSQL을 기반으로한 웹사이트 개발 및 DB구축 가능하며, 게시판,갤러리,로그인,회원가입,검색 등 BASIC CMS 풍부한 경험 지방 &amp; 전국기능경기대회때 활용했던 언어입니다.
+		    </li>
+		</ul>						
+	</div>
+	<footer data-role="footer">
+		<div class="center"><a class="ui-btn ui-btn-inline ui-icon-delete pc_bt" href="http://www.publishermj.pe.kr/?desktop" data-ajax="false">PC버젼</a></div>
+		<h4 class="mj_footer">Copyright (c) 2014 LEE MYEONG JONG All Right Reserverd.</h4>
+	</footer><!-- /footer -->
+</div>
+
+<div data-role="page" id="mobile">
+	<header data-role="header">
+		<h1><a href="index.html" rel="external"><span class="logo">누구나 평등한 IT세상 웹퍼블리셔 :: 이명종</span></a></h1>
+	</header><!-- /header -->
+	<div data-role="content" role="main">
+		<ul data-role="listview" data-inset="true" data-divider-theme="a">
+		    <li data-role="list-divider">모바일 웹 &amp; 앱</li>
+		    <li>스마트폰 시대인 요즘 모바일웹의 기술은 필수라고 생각합니다. 반응형 웹과 더불어 모바일웹의 중요성이 강조되고 있습니다. jQuery Mobile 을 활용한 하이브리드 앱 제작과
+		    하드코딩 가능합니다. 
+		    </li>
+		</ul>						
+	</div>
+	<footer data-role="footer">
+		<div class="center"><a class="ui-btn ui-btn-inline ui-icon-delete pc_bt" href="http://www.publishermj.pe.kr/?desktop" data-ajax="false">PC버젼</a></div>
+		<h4 class="mj_footer">Copyright (c) 2014 LEE MYEONG JONG All Right Reserverd.</h4>
+	</footer><!-- /footer -->
+</div>
+
+<div data-role="page" id="responsive">
+	<header data-role="header">
+		<h1><a href="index.html" rel="external"><span class="logo">누구나 평등한 IT세상 웹퍼블리셔 :: 이명종</span></a></h1>
+	</header><!-- /header -->
+	<div data-role="content" role="main">
+		<ul data-role="listview" data-inset="true" data-divider-theme="a">
+		    <li data-role="list-divider">반응형 웹</li>
+		    <li>모바일 &amp; 태블릿 &amp; 데스크탑에 최적화되는 반응형 웹이 트렌드인 만큼 좀 더 최적화된 반응형 사이트 구조를 공부하고 있으며,
+		    	각 디바이스에 대응 가능한 레이아웃 마크업 가능합니다.
+		    </li>
+		</ul>						
+	</div>
+	<footer data-role="footer">
+		<div class="center"><a class="ui-btn ui-btn-inline ui-icon-delete pc_bt" href="http://www.publishermj.pe.kr/?desktop" data-ajax="false">PC버젼</a></div>
+		<h4 class="mj_footer">Copyright (c) 2014 LEE MYEONG JONG All Right Reserverd.</h4>
+	</footer><!-- /footer -->
+</div>
+
+<div data-role="page" id="adobe">
+	<header data-role="header">
+		<h1><a href="index.html" rel="external"><span class="logo">누구나 평등한 IT세상 웹퍼블리셔 :: 이명종</span></a></h1>
+	</header><!-- /header -->
+	<div data-role="content" role="main">
+		<ul data-role="listview" data-inset="true" data-divider-theme="a">
+		    <li data-role="list-divider">Adobe Photoshop &amp; Adobe Dreamwever</li>
+		    <li>3년간 웹페이지 제작(디자인 작업 참여 100%) 경험과 아이콘, 이미지, 제작 및 수정 가능하고 웹표준 코딩을 위한 기본적인 능력 보유하고 있습니다.<br /><br />
+		    	현재 개발 편집기는 Sublime Text2 를 쓰고 있으며, 드림위버 또한 기능 활용과 필요할 부분이 있을 경우 사용하고 있습니다.
+		    </li>
+		</ul>						
+	</div>
+	<footer data-role="footer">
+		<div class="center"><a class="ui-btn ui-btn-inline ui-icon-delete pc_bt" href="http://www.publishermj.pe.kr/?desktop" data-ajax="false">PC버젼</a></div>
+		<h4 class="mj_footer">Copyright (c) 2014 LEE MYEONG JONG All Right Reserverd.</h4>
+	</footer><!-- /footer -->
+</div>
+<!-- // POP contents -->
+<div class="panel_ic_area"><a href="#left-panel"><span class="panel_ic"></span></a></div>
+
+</body>
+</html>
