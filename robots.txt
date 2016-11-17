@@ -1,3 +1,4 @@
 User-agent: *
 Disallow:/html/
 Disallow:/img/
+Redirect 301 / http://qnfzks55.github.io/
