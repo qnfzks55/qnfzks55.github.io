@@ -27,8 +27,8 @@ disqus:
 
 # URL
 #url:                "https://AWEEKJ.github.io" # the base hostname & protocol for your site
-url:                "https://qnfzks55.github.io/lmj_blog" # use this url when develop
-baseurl:            "" # the subpath of your site, e.g. /blog
+url:                "https://qnfzks55.github.io" # use this url when develop
+baseurl:            "/lmj_blog" # the subpath of your site, e.g. /blog
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
