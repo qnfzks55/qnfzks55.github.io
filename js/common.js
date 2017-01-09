@@ -2,7 +2,7 @@
  * ui.js
  * Author : LMJ
  * Date : 16.10.17
- * Update : 16.10.17
+ * Update : 17.01.09
  */
 
 if(typeof lmj === 'undefined'){
