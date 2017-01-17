@@ -442,9 +442,9 @@ body, input, select, textarea {color: #888; font-family: "NanumGothic"; font-siz
 	}
 
 		.image img {
-			border-radius: 5px;
+
 			display: block;
-			border:3px solid #f4f4f4;
+
 		}
 
 		.image.left {
@@ -856,7 +856,9 @@ ul.icons > li:hover {opacity: 1}
 		border-top: solid 3px #f4f4f4;
 		margin-bottom: 2.25em;
 		padding-top: 2.25em;
+		overflow: hidden;
 	}
+
 
 		.features article:first-child {
 			border-top: 0;
@@ -865,20 +867,27 @@ ul.icons > li:hover {opacity: 1}
 
 		.features article .image {
 			display: inline-block;
-			padding-right: 2.5em;
 			vertical-align: middle;
 			width: 48%;
+			border-radius: 5px;
+			border:3px solid #f4f4f4;
+			overflow: hidden;
+			height: 12.5em;
 		}
 
 			.features article .image img {
 				display: block;
 				width: 100%;
+				transition: all ease-Out .6s
 			}
+
+.pf_img_off {transform: translate3d(0, 0, 0)}
 
 		.features article .inner {
 			display: inline-block;
 			vertical-align: middle;
 			width: 50%;
+			padding-left: 2.5em;
 		}
 
 			.features article .inner > :last-child {
@@ -887,8 +896,7 @@ ul.icons > li:hover {opacity: 1}
 
 /* Header */
 .fa-facebook-square:before{content:"\f082"}
-#header {background: #83d3c9; color: #d1f1e9; height: 100%; position: fixed; text-align: center; top: 0; width: 23em; right: 0;
-}
+#header {background: #83d3c9; color: #d1f1e9; height: 100%; position: fixed; text-align: center; top: 0; width: 23em; right: 0}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;

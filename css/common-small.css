@@ -62,6 +62,7 @@
 	.features article .inner {
 		display: block;
 		width: 100%;
+		padding-left: 0;
 	}
 
 /* Header */
