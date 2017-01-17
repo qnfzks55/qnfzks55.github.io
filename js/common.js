@@ -67,10 +67,10 @@ lmj.lmj_ui.prototype = {
                 $('.port').addClass('active');
             }
 
-            if(scroll_info >= Math.floor($('#contact').offset().top)){
+            /*if(scroll_info >= Math.floor($('#contact').offset().top)){
                 removeli();
                 $('.contact').addClass('active');
-            }
+            }*/
         });
 	},
 
