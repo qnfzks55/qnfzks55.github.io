@@ -7,7 +7,6 @@ body {background: #fff; font-family: "NanumGothic"}
 body, input, select, textarea {color: #888; font-family: "NanumGothic"; font-size: 16pt; font-weight: 400; line-height: 1.75em}
 .clearfix {content: ""; display: block; height: 0; clear:both; visibility: hidden}
 .clearfix:after {content: ""; display: block; height: 0; clear:both; visibility: hidden}
-.topsite-icon.qnfzks55 {background: url(../img/ico_whale.png) no-repeat}
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
