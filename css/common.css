@@ -3,8 +3,8 @@
 
 /* Default Style
 --------------------------------------------------------------------  */
-body {background: #fff; font-family: "NanumGothic"}
-body, input, select, textarea {color: #888; font-family: "NanumGothic"; font-size: 16pt; font-weight: 400; line-height: 1.75em}
+body {background: #fff; font-family: NanumGothic, sans-serif}
+body, input, select, textarea {color: #888; font-family: NanumGothic, sans-serif; font-size: 16pt; font-weight: 400; line-height: 1.75em}
 .clearfix {content: ""; display: block; height: 0; clear:both; visibility: hidden}
 .clearfix:after {content: ""; display: block; height: 0; clear:both; visibility: hidden}
 	a {
@@ -471,15 +471,10 @@ body, input, select, textarea {color: #888; font-family: "NanumGothic"; font-siz
 		.image.avatar {
 			border-radius: 100%;
 			overflow: hidden;
+
 		}
 
-		.image.avatar img {border: none}
-
-			.image.avatar img {
-				border-radius: 100%;
-				display: block;
-				width: 100%;
-			}
+		.image.avatar img {border: none; transform:translate3d(0, 0, 0) !important; border-radius: 100%; display: block; width: 100%}
 
 /* List */
 
