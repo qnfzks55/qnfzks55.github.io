@@ -2,7 +2,7 @@
  * ui.js
  * Author : LMJ
  * Date : 16.10.17
- * Update : 17.01.16
+ * Update : 17.08.19
  */
 
 if(typeof lmj === 'undefined'){
@@ -67,10 +67,10 @@ lmj.lmj_ui.prototype = {
                 $('.port').addClass('active');
             }
 
-            /*if(scroll_info >= Math.floor($('#contact').offset().top)){
+            if(scroll_info >= Math.floor($('#contact').offset().top)){
                 removeli();
                 $('.contact').addClass('active');
-            }*/
+            }
         });
 	},
 
