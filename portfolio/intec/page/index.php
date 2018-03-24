@@ -4,57 +4,57 @@
 <meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
 <title>InTEC into English Instruction</title>
 <link rel="stylesheet" type="text/css" href="../common/common.css" />
-<script type="text/javascript" src="../common/common.js"></script>
+<script src="../common/common.js"></script>
 </head>
 
 <body>
 <div id="wrapper">
 	<div id="main_page">
-		<div id="sub_top"><!-- ·Î°í ºÎºÐ -->
-			<script type="text/javascript">flash("../source/logo.swf","900","134","logo","","transparent")</script>
+		<div id="sub_top"><!-- ï¿½Î°ï¿½ ï¿½Îºï¿½ -->
+			<script>flash("../source/logo.swf","900","134","logo","","transparent")</script>
 		</div>
-		<div id="top_navi"><!-- ³×ºñ°ÔÀÌ¼Ç -->
+		<div id="top_navi"><!-- ï¿½×ºï¿½ï¿½ï¿½Ì¼ï¿½ -->
 			<?php include "../include/navigation.php"; ?>
 		</div>
-		<div id="main_menu_view"><!-- ¸ÞÀÎ¸Þ´º -->
-			<script type="text/javascript">flash("main_menu.swf","900","35","main_menu","","transparent")</script>
+		<div id="main_menu_view"><!-- ï¿½ï¿½ï¿½Î¸Þ´ï¿½ -->
+			<script>flash("main_menu.swf","900","35","main_menu","","transparent")</script>
 		</div>
-		<div id="main_search_area"><!-- ¸ÞÀÎ °Ë»ö ºÎºÐ -->
+		<div id="main_search_area"><!-- ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½ ï¿½Îºï¿½ -->
 			<div id="search_img">
-				<input type="text" class="main_search_input" title="°Ë»ö" style="margin-left:50px; margin-top:6px; float:left;" />
-				<input type="submit" class="main_search_bt" title="°Ë»ö" value="" style="margin-left:195px; margin-top:6px; margin-top:-19px; float:left;" />
+				<input type="text" class="main_search_input" title="ï¿½Ë»ï¿½" style="margin-left:50px; margin-top:6px; float:left;" />
+				<input type="submit" class="main_search_bt" title="ï¿½Ë»ï¿½" value="" style="margin-left:195px; margin-top:6px; margin-top:-19px; float:left;" />
 			</div>
 		</div>
-		<div id="main_body"><!-- ¸ÞÀÎ ¹Ùµð -->
-			<div id="main_login_area"><!-- ·Î±×ÀÎ ¿µ¿ª -->
+		<div id="main_body"><!-- ï¿½ï¿½ï¿½ï¿½ ï¿½Ùµï¿½ -->
+			<div id="main_login_area"><!-- ï¿½Î±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ -->
 				<div id="main_login_style">
 					<?php
 					if(!$_SESSION[no]){
 					?>
 					<form action="login_ok.php" method="post">
 						<div style="float:left; width:136px;">
-							<input type="text" name="member_id" title="¾ÆÀÌµð" class="input00" style="width:136px;" maxlength="8" />
-							<input type="password" name="member_pw" title="ºñ¹Ð¹øÈ£" class="input00" style="width:136px;" maxlength="8" />
-							<a href="#"><img src="../images/join_bt.jpg" width="62" height="20" alt="È¸¿ø°¡ÀÔ" style="margin:4px 0 0 5px;" /></a>
+							<input type="text" name="member_id" title="ï¿½ï¿½ï¿½Ìµï¿½" class="input00" style="width:136px;" maxlength="8" />
+							<input type="password" name="member_pw" title="ï¿½ï¿½Ð¹ï¿½È£" class="input00" style="width:136px;" maxlength="8" />
+							<a href="#"><img src="../images/join_bt.jpg" width="62" height="20" alt="È¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" style="margin:4px 0 0 5px;" /></a>
 						</div>
 						<div>
-							&nbsp;&nbsp;&nbsp;<input type="submit" class="login_bt" value="" title="·Î±×ÀÎ" /><br />
+							&nbsp;&nbsp;&nbsp;<input type="submit" class="login_bt" value="" title="ï¿½Î±ï¿½ï¿½ï¿½" /><br />
 						</div>
 					</form>
 					<?php
 					}elseif($_SESSION[no]){
 					?>
 					<div style="float:left; width:132px; margin-left:4px;">
-						<span style="font-weight:bold;"><?php echo $_SESSION[name]; ?></span> ´Ô È¯¿µ ÇÕ´Ï´Ù.
+						<span style="font-weight:bold;"><?php echo $_SESSION[name]; ?></span> ï¿½ï¿½ È¯ï¿½ï¿½ ï¿½Õ´Ï´ï¿½.
 						<div style="text-align:center;">Lv. <span style="font-weight:bold;"><?php echo $_SESSION[member_lv]; ?></span></div>
 					</div>
 					<div>
-						&nbsp;&nbsp;<input type="button" class="logout_bt" value="" title="·Î±×¾Æ¿ô" onclick="{if(confirm('·Î±×¾Æ¿ô ÇÏ½Ã°Ú½À´Ï±î?')) location.href='logout.php'}" />
+						&nbsp;&nbsp;<input type="button" class="logout_bt" value="" title="ï¿½Î±×¾Æ¿ï¿½" onclick="{if(confirm('ï¿½Î±×¾Æ¿ï¿½ ï¿½Ï½Ã°Ú½ï¿½ï¿½Ï±ï¿½?')) location.href='logout.php'}" />
 					</div>
 						<?php
 						if($_SESSION[member_lv] == 1){
 						?>
-							<a href="sub.php?main_id=admin&amp;sub_id=menu_list"><img src="../images/admin_bt.jpg" width="62" height="20" alt="°ü¸®ÀÚÆäÀÌÁö" style="margin-left:10px;" /></a>
+							<a href="sub.php?main_id=admin&amp;sub_id=menu_list"><img src="../images/admin_bt.jpg" width="62" height="20" alt="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" style="margin-left:10px;" /></a>
 						<?php
 						}
 						?>
@@ -63,14 +63,14 @@
 					?>
 				</div>
 			</div>
-			<div id="main_notice_area"><!-- °øÁö»çÇ× -->
+			<div id="main_notice_area"><!-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -->
 				<div id="notice_style">
 					<?php
 					for($i = 1; $i <= 6; $i++){
 					?>
 						<ul>
 							<li style="padding-top:5px;">
-								<a href="" style="background:url(../images/notice_li.jpg) no-repeat 0% 30%;">&nbsp;&nbsp;&nbsp;°Ô½ÃÆÇ Å×½ºÆ® ÁßÀÔ´Ï´Ù. ¿µ¾î ¼ö¾÷ ¸ñ·Ï ÀÔ´Ï´Ù.&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#aac92e; font-family:verdana; font-weight:bold; font-size:0.9em;">[2009-10-13]</span></a>
+								<a href="" style="background:url(../images/notice_li.jpg) no-repeat 0% 30%;">&nbsp;&nbsp;&nbsp;ï¿½Ô½ï¿½ï¿½ï¿½ ï¿½×½ï¿½Æ® ï¿½ï¿½ï¿½Ô´Ï´ï¿½. ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ô´Ï´ï¿½.&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#aac92e; font-family:verdana; font-weight:bold; font-size:0.9em;">[2009-10-13]</span></a>
 							</li>
 						</ul>
 					<?php
@@ -78,16 +78,16 @@
 					?>
 				</div>
 			</div>
-			<div id="element_area"><!-- ÃÊµî ±³À° --></div>
-			<div id="middle_area"><!-- Áßµî ±³À° --></div>
-			<div id="q_a_area"><!-- ¹¯°í ´äÇÏ±â °Ô½ÃÆÇ -->
+			<div id="element_area"><!-- ï¿½Êµï¿½ ï¿½ï¿½ï¿½ï¿½ --></div>
+			<div id="middle_area"><!-- ï¿½ßµï¿½ ï¿½ï¿½ï¿½ï¿½ --></div>
+			<div id="q_a_area"><!-- ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½Ô½ï¿½ï¿½ï¿½ -->
 				<div id="q_a_style">
 					<?php
 					for($i = 1; $i <= 5; $i++){
 					?>
 						<ul>
 							<li style="padding-top:5px;">
-								<a href="" style="background:url(../images/notice_li.jpg) no-repeat 0% 30%;">&nbsp;&nbsp;&nbsp;Áú¹® Å×½ºÆ® Áß...&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#aac92e; font-family:verdana; font-weight:bold; font-size:0.9em;">[2009-10-13]</span></a>
+								<a href="" style="background:url(../images/notice_li.jpg) no-repeat 0% 30%;">&nbsp;&nbsp;&nbsp;ï¿½ï¿½ï¿½ï¿½ ï¿½×½ï¿½Æ® ï¿½ï¿½...&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#aac92e; font-family:verdana; font-weight:bold; font-size:0.9em;">[2009-10-13]</span></a>
 							</li>
 						</ul>
 					<?php
@@ -95,15 +95,15 @@
 					?>
 				</div>
 			</div>
-			<div id="video_list_area"><!-- µ¿¿µ»ó ¸ñ·Ï -->
+			<div id="video_list_area"><!-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ -->
 				<div id="video_list_style">
 					<?php
 					for($i = 1; $i <= 3; $i++){
 					?>
 						<ul>
 							<li style="float:left; padding-left:11px;">
-								<img src="../images/video_img.jpg" width="117" height="87" alt="µ¿¿µ»ó ¼ö¾÷" /><br />
-									<div style="text-align:center; padding-top:4px;">¿µ¾î °­ÀÇ<br />
+								<img src="../images/video_img.jpg" width="117" height="87" alt="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½" /><br />
+									<div style="text-align:center; padding-top:4px;">ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½<br />
 										<a href="" style="background:url(./images/notice_li.jpg) no-repeat 0% 30%;">
 											<span style="color:#aac92e; font-family:verdana; font-weight:bold; font-size:0.9em;">[2009-10-13]</span>
 										</a>
@@ -115,10 +115,10 @@
 					?>
 				</div>
 			</div>
-			<div id="univer_area"><!-- Áßµî ±³À° --></div>
-			<div id="main_banner"><!-- ¸ÞÀÎ ¹è³Ê --></div>
+			<div id="univer_area"><!-- ï¿½ßµï¿½ ï¿½ï¿½ï¿½ï¿½ --></div>
+			<div id="main_banner"><!-- ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ --></div>
 		</div>
-		<div id="main_copy"><!-- ¸ÞÀÎ Ä«ÇÇ¶óÀÌÆ® --></div>
+		<div id="main_copy"><!-- ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½Ç¶ï¿½ï¿½ï¿½Æ® --></div>
 	</div>
 </div>
 </body>

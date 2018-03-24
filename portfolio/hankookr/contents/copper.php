@@ -1,14 +1,14 @@
 <div style="width:336px; float:left;">
 	<div class="font_h" style="font-weight:bold;"><br /><img src="../image/copper_img.jpg" /></div>
-	&nbsp;&nbsp;<script type="text/javascript">flash("../gallery_4.swf","336","321","gallery_4")</script>
+	&nbsp;&nbsp;<script>flash("../gallery_4.swf","336","321","gallery_4")</script>
 </div>
 <div style="width:336px; float:left; margin-left:20px;">
 	<div class="font_h" style="font-weight:bold;"><br /><img src="../image/copper_img2.jpg" /></div>
-	&nbsp;&nbsp;<script type="text/javascript">flash("../gallery_5.swf","336","321","gallery_5")</script>
+	&nbsp;&nbsp;<script>flash("../gallery_5.swf","336","321","gallery_5")</script>
 </div>
 <div style="width:336px; float:left;">
 	<div class="font_h" style="font-weight:bold;"><br /><img src="../image/copper_img3.jpg" /></div>
-&nbsp;&nbsp;<script type="text/javascript">flash("../gallery_6.swf","336","321","gallery_6")</script>
+&nbsp;&nbsp;<script>flash("../gallery_6.swf","336","321","gallery_6")</script>
 </div>
 <div style="width:336px; float:left;">
 	<div class="font_h" style="font-weight:bold; margin-left:22px;"><br /><img src="../image/copper_img4.jpg" /></div>

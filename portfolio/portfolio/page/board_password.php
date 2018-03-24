@@ -1,8 +1,8 @@
 <!-- Select Check -->
-<script type="text/javascript">
+<script>
 function chk(){
 	var a = document.getElementById("chk");
-	if(!chkblank(a.password, "ºñ¹Ð¹øÈ£¸¦ Á¤È®È÷ ÀÔ·Â ÇØ ÁÖ¼¼¿ä.")){ return false; }
+	if(!chkblank(a.password, "ï¿½ï¿½Ð¹ï¿½È£ï¿½ï¿½ ï¿½ï¿½È®ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.")){ return false; }
 
 	return true;
 
@@ -12,24 +12,24 @@ function chk(){
 
 <!-- Board Title -->
 <div class="t_img_title">
-	<img src="../images/contents/community/board_t.jpg" width="520" height="110" alt="BOARD - ´©±¸³ª ±ÛÀ» ¾µ ¼ö ÀÖ´Â ÀÚÀ¯·Î¿î °Ô½ÃÆÇ ÀÔ´Ï´Ù." />
+	<img src="../images/contents/community/board_t.jpg" width="520" height="110" alt="BOARD - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Î¿ï¿½ ï¿½Ô½ï¿½ï¿½ï¿½ ï¿½Ô´Ï´ï¿½." />
 </div>
 <!-- //Board Title -->
 <!-- Board Password Form -->
 <form action="board_password_ok.php<?php echo PAGE; ?>" method="post" id="chk" onsubmit="return chk()">
 <fieldset>
-	<legend>noÈ÷µç°ª</legend>
+	<legend>noï¿½ï¿½ï¿½ç°ª</legend>
 	<input type="hidden" name="no" value="<?php echo $_GET[no]; ?>" />
 </fieldset>
 <div class="board_w_bar"></div>
 <div class="board_w_form">
 	<ul>
-		<li class="board_w_title"><label for="password">ºñ¹Ð¹øÈ£</label></li>
+		<li class="board_w_title"><label for="password">ï¿½ï¿½Ð¹ï¿½È£</label></li>
 		<li class="board_w_write">
 			<ul class="board_w_cb">	
 				<li>
-					<input type="password" name="password" id="password" title="ºñ¹Ð¹øÈ£" />
-					<span style="font-size:8pt;"><span class="b_tip">Tip .</span> ºñ¹Ð¹øÈ£¸¦ ÀÔ·Â ÇØ ÁÖ¼¼¿ä.</span>
+					<input type="password" name="password" id="password" title="ï¿½ï¿½Ð¹ï¿½È£" />
+					<span style="font-size:8pt;"><span class="b_tip">Tip .</span> ï¿½ï¿½Ð¹ï¿½È£ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.</span>
 				</li>
 			</ul>
 		</li>
@@ -37,11 +37,11 @@ function chk(){
 </div>
 <div class="board_bottom">
 	<fieldset>
-		<legend>¹öÆ°</legend>
+		<legend>ï¿½ï¿½Æ°</legend>
 			<ul class="center">
 				<li>
-					<input type="submit" class="button" value="Ok" title="È®ÀÎ" />
-					<input type="button" class="button" value="back" title="µÚ·Î" onclick="location.href='index.php?mid=community&amp;sid=board&amp;board_list=board_view&amp;no=<?php echo $_GET[no]; ?>'" />
+					<input type="submit" class="button" value="Ok" title="È®ï¿½ï¿½" />
+					<input type="button" class="button" value="back" title="ï¿½Ú·ï¿½" onclick="location.href='index.php?mid=community&amp;sid=board&amp;board_list=board_view&amp;no=<?php echo $_GET[no]; ?>'" />
 				</li>
 			</ul>
 	</fieldset>

@@ -1,4 +1,4 @@
-<script type="text/javascript">
+<script>
 <!--
 
 var myphoto = new Array(); 
@@ -22,7 +22,7 @@ var count = 0;
 function prev(){
  count--;
  if (count <= 0){
- alert("´õÀÌ»ó ÀÌ¹ÌÁö°¡ ¾ø½À´Ï´Ù.");
+ alert("ï¿½ï¿½ï¿½Ì»ï¿½ ï¿½Ì¹ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
  count = 1;
  }
 
@@ -33,7 +33,7 @@ function prev(){
 function next(){
  count++;
  if (count >= myphoto.length){
-    alert("´õÀÌ»ó ÀÌ¹ÌÁö°¡ ¾ø½À´Ï´Ù.");
+    alert("ï¿½ï¿½ï¿½Ì»ï¿½ ï¿½Ì¹ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
     count = 10;
  }
 
@@ -47,9 +47,9 @@ function next(){
 
 <table width="200" height="73" style="margin:45px 0 0 4px;">
   <tr>
-    <td><A HREF="javascript:prev()"><img src="./images/main_left.png" alt="ÀÌÀü" style="margin:0 8px 0 7px;" /></A></td>
+    <td><A HREF="javascript:prev()"><img src="./images/main_left.png" alt="ï¿½ï¿½ï¿½ï¿½" style="margin:0 8px 0 7px;" /></A></td>
     <td width="88" style="padding:3px 3px 3px 3px; border:1px solid #ccc;"><IMG SRC="./office/DSC00064.JPG" id="photo" width="200" height="104" BORDER="0" ALT=""></td>
-    <td><A HREF="javascript:next()"><img src="./images/main_right.png" alt="´ÙÀ½" style="margin:0 0px 0 8px;" /></A></td>
+    <td><A HREF="javascript:next()"><img src="./images/main_right.png" alt="ï¿½ï¿½ï¿½ï¿½" style="margin:0 0px 0 8px;" /></A></td>
   </tr>
 </table>
 

@@ -3,16 +3,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
-<title>¶óÆÄ¿¤ ¿ÀÇÇ½ºÅÚ</title>
+<title>ï¿½ï¿½ï¿½Ä¿ï¿½ ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½</title>
 <link rel="stylesheet" type="text/css" href="../common/common.css" />
-<script type="text/javascript" src="../common/common.js"></script>
+<script src="../common/common.js"></script>
 </head>
 
 <body id="sub_bg">
 <div id="wrapper">
-	<div id="main_top"><!-- ¸ÞÀÎ À­¿µ¿ª -->
-		<div id="logo"><!-- ·Î°í -->
-			<input type="image" src="../images/logo.jpg" title="¶óÆÄ¿¤ ¿ÀÇÇ½ºÅÚ" onclick="location.href='http://www.raphaeloffice.com/'" />
+	<div id="main_top"><!-- ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -->
+		<div id="logo"><!-- ï¿½Î°ï¿½ -->
+			<input type="image" src="../images/logo.jpg" title="ï¿½ï¿½ï¿½Ä¿ï¿½ ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½" onclick="location.href='http://www.raphaeloffice.com/'" />
 		</div>
 		<div id="main_top_right">
 			<img src="../images/navigation.jpg" width="170" height="16" usemap="#Map" style="float:right; margin:17px 0 0 12px;" />
@@ -22,28 +22,28 @@
 			<area shape="rect" coords="110,3,167,18" href="mailto:ose2p@naver.com" />
 			</map>
 		</div>
-		<div id="main_menu_flash"><!-- ¸ÞÀÎ¸Þ´º ÇÃ·¡½Ã -->
-			<script type="text/javascript">flash("../source/index.swf","680","58","index","","transparent")</script>
+		<div id="main_menu_flash"><!-- ï¿½ï¿½ï¿½Î¸Þ´ï¿½ ï¿½Ã·ï¿½ï¿½ï¿½ -->
+			<script>flash("../source/index.swf","680","58","index","","transparent")</script>
 		</div>
 	</div>
-	<div id="visual_sub"><!-- ºñÁÖ¾ó ÇÃ·¡½Ã -->
-		<script type="text/javascript">flash("../source/sub1.swf","954","124","sub1","","transparent")</script>
-		<div id="sub_left_title"><!-- ¸ÞÀÎ Å¸ÀÌÆ² -->
+	<div id="visual_sub"><!-- ï¿½ï¿½ï¿½Ö¾ï¿½ ï¿½Ã·ï¿½ï¿½ï¿½ -->
+		<script>flash("../source/sub1.swf","954","124","sub1","","transparent")</script>
+		<div id="sub_left_title"><!-- ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½Æ² -->
 			<?php include "../page/mainmenu.php"; ?>
 		</div>
 	</div>
 	<div>
 	<div id="sub_body">
-		<div id="sub_left_top"><!-- ¼­ºê ¿ÞÂÊ À­ºÎºÐ -->
-			<div id="sub_menu_view"><!-- ¼­ºê¸Þ´º -->
+		<div id="sub_left_top"><!-- ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Îºï¿½ -->
+			<div id="sub_menu_view"><!-- ï¿½ï¿½ï¿½ï¿½Þ´ï¿½ -->
 				<?php include "../page/submenu.php"; ?>
 			</div>
-			<div id="sub_banner"><!-- ¼­ºê ¹è³Ê -->
-				<script type="text/javascript">flash("../source/banner.swf","169","48","banner","","transparent")</script>
+			<div id="sub_banner"><!-- ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ -->
+				<script>flash("../source/banner.swf","169","48","banner","","transparent")</script>
 			</div>
 		</div>
-		<div id="sub_contents" style="background:#fff;"><!-- ¼­ºê ¹Ùµð-->
-			<div id="sub_title_area"><!-- ¼­ºê Å¸ÀÌÆ² -->
+		<div id="sub_contents" style="background:#fff;"><!-- ï¿½ï¿½ï¿½ï¿½ ï¿½Ùµï¿½-->
+			<div id="sub_title_area"><!-- ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½Æ² -->
 				<?php
 				if(!$_GET[sub_id]){
 					$res = mysql_query("select * from sub_menu where main_id='$_GET[main_id]' and od='1'",$connect);
@@ -56,7 +56,7 @@
 				?>
 				&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $mdata[sub_title]; ?>
 			</div>
-			<div id="sub_navi_view"><!-- ¼­ºê ³×ºñ°ÔÀÌ¼Ç -->
+			<div id="sub_navi_view"><!-- ï¿½ï¿½ï¿½ï¿½ ï¿½×ºï¿½ï¿½ï¿½Ì¼ï¿½ -->
 				<?php
 				$res = mysql_query("select * from main_menu where main_id='$_GET[main_id]'",$connect);
 				$data = mysql_fetch_array($res);
@@ -73,12 +73,12 @@
 				<a href="sub.php?main_id=<?php echo $_GET[main_id]; ?>&amp;sub_id=<?php echo $jdata[sub_id]; ?>"><?php echo $jdata[sub_title]; ?></a>
 			</div>
 			<div style="border-bottom:1px solid #ddd; padding:6px 0 0 0; clear:both; "></div>
-			<div id="sub_con_view"><!-- ³»¿ë Ãâ·Â -->
+			<div id="sub_con_view"><!-- ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ -->
 				<?php include "../page/contents.php"; ?>
 			</div>
 		</div>
 		<div style="clear:both; background:#ebebeb; overflow:hidden; width:100%; height:80px; margin:67px 0 0 0; float:left;">
-			<div id="sub_copy"><!-- Ä«ÇÇ¶óÀÌÆ® -->
+			<div id="sub_copy"><!-- Ä«ï¿½Ç¶ï¿½ï¿½ï¿½Æ® -->
 				<img src="../images/main_copy.jpg" width="978px" height="83px" border="0" usemap="#Map2" />
 				<map name="Map2" id="Map2">
 					<area shape="rect" coords="271,10,319,27" href="sub.php?main_id=sitemap&amp;sub_id=sitemap" />

@@ -1,4 +1,4 @@
 <><!-- Move Index -->
-<script type="text/javascript">
+<script>
 location.replace("./page/index.php");
 </script>

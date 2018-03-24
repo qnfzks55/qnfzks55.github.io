@@ -1,5 +1,5 @@
-<script type="text/javascript">flash("../source/4_stroke.swf","580","450","four_stroke","","transparent")</script>
-<img src="../images/ani_1.jpg" width="580" height="97" alt="4ÇàÁ¤ 1»çÀÌÅ¬ ¿£Áø" />
+<script>flash("../source/4_stroke.swf","580","450","four_stroke","","transparent")</script>
+<img src="../images/ani_1.jpg" width="580" height="97" alt="4ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½ï¿½ï¿½Å¬ ï¿½ï¿½ï¿½ï¿½" />
 <br /><br /><br /><br />
-<script type="text/javascript">flash("../source/2_stroke.swf","580","450","four_stroke","","transparent")</script>
-<img src="../images/ani_2.jpg" width="580" height="97" alt="2ÇàÁ¤ 1»çÀÌÅ¬ ¿£Áø" />
+<script>flash("../source/2_stroke.swf","580","450","four_stroke","","transparent")</script>
+<img src="../images/ani_2.jpg" width="580" height="97" alt="2ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½ï¿½ï¿½Å¬ ï¿½ï¿½ï¿½ï¿½" />

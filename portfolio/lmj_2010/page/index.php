@@ -4,9 +4,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
 <meta http-equiv="Refresh" content="1800;url=http://127.0.0.1/portfolio/" /> 
-<meta name="Author" content="ÀÌ¸íÁ¾" />
-<meta name="Keyword" content="ÀÌ¸íÁ¾ÀÇ Æ÷Æ®Æú¸®¿À" />
-<meta name="Description" content="ÀÌ¸íÁ¾ÀÇ Æ÷Æ®Æú¸®¿À¸¦ ¼Ò°³ÇÑ À¥»çÀÌÆ®" />
+<meta name="Author" content="ï¿½Ì¸ï¿½ï¿½ï¿½" />
+<meta name="Keyword" content="ï¿½Ì¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+<meta name="Description" content="ï¿½Ì¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ò°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®" />
 <meta name="Copyright" content="2010 LMJ PORTFOLIO" />
 <meta name="Classification" content="text" />
 <?php
@@ -19,7 +19,7 @@ $mdata = mysql_fetch_array($mres);
 ?>
 <title>Web Publisher :: LMJ :: - <?php echo $data[main_title]; ?> - <?php echo $mdata[sub_title]; ?></title>
 <link rel="stylesheet" type="text/css" href="../common/common.css" />
-<script type="text/javascript" src="../common/common.js"></script>
+<script src="../common/common.js"></script>
 </head>
 
 <body>
@@ -37,38 +37,38 @@ $mdata = mysql_fetch_array($mres);
 		</div>
 		<div class="me_area">
 			<div class="me_title">
-				<a href="index.php?mid=profile&amp;sid=about_me"><img src="../images/more_bt.jpg" width="28" height="9" alt="ÀüÃ¼º¸±â" class="more_bt" /></a>
+				<a href="index.php?mid=profile&amp;sid=about_me"><img src="../images/more_bt.jpg" width="28" height="9" alt="ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½" class="more_bt" /></a>
 			</div>
-			<div class="list" title="ÀÌ¸íÁ¾&#13;Web publisher&#13;¾È³çÇÏ¼¼¿ä! Ç×»ó »õ·Î¿î º¯È­¸¦ ½ÃµµÇÏ´Â&#13;½ÅÀÔ À¥ÆÛºí¸®¼ÅÀÔ´Ï´Ù. À¥ÆÛºí¸®¼Å¶ó´Â Á÷¾÷À»..">
-				<p><img src="../images/me_sample.jpg" width="75" height="84" alt="ÀÌ¸íÁ¾" /></p>
-				<h2>ÀÌ¸íÁ¾</h2>
+			<div class="list" title="ï¿½Ì¸ï¿½ï¿½ï¿½&#13;Web publisher&#13;ï¿½È³ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½! ï¿½×»ï¿½ ï¿½ï¿½ï¿½Î¿ï¿½ ï¿½ï¿½È­ï¿½ï¿½ ï¿½Ãµï¿½ï¿½Ï´ï¿½&#13;ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ûºï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½. ï¿½ï¿½ï¿½Ûºï¿½ï¿½Å¶ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½..">
+				<p><img src="../images/me_sample.jpg" width="75" height="84" alt="ï¿½Ì¸ï¿½ï¿½ï¿½" /></p>
+				<h2>ï¿½Ì¸ï¿½ï¿½ï¿½</h2>
 				<p>
 					Web publisher<br />
-					¾È³çÇÏ¼¼¿ä! Ç×»ó »õ<br />
-					·Î¿î º¯È­¸¦ ½ÃµµÇÏ<br />
-					´Â ½ÅÀÔ À¥ÆÛºí¸®¼Å<br />
+					ï¿½È³ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½! ï¿½×»ï¿½ ï¿½ï¿½<br />
+					ï¿½Î¿ï¿½ ï¿½ï¿½È­ï¿½ï¿½ ï¿½Ãµï¿½ï¿½ï¿½<br />
+					ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ûºï¿½ï¿½ï¿½<br />
 				</p>
-				<p class="list_p">ÀÔ´Ï´Ù. À¥ÆÛºí¸®¼Å¶ó´Â Á÷¾÷À»..</p>
+				<p class="list_p">ï¿½Ô´Ï´ï¿½. ï¿½ï¿½ï¿½Ûºï¿½ï¿½Å¶ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½..</p>
 			</div>
 		</div>
 		<div class="my_area">
 			<div class="my_title">
-				<a href="index.php?mid=profile&amp;sid=my_way"><img src="../images/more_bt.jpg" width="28" height="9" alt="ÀüÃ¼º¸±â" class="more_bt" /></a>			
+				<a href="index.php?mid=profile&amp;sid=my_way"><img src="../images/more_bt.jpg" width="28" height="9" alt="ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½" class="more_bt" /></a>			
 			</div>
-			<div class="list" title="À¥ÆÛºí¸®¼Å¶ó´Â Á÷¾÷À» ¾Ë¾Æ°¥¼ö·Ï&#13;³»µÎ¼Õ°¡¶ôÀ¸·Î ÀÌ·ï³»´ÂÀ¥ÆäÀÌÁöÀÇ&#13;ÄÚµù(ÆÛºí¸®½Ì),¸ðµç »ç¶÷µéÀÌ ÆòµîÇÏ°Ô&#13;Æí¾ÈÇÏ°Ô ±¸µ¶ ÇÒ¼öÀÖµµ·Ï À¥Á¢±Ù¼ºÀ» °¨¾È..">
+			<div class="list" title="ï¿½ï¿½ï¿½Ûºï¿½ï¿½Å¶ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë¾Æ°ï¿½ï¿½ï¿½ï¿½ï¿½&#13;ï¿½ï¿½ï¿½Î¼Õ°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ì·ï³»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&#13;ï¿½Úµï¿½(ï¿½Ûºï¿½ï¿½ï¿½),ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï°ï¿½&#13;ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ò¼ï¿½ï¿½Öµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ù¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½..">
 				<ul>
-					<li class="list_li">À¥ÆÛºí¸®¼Å¶ó´Â Á÷¾÷À» ¾Ë¾Æ°¥</li>
-					<li class="list_li">¼ö·Ï ³»µÎ¼Õ°¡¶ôÀ¸·Î ÀÌ·ï³»´Â</li>
-					<li class="list_li">À¥ÆäÀÌÁöÀÇ ÄÚµù(ÆÛºí¸®½Ì),¸ð</li>
-					<li class="list_li">µç »ç¶÷µéÀÌ ÆòµîÇÏ°Ô Æí¾ÈÇÏ</li>
-					<li class="list_li">°Ô ±¸µ¶ ÇÒ¼öÀÖµµ·Ï</li>
-					<li class="list_li">À¥Á¢±Ù¼ºÀ» °¨¾È..</li>
+					<li class="list_li">ï¿½ï¿½ï¿½Ûºï¿½ï¿½Å¶ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë¾Æ°ï¿½</li>
+					<li class="list_li">ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Î¼Õ°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ì·ï³»ï¿½ï¿½</li>
+					<li class="list_li">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Úµï¿½(ï¿½Ûºï¿½ï¿½ï¿½),ï¿½ï¿½</li>
+					<li class="list_li">ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½</li>
+					<li class="list_li">ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ò¼ï¿½ï¿½Öµï¿½ï¿½ï¿½</li>
+					<li class="list_li">ï¿½ï¿½ï¿½ï¿½ï¿½Ù¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½..</li>
 				</ul>
 			</div>
 		</div>
 		<div class="board_area">
 			<div class="board_title">
-				<a href="index.php?mid=community&amp;sid=board"><img src="../images/more_bt.jpg" width="28" height="9" alt="ÀüÃ¼º¸±â" class="more_bt" /></a>
+				<a href="index.php?mid=community&amp;sid=board"><img src="../images/more_bt.jpg" width="28" height="9" alt="ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½" class="more_bt" /></a>
 			</div>
 			<div class="list">
 				<ul>
@@ -89,7 +89,7 @@ $mdata = mysql_fetch_array($mres);
 		</div>
 		<div class="main_gal_area">
 			<div class="gal_title">
-				<a href="index.php?mid=community&amp;sid=gallery"><img src="../images/more_bt.jpg" width="28" height="9" alt="ÀüÃ¼º¸±â" class="more_bt" /></a>
+				<a href="index.php?mid=community&amp;sid=gallery"><img src="../images/more_bt.jpg" width="28" height="9" alt="ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½" class="more_bt" /></a>
 			</div>
 			<div class="list">
 				<ul class="gal_l_wrap">
@@ -97,9 +97,9 @@ $mdata = mysql_fetch_array($mres);
 				for($i = 1; $i < 3; $i++){
 				?>
 					<li class="gal_list">
-						<a href="" title="Çª¸¥°ø¿ø"><img src="../images/gal_img1.jpg" width="69" height="46" alt="" /></a>
+						<a href="" title="Çªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"><img src="../images/gal_img1.jpg" width="69" height="46" alt="" /></a>
 						<ul>
-							<li><a href="" title="Çª¸¥°ø¿ø">Çª¸¥°ø¿ø</a></li>
+							<li><a href="" title="Çªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½">Çªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a></li>
 						</ul>
 					</li>
 				<?php
@@ -116,7 +116,7 @@ $mdata = mysql_fetch_array($mres);
 		<div class="top_view">
 			<div class="navigation">
 				<div class="navi_style">
-					<script type="text/javascript">flash("navigation.swf","70","122","navigation","","transparent")</script>
+					<script>flash("navigation.swf","70","122","navigation","","transparent")</script>
 				</div>
 			</div>
 		</div>
@@ -132,17 +132,17 @@ $mdata = mysql_fetch_array($mres);
 	<div id="footer">
 		<div class="foot_con">
 			<p title="COPYRIGHT 2010 LEE MYEONG JONG PORTFOLIO All right reserverd.">COPYRIGHT <span class="bold">2010 LEE MYEONG JONG PORTFOLIO</span> All right reserverd.</p>
-			<p title="TEL. 010-8392-3022 Email. lmj5@naver.com º»ÆäÀÌÁö´Â IE / FF ¿¡ È£È¯µÇ¾î ÀÖ½À´Ï´Ù.">TEL. 010-8392-3022 Email. lmj5@naver.com º»ÆäÀÌÁö´Â IE / FF ¿¡ È£È¯µÇ¾î ÀÖ½À´Ï´Ù.</p>
+			<p title="TEL. 010-8392-3022 Email. lmj5@naver.com ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ IE / FF ï¿½ï¿½ È£È¯ï¿½Ç¾ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.">TEL. 010-8392-3022 Email. lmj5@naver.com ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ IE / FF ï¿½ï¿½ È£È¯ï¿½Ç¾ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.</p>
 		</div>
 		<div class="w3c">
 			<a href="http://validator.w3.org/check?uri=referer">
 				<img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" />
 			</a>
 			<a href="http://jigsaw.w3.org/css-validator/check/referer">
-				<img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¿Ã¹Ù¸¥ CSSÀÔ´Ï´Ù!" />
+				<img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="ï¿½Ã¹Ù¸ï¿½ CSSï¿½Ô´Ï´ï¿½!" />
 			</a>
 			<a href="http://jigsaw.w3.org/css-validator/check/referer">
-				<img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="¿Ã¹Ù¸¥ CSSÀÔ´Ï´Ù!" />
+				<img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="ï¿½Ã¹Ù¸ï¿½ CSSï¿½Ô´Ï´ï¿½!" />
 			</a>
 		</div>
 	</div>

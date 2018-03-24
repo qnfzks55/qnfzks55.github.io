@@ -79,12 +79,8 @@
 			event.preventDefault();
 
 			/*$nav_a.parent().removeClass('active').addClass('scrollzer-locked');
-
-
 			$this.parent().addClass('active');*/
-		})
-			.each(function() {
-
+		}).each(function() {
 				var $this = $(this),
 					href = $this.attr('href'),
 					id;
@@ -97,9 +93,6 @@
 				ids.push(id);
 
 			});
-
 		$.scrollzer(ids, { pad: 300, lastHack: true });
-
 	});
-
 })(jQuery);

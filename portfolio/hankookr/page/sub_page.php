@@ -3,15 +3,15 @@
 </div>
 
 <div id="main_menu">
-	<script type="text/javascript">flash("../swf/menu.swf?tid=<?=$_GET[tid]?>","1000","72","menu");</script>
+	<script>flash("../swf/menu.swf?tid=<?=$_GET[tid]?>","1000","72","menu");</script>
 </div>
 
 <div id="sub_con">
 	<div id="sub_visual_area">
-		<script type="text/javascript">flash("../swf/sub_visual.swf","980","170","sub_visual")</script>
+		<script>flash("../swf/sub_visual.swf","980","170","sub_visual")</script>
 	</div>
 	<div id="sub_m_area">
-		<script type="text/javascript">flash("../swf/sub_menu_2.swf?tid=<?=$_GET[tid]?>&sid=<?=$_GET[sid]?>","178","452","sub_menu_2");</script>
+		<script>flash("../swf/sub_menu_2.swf?tid=<?=$_GET[tid]?>&sid=<?=$_GET[sid]?>","178","452","sub_menu_2");</script>
 	</div>
 	<div id="content_area">
 	<div id="con_top">

@@ -1,19 +1,19 @@
 <div style="background:url(../images/sub_con_1.jpg) no-repeat; width:628px; height:900px;">
 	<div style="width:630px; position:absolute;">
-		<img id="photo" width="367" height="230" src="../office/PICT1675.JPG" alt="Å«¹æ" />
+		<img id="photo" width="367" height="230" src="../office/PICT1675.JPG" alt="Å«ï¿½ï¿½" />
 		<br />
 		<br />
-			<img width="117" height="88" src="../office/PICT1675.JPG" alt="Å«¹æ" onmouseover="img_change('../office/PICT1675.JPG');" />	
-			<img width="117" height="88" src="../images/main_9.jpg" alt="À¯¼±(°í±ÞÇü)" onmouseover="img_change('../images/main_9.jpg');" />	
-			<img width="117" height="88" src="../office/main_11.jpg" alt="³ÃÀå°í" onmouseover="img_change('../office/main_11.jpg');" />	
-			<img width="117" height="88" src="../images/main_2.jpg" alt="¿¡¾îÄÁ" onmouseover="img_change('../images/main_2.jpg');" />	
+			<img width="117" height="88" src="../office/PICT1675.JPG" alt="Å«ï¿½ï¿½" onmouseover="img_change('../office/PICT1675.JPG');" />	
+			<img width="117" height="88" src="../images/main_9.jpg" alt="ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½)" onmouseover="img_change('../images/main_9.jpg');" />	
+			<img width="117" height="88" src="../office/main_11.jpg" alt="ï¿½ï¿½ï¿½ï¿½ï¿½" onmouseover="img_change('../office/main_11.jpg');" />	
+			<img width="117" height="88" src="../images/main_2.jpg" alt="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" onmouseover="img_change('../images/main_2.jpg');" />	
 			<img width="117" height="88" src="../images/main_10.jpg" alt="CCTV" onmouseover="img_change('../images/main_10.jpg');" />	
-			<img width="117" height="88" src="../images/main_8.jpg" alt="ºÎ¾ýÈ¯Ç³±â" onmouseover="img_change('../images/main_8.jpg');" />	
-			<img width="117" height="88" src="../images/main_7.jpg" alt="µå·³¼¼Å¹±â" onmouseover="img_change('../images/main_7.jpg');" />	
-			<img width="117" height="88" src="../images/main_4.jpg" alt="µµ¾î·Ï" onmouseover="img_change('../images/main_4.jpg');" />	
-			<img width="117" height="88" src="../images/main_5.jpg" alt="ÀüÈ­±â" onmouseover="img_change('../images/main_5.jpg');" />	
-			<img width="117" height="88" src="../images/main_6.jpg" alt="½Å¹ßÀå" onmouseover="img_change('../images/main_6.jpg');" />	
-		<script type="text/javascript">
+			<img width="117" height="88" src="../images/main_8.jpg" alt="ï¿½Î¾ï¿½È¯Ç³ï¿½ï¿½" onmouseover="img_change('../images/main_8.jpg');" />	
+			<img width="117" height="88" src="../images/main_7.jpg" alt="ï¿½å·³ï¿½ï¿½Å¹ï¿½ï¿½" onmouseover="img_change('../images/main_7.jpg');" />	
+			<img width="117" height="88" src="../images/main_4.jpg" alt="ï¿½ï¿½ï¿½ï¿½ï¿½" onmouseover="img_change('../images/main_4.jpg');" />	
+			<img width="117" height="88" src="../images/main_5.jpg" alt="ï¿½ï¿½È­ï¿½ï¿½" onmouseover="img_change('../images/main_5.jpg');" />	
+			<img width="117" height="88" src="../images/main_6.jpg" alt="ï¿½Å¹ï¿½ï¿½ï¿½" onmouseover="img_change('../images/main_6.jpg');" />	
+		<script>
 		function img_change(img_src){
 			document.getElementById("photo").src = img_src;
 		}

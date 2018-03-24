@@ -13,38 +13,38 @@ $mdata = mysql_fetch_array($mres);
 <title>InTEC into English Instruction - <?php echo $data[main_title]; ?> - <?php echo $mdata[sub_title]; ?></title>
 <link rel="stylesheet" type="text/css" href="../common/common.css" />
 <link rel="stylesheet" type="text/css" href="../common/print.css" />
-<script type="text/javascript" src="../common/common.js"></script>
+<script src="../common/common.js"></script>
 </head>
 
 <body>
 <div id="wrapper">
 <div id="sub_page">
-	<div id="sub_top"><!-- ·Î°í ºÎºÐ -->	
-		<script type="text/javascript">flash("../source/logo.swf","900","134","logo","","transparent")</script>
+	<div id="sub_top"><!-- ï¿½Î°ï¿½ ï¿½Îºï¿½ -->	
+		<script>flash("../source/logo.swf","900","134","logo","","transparent")</script>
 	</div>
-	<div id="top_navi"><!-- ³×ºñ°ÔÀÌ¼Ç -->
+	<div id="top_navi"><!-- ï¿½×ºï¿½ï¿½ï¿½Ì¼ï¿½ -->
 		<?php include "../include/navigation.php"; ?>
 	</div>
-	<div id="main_menu_view"><!-- ¸ÞÀÎ¸Þ´º -->
-		<script type="text/javascript">flash("main_menu.swf","900","35","main_menu","","transparent")</script>
+	<div id="main_menu_view"><!-- ï¿½ï¿½ï¿½Î¸Þ´ï¿½ -->
+		<script>flash("main_menu.swf","900","35","main_menu","","transparent")</script>
 	</div>
-	<div id="main_search_area"><!-- ¸ÞÀÎ °Ë»ö ºÎºÐ -->
+	<div id="main_search_area"><!-- ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½ ï¿½Îºï¿½ -->
 		<div id="search_img">
-			<input type="text" class="main_search_input" title="°Ë»ö" style="margin-left:50px; margin-top:6px; float:left;" />
-			<input type="submit" class="main_search_bt" title="°Ë»ö" value="" style="margin-left:195px; margin-top:6px; margin-top:-19px; float:left;" />
+			<input type="text" class="main_search_input" title="ï¿½Ë»ï¿½" style="margin-left:50px; margin-top:6px; float:left;" />
+			<input type="submit" class="main_search_bt" title="ï¿½Ë»ï¿½" value="" style="margin-left:195px; margin-top:6px; margin-top:-19px; float:left;" />
 		</div>
 	</div>
-	<div id="sub_body"><!-- ¼­ºê ¹Ùµð -->
-		<div id="sub_menu_area"><!-- ¼­ºê¸Þ´º ¿µ¿ª -->
+	<div id="sub_body"><!-- ï¿½ï¿½ï¿½ï¿½ ï¿½Ùµï¿½ -->
+		<div id="sub_menu_area"><!-- ï¿½ï¿½ï¿½ï¿½Þ´ï¿½ ï¿½ï¿½ï¿½ï¿½ -->
 			<div id="sub_menu_top"></div>
 			<div id="sub_menu_list">
-				<script type="text/javascript">flash("sub_menu.swf?main_id=<?php echo $_GET[main_id]; ?>&amp;sub_id=<?php echo $_GET[sub_id]; ?>","226","145","","transparent")</script>
+				<script>flash("sub_menu.swf?main_id=<?php echo $_GET[main_id]; ?>&amp;sub_id=<?php echo $_GET[sub_id]; ?>","226","145","","transparent")</script>
 			</div>
-			<div id="sub_banner"><!-- ¼­ºê ¹è³Ê -->
-				<img src="../images/banner.jpg" width="226" height="95" alt="¹è³Ê" />
+			<div id="sub_banner"><!-- ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ -->
+				<img src="../images/banner.jpg" width="226" height="95" alt="ï¿½ï¿½ï¿½" />
 			</div>
 		</div>
-		<div id="sub_title_area"><!-- ¼­ºê Å¸ÀÌÆ² -->
+		<div id="sub_title_area"><!-- ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½Æ² -->
 			<div id="title_style">
 				<?php
 				if(!$_GET[sub_id]){
@@ -58,17 +58,17 @@ $mdata = mysql_fetch_array($mres);
 					echo $mdata[sub_title];
 				?>
 			</div>
-			<div id="sub_con"><!-- ¼­ºê ³»¿ë -->
+			<div id="sub_con"><!-- ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ -->
 				<div id="con_style">
 					<?php include "contents.php"; ?>
 				</div>
-				<div id="print_area"><!-- ÇÁ¸°Æ® -->
+				<div id="print_area"><!-- ï¿½ï¿½ï¿½ï¿½Æ® -->
 					<a href="javascript:on_print();">
-						<img src="../images/print_bt.jpg" width="66" height="26" alt="ÇÁ¸°Æ®" style="margin:7px 0 0 582px;" />
+						<img src="../images/print_bt.jpg" width="66" height="26" alt="ï¿½ï¿½ï¿½ï¿½Æ®" style="margin:7px 0 0 582px;" />
 					</a>
 				</div>
 			</div>
-			<div id="sub_copy"><!-- Ä«ÇÇ¶óÀÌÆ® --></div>
+			<div id="sub_copy"><!-- Ä«ï¿½Ç¶ï¿½ï¿½ï¿½Æ® --></div>
 		</div>
 	</div>
 </div>

@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>한국재활용산업개발</title>
 <link rel="stylesheet" type="text/css" href="<?php echo "../common/common.css"; ?>" media="screen" />
-<script type="text/javascript" src="<?php echo "../common/common.js"; ?>"></script>
+<script src="<?php echo "../common/common.js"; ?>"></script>
 </head>
 
 <body <?php if(!$_GET[tid]) { echo 'style="background:url(../image/main_bg.jpg) repeat-x;"'; }else{ echo 'style="background:url(../image/sub_bg_2.jpg) repeat-x;"'; } ?>>

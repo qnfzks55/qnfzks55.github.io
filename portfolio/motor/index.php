@@ -1,4 +1,4 @@
-<!-- ÀÎµ¦½ºÆäÀÌÁö ÀÌµ¿ -->
-<script type="text/javascript">
+<!-- ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ -->
+<script>
 location.replace("./page/index.php");
 </script>

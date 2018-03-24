@@ -1,16 +1,16 @@
-<script type="text/javascript">
+<script>
 function chk(){
 	var a = document.getElementById("chk");
-	if(!chkblank(a.name, "ÀÌ¸§À» ÀÔ·Â ÇØ ÁÖ¼¼¿ä.")){ return false; }
-	if(!chkblank(a.subject, "Á¦¸ñÀ» ÀÔ·Â ÇØ ÁÖ¼¼¿ä.")){ return false; }
-	if(!chkblank(a.answer, "³»¿ëÀ» ÀÔ·Â ÇØ ÁÖ¼¼¿ä.")){ return false; }
+	if(!chkblank(a.name, "ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.")){ return false; }
+	if(!chkblank(a.subject, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.")){ return false; }
+	if(!chkblank(a.answer, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.")){ return false; }
 	
 	return true;
 
 }
 </script>
 
-<!-- Áú´ä °Ô½ÃÆÇ ±Û¾²±â-->
+<!-- ï¿½ï¿½ï¿½ï¿½ ï¿½Ô½ï¿½ï¿½ï¿½ ï¿½Û¾ï¿½ï¿½ï¿½-->
 <form action="aboard_write_ok.php<?php echo PAGE; ?>&amp;no=<?php echo $_GET[no]; ?>" method="post" id="chk" onsubmit="return chk()" enctype="multipart/form-data">
 <input type="hidden" name="main_id" value="<?php echo $_GET[main_id]; ?>" />
 <input type="hidden" name="sub_id" value="<?php echo $_GET[sub_id]; ?>" />
@@ -24,37 +24,37 @@ function chk(){
 		<tr>
 			<th class="table01_th"><label for="name">Name *</label></th>
 			<td class="table01_td">
-				<input type="text" name="name" id="name" title="ÀÌ¸§" class="input00" />
+				<input type="text" name="name" id="name" title="ï¿½Ì¸ï¿½" class="input00" />
 			</td>
 		</tr>
 		<tr>
 			<th class="table01_th"><label for="subject">Subject *</label></th>
 			<td class="table01_td">
-				<input type="text" name="subject" id="subject" title="Á¦¸ñ" class="input01" />
+				<input type="text" name="subject" id="subject" title="ï¿½ï¿½ï¿½ï¿½" class="input01" />
 			</td>
 		</tr>
 		<tr>
 			<th class="table01_th"><label for="answer">Contents *</label></th>
 			<td class="table01_td">
-				<textarea name="answer" id="answer" title="³»¿ë" cols="" rows="" class="input01" style="height:250px; font-family:µ¸¿ò;"></textarea>
+				<textarea name="answer" id="answer" title="ï¿½ï¿½ï¿½ï¿½" cols="" rows="" class="input01" style="height:250px; font-family:ï¿½ï¿½ï¿½ï¿½;"></textarea>
 			</td>
 		</tr>
 		<tr>
 			<th class="table01_th"><label for="photo">Photo *</label></th>
 			<td class="table01_td">
-				<input type="file" name="photo" id="photo" title="»çÁø" class="input01" />
+				<input type="file" name="photo" id="photo" title="ï¿½ï¿½ï¿½ï¿½" class="input01" />
 			</td>
 		</tr>
 		<tr>
 			<th class="table01_th"><label for="password">Password *</label></th>
 			<td class="table01_td">
-				<input type="password" name="password" id="password" title="ºñ¹Ð¹øÈ£" class="input02" />
+				<input type="password" name="password" id="password" title="ï¿½ï¿½Ð¹ï¿½È£" class="input02" />
 			</td>
 		</tr>
 		<tr>
 			<td colspan="2" style="text-align:center; padding:7px;">
-				<input type="submit" class="button02" value="È®ÀÎ" title="È®ÀÎ" />&nbsp;
-				<input type="button" class="button00" value="Ãë¼Ò" title="Ãë¼Ò" onclick="history.back();" />
+				<input type="submit" class="button02" value="È®ï¿½ï¿½" title="È®ï¿½ï¿½" />&nbsp;
+				<input type="button" class="button00" value="ï¿½ï¿½ï¿½" title="ï¿½ï¿½ï¿½" onclick="history.back();" />
 			</td>
 		</tr>
 	</table>

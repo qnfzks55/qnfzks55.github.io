@@ -3,19 +3,19 @@
 		<img src="../images/b_type.jpg" />
 	</div>
 	<div style="float:right; padding:5px 30px 0 0;">
-		<img name="i0" width="367" height="230" alt="ÀÌ¹ÌÁö ³ÖÀ» ÀÚ¸®" src="../office/PICT1665.JPG" />
+		<img name="i0" width="367" height="230" alt="ï¿½Ì¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú¸ï¿½" src="../office/PICT1665.JPG" />
 		<br />
 		<br />
-			 <!-- ½æ³×ÀÏÀÇ ÁÖ¼Ò¸¦ src¿¡, Å«ÀÌ¹ÌÁöÀÇ ÁÖ¼Ò¸¦ alt¿¡ Àû´Â´Ù -->
+			 <!-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼Ò¸ï¿½ srcï¿½ï¿½, Å«ï¿½Ì¹ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼Ò¸ï¿½ altï¿½ï¿½ ï¿½ï¿½ï¿½Â´ï¿½ -->
 		<img name="t0" src="../office/PICT1665.JPG" alt="../office/PICT1665.JPG" width="117" height="88">&nbsp;
 		<img name="t1" src="../office/PICT1663.JPG" alt="../office/PICT1663.JPG"  width="117" height="88">&nbsp;
 		<img name="t2" src="../office/PICT1675.JPG" width="117" height="88" alt="../office/PICT1675.JPG">&nbsp;
 
-		<script type="text/javascript">
+		<script>
 		document.body.onmouseover=function(){
-		 e=event.srcElement; //·Ñ¿À¹ö°¡ »ý±â´Â ÀÌº¥Æ® °´Ã¼
-		 if(e.tagName=='IMG'&&e.name.charAt(0)=='t'){ //ÀÌº¥Æ®°´Ã¼ÀÇ ÅÂ±×¸íÀÌ img ÀÌ°í, ÀÌ¸§ÀÌ t·Î ½ÃÀÛÇÏ¸é
-		  document.images.i0.src=e.alt; //ºä¾îÀÇ ÀÌ¹ÌÁö ÁöÁ¤
+		 e=event.srcElement; //ï¿½Ñ¿ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½Ã¼
+		 if(e.tagName=='IMG'&&e.name.charAt(0)=='t'){ //ï¿½Ìºï¿½Æ®ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½Â±×¸ï¿½ï¿½ï¿½ img ï¿½Ì°ï¿½, ï¿½Ì¸ï¿½ï¿½ï¿½ tï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½
+		  document.images.i0.src=e.alt; //ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		 }
 		}
 		</script>

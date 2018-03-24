@@ -1,13 +1,13 @@
 <div id="menu_top">
-	<img src="../image/logo.jpg" alt="ÇÑ±¹ÀçÈ°¿ë»ê¾÷°³¹ß" class="c" onclick="location.href='index.php'" />
+	<img src="../image/logo.jpg" alt="ï¿½Ñ±ï¿½ï¿½ï¿½È°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" class="c" onclick="location.href='index.php'" />
 </div>
 
 <div id="main_menu">
-	<script type="text/javascript">flash("../swf/menu.swf?tid=<?=$_GET[tid]?>","1000","72","menu");</script>
+	<script>flash("../swf/menu.swf?tid=<?=$_GET[tid]?>","1000","72","menu");</script>
 </div>
 
 <div id="con_body">
-	<script type="text/javascript">flash("../swf/main_visual.swf","980","274","main_visual")</script>	
+	<script>flash("../swf/main_visual.swf","980","274","main_visual")</script>
 </div>
 
 <div id="main_content">
@@ -20,6 +20,6 @@
 		<div id="gallery_con"><img src="../image/photo/content.gif" alt="" style="margin:0 0 0 18px;" /></div>
 	</div>
 	<div id="login">
-		<script type="text/javascript">flash("../swf/main_banner.swf","310","130","main_banner")</script>
+		<script>flash("../swf/main_banner.swf","310","130","main_banner")</script>
 	</div>
 </div>

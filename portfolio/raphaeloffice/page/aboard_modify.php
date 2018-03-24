@@ -1,10 +1,10 @@
-<script type="text/javascript">
+<script>
 function chk(){
 	var a = document.getElementById("chk");
-	if(!chkblank(a.name, "ÀÌ¸§À» ÀÔ·Â ÇØ ÁÖ¼¼¿ä.")){ return false; }
-	if(!chkblank(a.subject, "Á¦¸ñÀ» ÀÔ·Â ÇØ ÁÖ¼¼¿ä.")){ return false; }
-	if(!chkblank(a.answer, "³»¿ëÀ» ÀÔ·Â ÇØ ÁÖ¼¼¿ä.")){ return false; }
-	if(!chknum(a.password, "ºñ¹Ð¹øÈ£¸¦ Á¤È®È÷ ÀÔ·Â ÇØ ÁÖ¼¼¿ä.")){ return false; }
+	if(!chkblank(a.name, "ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.")){ return false; }
+	if(!chkblank(a.subject, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.")){ return false; }
+	if(!chkblank(a.answer, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.")){ return false; }
+	if(!chknum(a.password, "ï¿½ï¿½Ð¹ï¿½È£ï¿½ï¿½ ï¿½ï¿½È®ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.")){ return false; }
 
 	return true;
 
@@ -15,7 +15,7 @@ function chk(){
 $res = mysql_query("select * from board where no='$_GET[no]'",$connect);
 $data = mysql_fetch_array($res);
 ?>
-<!-- Áú´ä °Ô½ÃÆÇ ¼öÁ¤-->
+<!-- ï¿½ï¿½ï¿½ï¿½ ï¿½Ô½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½-->
 <form action="aboard_modify_ok.php<?php echo PAGE; ?>&amp;no=<?php echo $_GET[no]; ?>" method="post" id="chk" onsubmit="return chk()" enctype="multipart/form-data">
 	<table cellpadding="0" cellspacing="0" class="table01">
 		<tr>
@@ -27,38 +27,38 @@ $data = mysql_fetch_array($res);
 		<tr>
 			<th class="table01_th"><label for="name">Name *</label></th>
 			<td class="table01_td">
-				<input type="text" name="name" id="name" title="ÀÌ¸§" class="input00" value="<?php echo $data[name]; ?>" />
+				<input type="text" name="name" id="name" title="ï¿½Ì¸ï¿½" class="input00" value="<?php echo $data[name]; ?>" />
 			</td>
 		</tr>
 		<tr>
 			<th class="table01_th"><label for="subject">Subject *</label></th>
 			<td class="table01_td">
-				<input type="text" name="subject" id="subject" title="Á¦¸ñ" class="input01" value="<?php echo $data[subject]; ?>" />
+				<input type="text" name="subject" id="subject" title="ï¿½ï¿½ï¿½ï¿½" class="input01" value="<?php echo $data[subject]; ?>" />
 			</td>
 		</tr>
 		<tr>
 			<th class="table01_th"><label for="answer">Contents *</label></th>
 			<td class="table01_td">
-				<textarea name="answer" id="answer" title="´äº¯" cols="" rows="" class="input01" style="height:250px; font-family:µ¸¿ò;"><?php echo strip_tags($data[answer]); ?></textarea>
+				<textarea name="answer" id="answer" title="ï¿½äº¯" cols="" rows="" class="input01" style="height:250px; font-family:ï¿½ï¿½ï¿½ï¿½;"><?php echo strip_tags($data[answer]); ?></textarea>
 			</td>
 		</tr>
 		<tr>
 			<th class="table01_th"><label for="photo">Photo *</label></th>
 			<td class="table01_td">
-				<input type="file" name="photo" id="photo" title="»çÁø" class="input01" />
+				<input type="file" name="photo" id="photo" title="ï¿½ï¿½ï¿½ï¿½" class="input01" />
 			</td>
 		</tr>
 		<tr>
 			<th class="table01_th"><label for="password">Password *</label></th>
 			<td class="table01_td">
-				<input type="password" name="password" id="password" title="ºñ¹Ð¹øÈ£" class="input02" />
-				* ¼ýÀÚ·Î ÀÔ·Â ÇØ ÁÖ¼¼¿ä.
+				<input type="password" name="password" id="password" title="ï¿½ï¿½Ð¹ï¿½È£" class="input02" />
+				* ï¿½ï¿½ï¿½Ú·ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.
 			</td>
 		</tr>
 		<tr>
 			<td colspan="2" style="text-align:center; padding:7px;">
-				<input type="submit" class="button02" value="È®ÀÎ" title="È®ÀÎ" />&nbsp;
-				<input type="button" class="button00" value="Ãë¼Ò" title="Ãë¼Ò" onclick="location.href='sub.php<?php echo PAGE; ?>'" />
+				<input type="submit" class="button02" value="È®ï¿½ï¿½" title="È®ï¿½ï¿½" />&nbsp;
+				<input type="button" class="button00" value="ï¿½ï¿½ï¿½" title="ï¿½ï¿½ï¿½" onclick="location.href='sub.php<?php echo PAGE; ?>'" />
 			</td>
 		</tr>
 	</table>

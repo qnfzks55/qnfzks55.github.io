@@ -1,11 +1,11 @@
 <!-- Select Check -->
-<script type="text/javascript">
+<script>
 function chk(){
 	var a = document.getElementById("chk");
-	if(!chkblank(a.name, "ÀÌ¸§À» ÀÔ·Â ÇØ ÁÖ¼¼¿ä.")){ return false; }
-	if(!chkblank(a.subject, "Á¦¸ñÀ» ÀÔ·Â ÇØ ÁÖ¼¼¿ä.")){ return false; }
-	if(!chkblank(a.contents, "³»¿ëÀ» ÀÔ·Â ÇØ ÁÖ¼¼¿ä.")){ return false; }
-	if(!chkblank(a.password, "ºñ¹Ð¹øÈ£¸¦ Á¤È®È÷ ÀÔ·Â ÇØ ÁÖ¼¼¿ä.")){ return false; }
+	if(!chkblank(a.name, "ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.")){ return false; }
+	if(!chkblank(a.subject, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.")){ return false; }
+	if(!chkblank(a.contents, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.")){ return false; }
+	if(!chkblank(a.password, "ï¿½ï¿½Ð¹ï¿½È£ï¿½ï¿½ ï¿½ï¿½È®ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.")){ return false; }
 
 	return true;
 
@@ -16,51 +16,51 @@ function chk(){
 <!-- Board Write Form -->
 <form action="board_write_ok.php<?php echo PAGE; ?>" method="post" id="chk" onsubmit="return chk()">
 <fieldset>
-	<legend>mid,sid hidden°ª</legend>
+	<legend>mid,sid hiddenï¿½ï¿½</legend>
 		<input type="hidden" name="mid" value="<?php echo $_GET[mid]; ?>" />
 		<input type="hidden" name="sid" value="<?php echo $_GET[sid]; ?>" />
 </fieldset>
 <div class="board_w_bar"></div>
 <div class="board_w_form">
 	<ul>
-		<li class="board_w_title"><label for="name">ÀÛ¼ºÀÚ</label></li>
+		<li class="board_w_title"><label for="name">ï¿½Û¼ï¿½ï¿½ï¿½</label></li>
 		<li class="board_w_write">
 			<ul class="board_w_cb">	
 				<li>
-					<input type="text" name="name" id="name" title="ÀÛ¼ºÀÚ" />
-					<span style="font-size:8pt;"><span class="b_tip">Tip .</span> ÀÌ¸§À» ÀÔ·Â ÇØ ÁÖ¼¼¿ä. 
-					ex) È«±æµ¿</span>
+					<input type="text" name="name" id="name" title="ï¿½Û¼ï¿½ï¿½ï¿½" />
+					<span style="font-size:8pt;"><span class="b_tip">Tip .</span> ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½. 
+					ex) È«ï¿½æµ¿</span>
 				</li>
 			</ul>
 		</li>
 	</ul>
 	<ul>
-		<li class="board_w_title"><label for="subject">Á¦¸ñ</label></li>
+		<li class="board_w_title"><label for="subject">ï¿½ï¿½ï¿½ï¿½</label></li>
 		<li class="board_w_write">
 			<ul class="board_w_cb">	
 				<li>
-					<input type="text" name="subject" id="subject" title="Á¦¸ñ" style="width:330px;" />
+					<input type="text" name="subject" id="subject" title="ï¿½ï¿½ï¿½ï¿½" style="width:330px;" />
 				</li>
 			</ul>
 		</li>
 	</ul>
 	<ul>
-		<li class="board_w_title" style="height:205px; background:transparent url('../images/contents/community/write_c_bg.jpg') no-repeat;"><label for="contents"><br /><br /><br /><br />³»¿ë</label></li>
+		<li class="board_w_title" style="height:205px; background:transparent url('../images/contents/community/write_c_bg.jpg') no-repeat;"><label for="contents"><br /><br /><br /><br />ï¿½ï¿½ï¿½ï¿½</label></li>
 		<li class="board_w_write" style="height:205px;">
 			<ul class="board_w_cb">
 				<li>
-					<textarea name="contents" id="contents" title="³»¿ë" rows="" cols="" style="width:330px; height:200px;"></textarea>
+					<textarea name="contents" id="contents" title="ï¿½ï¿½ï¿½ï¿½" rows="" cols="" style="width:330px; height:200px;"></textarea>
 				</li>
 			</ul>
 		</li>
 	</ul>
 	<ul>
-		<li class="board_w_title"><label for="password">ºñ¹Ð¹øÈ£</label></li>
+		<li class="board_w_title"><label for="password">ï¿½ï¿½Ð¹ï¿½È£</label></li>
 		<li class="board_w_write">
 			<ul class="board_w_cb">	
 				<li>
-					<input type="password" name="password" id="password" title="ºñ¹Ð¹øÈ£" />
-					<span style="font-size:8pt;"><span class="b_tip">Tip .</span> ºñ¹Ð¹øÈ£¸¦ ÀÔ·Â ÇØ ÁÖ¼¼¿ä.</span>
+					<input type="password" name="password" id="password" title="ï¿½ï¿½Ð¹ï¿½È£" />
+					<span style="font-size:8pt;"><span class="b_tip">Tip .</span> ï¿½ï¿½Ð¹ï¿½È£ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.</span>
 				</li>
 			</ul>
 		</li>
@@ -68,10 +68,10 @@ function chk(){
 </div>
 <div class="board_bottom">
 	<fieldset class="center">
-		<legend>¹öÆ°</legend>
-		<input type="submit" class="button" value="write" title="±Û¾²±â" />
-		<input type="reset" class="button" value="reset" title="´Ù½Ã¾²±â" />
-		<input type="button" class="button" value="back" title="µÚ·Î" onclick="location.href='index.php<?php echo PAGE; ?>'" />
+		<legend>ï¿½ï¿½Æ°</legend>
+		<input type="submit" class="button" value="write" title="ï¿½Û¾ï¿½ï¿½ï¿½" />
+		<input type="reset" class="button" value="reset" title="ï¿½Ù½Ã¾ï¿½ï¿½ï¿½" />
+		<input type="button" class="button" value="back" title="ï¿½Ú·ï¿½" onclick="location.href='index.php<?php echo PAGE; ?>'" />
 	</fieldset>
 </div>
 </form>

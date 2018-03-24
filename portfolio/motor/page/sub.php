@@ -10,9 +10,9 @@ $data = mysql_fetch_array($res);
 $mres = mysql_query("select * from sub_menu where main_id='$_GET[main_id]' and sub_id='$_GET[sub_id]'",$cnt);
 $mdata = mysql_fetch_array($mres);
 ?>
-<title>¿øµ¿±â - <?php if($data){ echo $data[main_title]; }else{ echo "¼­ºêÆäÀÌÁö"; } ?> - <?php if($mdata){ echo $mdata[sub_title]; }else{ echo "¼­ºêÆäÀÌÁö"; }?></title>
+<title>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ - <?php if($data){ echo $data[main_title]; }else{ echo "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"; } ?> - <?php if($mdata){ echo $mdata[sub_title]; }else{ echo "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"; }?></title>
 <link rel="stylesheet" type="text/css" href="../common/common.css" />
-<script type="text/javascript" src="../common/common.js"></script>
+<script src="../common/common.js"></script>
 </head>
 
 <body id="sub_page">
@@ -25,19 +25,19 @@ $mdata = mysql_fetch_array($mres);
 			<div id="logo_area"><!-- Logo Style -->
 				<div id="logo_style">
 					<a href="index.php">
-						<img src="../images/sub_logo.jpg" width="238" height="80" alt="¿øµ¿±â" />
+						<img src="../images/sub_logo.jpg" width="238" height="80" alt="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
 					</a>
 				</div>
 			</div>
 			<div id="main_menu_area"><!-- Main Menu Area -->
-				<script type="text/javascript">flash("sub_main_menu.swf?main_id=<?php echo $_GET[main_id]; ?>","664","80","main_menu","","transparent")</script>
+				<script>flash("sub_main_menu.swf?main_id=<?php echo $_GET[main_id]; ?>","664","80","main_menu","","transparent")</script>
 			</div>
 		</div>
 	</div>
 	<div id="sub_blank"><!-- Blank --></div>
 	<div id="sub_body"><!-- Body Area -->
 		<div id="sub_menu_area"><!-- Submenu Area -->
-			<script type="text/javascript">flash("sub_menu.swf?main_id=<?php echo $_GET[main_id]; ?>&amp;sub_id=<?php echo $_GET[sub_id]; ?>","258","230","sub_menu","","transparent")</script>
+			<script>flash("sub_menu.swf?main_id=<?php echo $_GET[main_id]; ?>&amp;sub_id=<?php echo $_GET[sub_id]; ?>","258","230","sub_menu","","transparent")</script>
 		</div>
 		<div id="con_area"><!-- Contents Area -->
 			<div id="con_style">

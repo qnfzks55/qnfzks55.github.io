@@ -3,16 +3,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
-<title>¶óÆÄ¿¤ ¿ÀÇÇ½ºÅÚ</title>
+<title>ï¿½ï¿½ï¿½Ä¿ï¿½ ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½</title>
 <link rel="stylesheet" href="../common/common.css" type="text/css" />
-<script type="text/javascript" src="../common/common.js"></script>
+<script src="../common/common.js"></script>
 </head>
 
 <body id="main_bg">
 <div id="wrapper">
-	<div id="main_top"><!-- ¸ÞÀÎ À­¿µ¿ª -->
-		<div id="logo"><!-- ·Î°í -->
-			<input type="image" src="../images/logo.jpg" title="¶óÆÄ¿¤ ¿ÀÇÇ½ºÅÚ" onclick="location.href='index.php'" />
+	<div id="main_top"><!-- ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -->
+		<div id="logo"><!-- ï¿½Î°ï¿½ -->
+			<input type="image" src="../images/logo.jpg" title="ï¿½ï¿½ï¿½Ä¿ï¿½ ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½" onclick="location.href='index.php'" />
 		</div>
 		<div id="main_top_right">
 			<img src="../images/navigation.jpg" width="170" height="16" usemap="#Map" style="float:right; margin:17px 0 0 12px;" />
@@ -22,41 +22,41 @@
 			<area shape="rect" coords="110,3,167,18" href="mailto:admin@naver.com;" />
 			</map>
 		</div>
-		<div id="main_menu_flash"><!-- ¸ÞÀÎ¸Þ´º ÇÃ·¡½Ã -->
-			<script type="text/javascript">flash("../source/index.swf","680","58","index","","transparent")</script>
+		<div id="main_menu_flash"><!-- ï¿½ï¿½ï¿½Î¸Þ´ï¿½ ï¿½Ã·ï¿½ï¿½ï¿½ -->
+			<script>flash("../source/index.swf","680","58","index","","transparent")</script>
 		</div>
 	</div>
-	<div id="visual_main"><!-- ¸ÞÀÎ ÇÃ·¡½Ã -->
-		<script type="text/javascript">flash("../source/main.swf","980","230","main","","transparent")</script>
+	<div id="visual_main"><!-- ï¿½ï¿½ï¿½ï¿½ ï¿½Ã·ï¿½ï¿½ï¿½ -->
+		<script>flash("../source/main.swf","980","230","main","","transparent")</script>
 	</div>
-	<div id="main_bottom_1"><!-- ¸ÞÀÎ ¾Æ·§¿µ¿ª -->
-		<div id="main_notice"><!-- °Ô½ÃÆÇ ÃßÃâ -->	
+	<div id="main_bottom_1"><!-- ï¿½ï¿½ï¿½ï¿½ ï¿½Æ·ï¿½ï¿½ï¿½ï¿½ï¿½ -->
+		<div id="main_notice"><!-- ï¿½Ô½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ -->	
 			<?php include "./page/main_gallery.php"; ?>
 		</div>
 		<div id="main_bar"><img src="../images/main_bar.jpg" width="5" height="111" alt="" /></div>
-		<div id="room_ting"><!-- ¿ÀÇÇ½ºÅÚ ¼Ò°³ -->
-			<input type="image" src="../images/main_ting.jpg" title="¶óÆÄ¿¤ ¿ÀÇÇ½ºÅÚ ¼Ò°³" onclick="location.href='./page/sub.php?main_id=officetel_ting&amp;sub_id=r_officetel_ting'" />
+		<div id="room_ting"><!-- ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½ ï¿½Ò°ï¿½ -->
+			<input type="image" src="../images/main_ting.jpg" title="ï¿½ï¿½ï¿½Ä¿ï¿½ ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½ ï¿½Ò°ï¿½" onclick="location.href='./page/sub.php?main_id=officetel_ting&amp;sub_id=r_officetel_ting'" />
 		</div>
-		<input type="image" src="../images/more_bt.jpg" title="¸ñ·ÏÀ¸·Î" onclick="location.href='./page/sub.php?main_id=officetel_ting&amp;sub_id=r_officetel_ting'" style="margin:116px 0 0 0; float:left;" />
+		<input type="image" src="../images/more_bt.jpg" title="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" onclick="location.href='./page/sub.php?main_id=officetel_ting&amp;sub_id=r_officetel_ting'" style="margin:116px 0 0 0; float:left;" />
 		<div id="main_bar"><img src="../images/main_bar.jpg" width="5" height="111" alt="" /></div>
 		<div id="interior_ting">
-			<input type="image" src="../images/main_inter.jpg" title="ÀÎÅ×¸®¾î ¾È³»" onclick="location.href='./page/sub.php?main_id=interior&amp;sub_id=inter_view'" />
+			<input type="image" src="../images/main_inter.jpg" title="ï¿½ï¿½ï¿½×¸ï¿½ï¿½ï¿½ ï¿½È³ï¿½" onclick="location.href='./page/sub.php?main_id=interior&amp;sub_id=inter_view'" />
 		</div>
 
 	</div>
-	<div id="main_bottom_2"><!-- ¸ÞÀÎ ¾Æ·§¿µ¿ª2 -->
+	<div id="main_bottom_2"><!-- ï¿½ï¿½ï¿½ï¿½ ï¿½Æ·ï¿½ï¿½ï¿½ï¿½ï¿½2 -->
 		<div id="main_customer"></div>
-		<div id="banner_1"><!-- ¹è³Ê 1 -->
-			<script type="text/javascript">flash("../source/banner.swf","169","48","banner","","transparent")</script>
+		<div id="banner_1"><!-- ï¿½ï¿½ï¿½ 1 -->
+			<script>flash("../source/banner.swf","169","48","banner","","transparent")</script>
 		</div>
-		<div id="banner_2"><!-- ¹è³Ê 2 -->
-			<script type="text/javascript">flash("../source/banner_2.swf","169","48","banner_2","","transparent")</script>
+		<div id="banner_2"><!-- ï¿½ï¿½ï¿½ 2 -->
+			<script>flash("../source/banner_2.swf","169","48","banner_2","","transparent")</script>
 		</div>
-		<div id="banner_3"><!-- ¹è³Ê 3 -->
-			<script type="text/javascript">flash("../source/banner_3.swf","169","48","banner_3","","transparent")</script>
+		<div id="banner_3"><!-- ï¿½ï¿½ï¿½ 3 -->
+			<script>flash("../source/banner_3.swf","169","48","banner_3","","transparent")</script>
 		</div>
 	</div>
-	<div id="main_copy"><!-- Ä«ÇÇ¶óÀÌÆ® -->
+	<div id="main_copy"><!-- Ä«ï¿½Ç¶ï¿½ï¿½ï¿½Æ® -->
 		<img src="../images/main_copy.jpg" width="978" height="83" border="0" usemap="#Map2" />
 			<map name="Map2" id="Map2">
 				<area shape="rect" coords="271,10,319,27" href="sub.php?main_id=sitemap&amp;sub_id=sitemap" />
