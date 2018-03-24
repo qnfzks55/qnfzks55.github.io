@@ -17,8 +17,7 @@ lmj.lmj_ui.prototype = (function(){
 
 	var $btn_top = $('#top_bt'),
 		$btn_tit = $('.title'),
-		$nav = $('#nav li'),
-		$img_area = $('.image');
+		$nav = $('#nav li');
 
 	function removeli(){
 		$nav.removeClass('active');
@@ -73,6 +72,7 @@ lmj.lmj_ui.prototype = (function(){
 			});
 		},
 		portfolioScroll: function(){
+			var $img_area = $('.image');
 			$img_area.hover(function(){
 				var $img_h = $(this).find('img').height() - $img_area.height();
 				$(this).find('img').css("transform", "translate3d(0, " + -($img_h) + "px, 0)");
