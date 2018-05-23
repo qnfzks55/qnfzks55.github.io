@@ -357,6 +357,16 @@
 				js.src = 'https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.12';
 				fjs.parentNode.insertBefore(js, fjs);
 			}(document, 'script', 'facebook-jssdk'));
+
+			// 스마트폰 체크
+			var smartphone = new Array('iPhone','iPod','ipad','Android','BlackBerry','Windows Phone','Windows CE','LG','MOT','SAMSUNG','SonyEricsson','Nokia');
+			if(document.URL.match('desktop')) smartphone = null;
+			for(i in smartphone){
+				if(navigator.userAgent.match(smartphone[i]) != null){
+					document.location.href = "m_ko.html";
+					break;
+				}
+			}
 		});
 	})(jQuery);
 </script>
