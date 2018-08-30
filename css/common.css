@@ -4,7 +4,7 @@
 /* Default Style
 --------------------------------------------------------------------  */
 * {font-family: 'Noto Sans KR', sans-serif !important;}
-body {background: #fff;}
+body {background: #fff}
 body, input, select, textarea {color: #888; font-size: 16pt; font-weight: 400; line-height: 1.75em}
 .clearfix {content: ""; display: block; height: 0; clear:both; visibility: hidden}
 .clearfix:after {content: ""; display: block; height: 0; clear:both; visibility: hidden}
