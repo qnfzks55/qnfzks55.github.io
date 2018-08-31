@@ -15,15 +15,14 @@ lmj.lmj_ui = function(){
 
 lmj.lmj_ui.prototype = (function(){
 
-	var $btn_top = $('#top_bt, .title');
 	var $nav = $('#nav li');
 
 	function removeli(){
 		$nav.removeClass('active');
 	}
 
-	function scrollTopBtn(target){
-		$('body').on('click', target, function(e){
+	function scrollTopBtn(){
+		$('body').on('click', '#top_bt, .title', function(e){
 			e.preventDefault();
 			$('body, html').stop(true).animate({
 				scrollTop : 0
@@ -42,7 +41,7 @@ lmj.lmj_ui.prototype = (function(){
 			this.portfolioScroll();
 		},
 		topAnimation: function(){
-			scrollTopBtn($btn_top);
+			scrollTopBtn();
 		},
 		scrollPosition: function() {
 			$(window).scroll(function(){
