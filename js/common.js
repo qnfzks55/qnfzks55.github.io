@@ -15,18 +15,17 @@ lmj.lmj_ui = function(){
 
 lmj.lmj_ui.prototype = (function(){
 
-	var $btn_top = $('#top_bt'),
-		$btn_tit = $('.title'),
-		$nav = $('#nav li');
+	var $btn_top = $('#top_bt, .title');
+	var $nav = $('#nav li');
 
 	function removeli(){
 		$nav.removeClass('active');
 	}
 
 	function scrollTopBtn(target){
-		target.on('click', function(e){
+		$('body').on('click', target, function(e){
 			e.preventDefault();
-			$('body, html').animate({
+			$('body, html').stop(true).animate({
 				scrollTop : 0
 			}, 500, 'easeInOutExpo');
 		});
@@ -44,7 +43,6 @@ lmj.lmj_ui.prototype = (function(){
 		},
 		topAnimation: function(){
 			scrollTopBtn($btn_top);
-			scrollTopBtn($btn_tit);
 		},
 		scrollPosition: function() {
 			$(window).scroll(function(){
