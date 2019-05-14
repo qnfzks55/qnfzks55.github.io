@@ -1,0 +1,61 @@
+/* ------------------------------------------
+
+Date : 10.05.26
+Title : ¿øµ¿±â
+// WEb 2.0 
+!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+
+------------------------------------------ */
+
+
+/* All Style */
+* { margin:0px auto; padding:0px; }
+body { font-size:0.75em; font-family:gulim; color:#525252; }
+img { border:0px none; }
+ul, li { list-style:none; }
+a { text-decoration:none; color:#ccc; }
+
+
+/* Layout Style */
+#wrapper { width:100%; }
+
+
+/* Main Layout */
+	#main_page { width:902px; height:600px; }
+		#main_top { width:902px; height:102px;  }
+			#top_navi_area { width:902px; height:25px; }
+				.navi_style { float:right; margin-top:9px; }
+			#logo_area { clear:both; }
+				#logo_style { width:238px; height:80px; float:left; }
+			#main_menu_area { width:664px; height:80px; float:left; }
+		#main_middle { width:897px; height:349px; }
+			#main_left_flash { width:221px; height:348px; float:left; }
+			#visual_main { width:671px; height:349px; padding-left:4px; float:left; }
+		#bottom_blank { width:902px; height:27px; }
+		#main_body { width:897px; height:160px; }
+		#main_copy { background:transparent url(../images/copyright.jpg) no-repeat; width:902px; height:58px; }
+
+
+/* Sub Layout */
+	#sub_page { width:902px; }
+		#sub_top { width:902px; height:103px; }
+			#sub_top_navi { background:transparent url(../images/sub_top_1.jpg) no-repeat; width:902px; height:25px; }
+		#sub_blank { background:transparent url(../images/sub_blank.jpg) no-repeat; width:902px; height:25px; }
+		#sub_body { background:transparent url(../images/sub_con_bg.jpg) repeat-y; width:902px; float:left; }
+				#sub_menu_area { width:258px; height:230px; float:left;  }
+			#title_area { width:644px; height:40px; float:left; }
+				#title_style { width:163px; height:40px; float:left; }
+			#con_area { width:642px; padding-bottom:30px; float:left;  }
+				#con_style { width:580px; float:left; clear:both; }
+			#sub_copy_area { width:902px; height:58px; clear:both;  }
+				#sub_copy { background:transparent url(../images/sub_copy.jpg) no-repeat; width:644px; height:58px; float:right; }
+
+
+/* Div Layout Style */
+.div_li { border-bottom:1px solid #dadada; border-right:1px solid #dadada; width:292px; height:100px; text-align:center; float:left; padding-top:80px; }
+.div_li_2 { border-bottom:1px solid #dadada; width:300px; height:145px; text-align:center; float:left; padding-top:35px; }
+
+
+/* Class */
+.more_bt { float:left; }
+.txt_b { padding-bottom:5px; }

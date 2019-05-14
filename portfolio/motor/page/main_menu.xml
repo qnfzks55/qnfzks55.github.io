@@ -1,0 +1,23 @@
+<menu>
+	<m title="가솔린 기관" link="http://125.249.160.133/~abc/motor/page/sub.php?main_id=gasoline&amp;sub_id=gasoline_mean"  main_id="gasoline">
+		<s title="가솔린 기관이란?" link="http://125.249.160.133/~abc/motor/page/sub.php?main_id=gasoline&amp;sub_id=gasoline_mean"></s>
+		<s title="작동원리" link="http://125.249.160.133/~abc/motor/page/sub.php?main_id=gasoline&amp;sub_id=operate"></s>
+	</m>
+	<m title="가솔린기관의 구조" link="http://125.249.160.133/~abc/motor/page/sub.php?main_id=gasoline_structure&amp;sub_id=gasoline_structure" main_id="gasoline_structure">
+		<s title="가솔린기관의 구조" link="http://125.249.160.133/~abc/motor/page/sub.php?main_id=gasoline_structure&amp;sub_id=gasoline_structure"></s>
+	</m>
+	<m title="사이클 기관" link="http://125.249.160.133/~abc/motor/page/sub.php?main_id=cycle&amp;sub_id=four_stroke" main_id="cycle">
+		<s title="4행정사이클" link="http://125.249.160.133/~abc/motor/page/sub.php?main_id=cycle&amp;sub_id=four_stroke"></s>
+		<s title="2행정사이클" link="http://125.249.160.133/~abc/motor/page/sub.php?main_id=cycle&amp;sub_id=two_stroke"></s>
+		<s title="차이점" link="http://125.249.160.133/~abc/motor/page/sub.php?main_id=cycle&amp;sub_id=difference"></s>
+	</m>
+	<m title="학습자료" link="http://125.249.160.133/~abc/motor/page/sub.php?main_id=study_file&amp;sub_id=study_file"  main_id="study_file">
+		<s title="애니메이션" link="http://125.249.160.133/~abc/motor/page/sub.php?main_id=study_file&amp;sub_id=study_file"></s>
+		<s title="관련사이트" link="http://125.249.160.133/~abc/motor/page/sub.php?main_id=study_file&amp;sub_id=another_site"></s>	
+		<s title="증강현실" link="http://125.249.160.133/~abc/motor/page/sub.php?main_id=study_file&amp;sub_id=relaty"></s>	
+	</m>
+	<m title="요약정리" link="http://125.249.160.133/~abc/motor/page/sub.php?main_id=term_view&amp;sub_id=term_view"  main_id="term_view">
+		<s title="가솔린개요" link="http://125.249.160.133/~abc/motor/page/sub.php?main_id=term_view&amp;sub_id=term_view"></s>
+		<s title="가솔린구성" link="http://125.249.160.133/~abc/motor/page/sub.php?main_id=term_view&amp;sub_id=gasoline_list"></s>	
+	</m>
+</menu>

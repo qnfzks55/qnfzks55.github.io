@@ -1,0 +1,12 @@
+/* -----------------------------------------
+
+Title : InTEC into English Instruction
+
+------------------------------------------ */
+
+
+/* Print Style */
+@media print {
+	#sub_top, #top_navi, #main_menu_view, #main_search_area, #sub_menu_area, #print_area { display:none; }
+	#sub_con { width:100%; }
+}

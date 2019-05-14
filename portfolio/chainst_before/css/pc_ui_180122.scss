@@ -1,0 +1,242 @@
+@charset "utf-8";
+
+/* GCP WD_WP Team. Author : Lee Myeongjong 2018-01-22. Edit : Lee Myeongjong 2018-02-02 */
+html	{overflow-x:hidden;-webkit-text-size-adjust:none;font-size:10px;}
+body	{font-family:'나눔바른고딕', NanumBarunGothic, 'ng', '애플고딕', AppleGothic, '맑은 고딕', Malgun Gothic, '돋움', dotum, '굴림체', GulimChe, Arial, Verdana, sans-serif;}
+*	{margin:0;padding:0;list-style:none;border:0;}
+*:lang(ja) {font-family:'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ','Meiryo','Osaka','ＭＳ Ｐゴシック','MS PGothic',Arial,sans-serif;}
+*:lang(zh-hans) {font-family:Times New Roman;}
+*:lang(zh-hant) {font-family: 微軟正黑體;}
+button	{cursor:pointer;background:none;vertical-align:top;font-family:'나눔바른고딕', NanumBarunGothic, 'ng', '애플고딕', AppleGothic, '맑은 고딕', Malgun Gothic, '돋움', dotum, '굴림체', GulimChe, Arial, Verdana, sans-serif}
+img	{vertical-align:top;}
+a	{text-decoration:none;}
+input[type="text"] {font-family:'나눔바른고딕', NanumBarunGothic, 'ng', '애플고딕', AppleGothic, '맑은 고딕', Malgun Gothic, '돋움', dotum, '굴림체', GulimChe, Arial, Verdana, sans-serif}
+*:lang(ja) input[type="text"] {font-family:'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ','Meiryo','Osaka','ＭＳ Ｐゴシック','MS PGothic',Arial,sans-serif;}
+*:lang(zh-hans) input[type="text"], *:lang(zh-hant) input[type="text"] {font-family:'Times New Roman';}
+.tb {width: 100%; height: 100%; display: table}
+.tbc {display: table-cell; vertical-align: middle}
+%bg {background: rgba(255, 255, 255, .3)}
+%ab {position: absolute}
+%fx {position: fixed}
+.check {position: relative; line-height: 49px; color: #fff;
+	&.pop, &.pop:nth-of-type(2), &.pop:nth-of-type(3),
+	&.pop:nth-of-type(4) {top: 37px; left: 41px; @extend %ab;
+		label {text-indent: -9999px}
+		label, input:checked + label {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ico_chk2_off.png) no-repeat; width: 48px; height: 48px}
+		input:checked + label {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ico_chk2_on.png) no-repeat; width: 48px; height: 48px}
+	}
+	&.pop:nth-of-type(2) {top: 129px; left: 609px}
+	&.pop:nth-of-type(3) {top: 335px; left: 609px}
+	&.pop:nth-of-type(4) {top: 540px; left: 609px}
+	&.agree {top: 200px; @extend %ab; left: 27.8%;
+		label {text-indent: -9999px;
+			&:after {content:''; @extend %ab; left:60px; top:50%; margin-top:-16px; @extend %bg; width: 440px; height: 22px; background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_2_agree.png) no-repeat}
+		}
+	}
+	&.aos, &.ios {top: 14px; @extend %ab; left: 7.3%;
+		label {color: transparent;
+			&:after {content:''; @extend %ab; left:75px; top:50%; margin-top:-10px; width: 114px; height: 20px; background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_android.png) no-repeat}
+		}
+		label, input:checked + label {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ico_radio_off.png) no-repeat; width: 50px; height: 50px}
+		input:checked + label {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ico_radio_on.png) no-repeat; width: 50px; height: 50px}
+	}
+	&.ios {left: 30.9%;
+		label {
+			&:after {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_ios.png) no-repeat}
+		}
+	}
+	> input { border: 0; border-radius: 0; visibility: hidden; position: absolute; left: 0; top: 0; z-index: 1}
+	label, input:checked + label {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ico_chk_off.png) no-repeat; top: 0; left: 0; z-index: 2; display: inline-block; position: relative; padding-left: 40px; background-size: 42px 42px; cursor: pointer}
+	input:checked + label {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ico_chk_ok.png) no-repeat; background-size: 42px 42px}
+}
+
+@mixin trs($start, $ease){
+	transition: all $start $ease;
+	-webkit-transition: all $start $ease;
+	-moz-transition: all $start $ease;
+	-o-transition: all $start $ease;
+}
+
+#ui_180122 {width:100%;margin: 0 auto;position:relative;font-size:20px;line-height: 120%;text-align:center;
+	.box_wrap {position: relative; width: 1000px; margin: 0 auto; height: 100%; }
+	.header {@extend %fx; left:0;top:0; z-index: 50;width: 100%;height: 64px; background:url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/bg_navi.png) 50% 0 repeat-x; font-size: 22px;
+		.nav {width: 1000px; margin: 0 auto; height: 64px;
+			li {display: table; height: 100%; position: relative; vertical-align: middle; width: 200px; line-height: 22px; float: left; box-sizing:border-box;
+				a {color: #4c4f57; display: table-cell; width: 100%; height: 100%; vertical-align: middle; }
+				&.on {
+					a {color: #fafcff; font-weight: bold}
+				}
+			}
+		}
+		.btn_fb {@extend %ab; top: 16px; right: -62px}
+	}
+	.section {position: relative; z-index: 20; display: none;
+		&.section_1 {overflow-y: hidden;
+			.main_bg {top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; opacity: 0; @include trs(.5s, ease);
+				&.on {opacity: 1}
+				iframe {width: 100%; height: 100%}
+				&:before {content:''; @extend %ab; left:0; top:0; width: 100%; height: 100%; background: rgba(0, 0, 0, .68)}
+				.intro_area {opacity: 0; @include trs(.3s, ease-in);
+					&.on {opacity: 1}
+					img {@extend %ab; z-index: 10}
+					.top_deco_1, .top_deco_2, .top_deco_3 {top: 50%; left: 50%; margin:-378.5px 0 0 -275px;}
+					.top_deco_1 {animation: fadeEffect 2s infinite .5s;}
+					.top_deco_2 {margin: -150px 0 0 130px; animation: fadeEffect 2s infinite 1s;}
+					.top_deco_3 {margin: 96px 0 0 -362px; animation: fadeEffect 2s infinite 2s;}
+					.top_tit {top: 50%; left: 50%; margin:-310px 0 0 -296px;}
+					.top_logo {top: 50%; left: 50%; margin:-167.5px 0 0 -371px;}
+					.btn_play {top: 50%; left: 50%; margin:90px 0 0 -55px;}
+					.btn_main_parti {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/btn_main_parti.png) no-repeat; width: 354px; height: 116px; @extend %ab; top: 50%; left: 50%; margin:270px 0 0 -177px; z-index: 10}
+				}
+			}
+		}
+
+		&.section_2 {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_1.png) no-repeat center 0; width: 100%; height: 1892px; background-size: cover;
+			.section2_tit {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_1_tit.png) no-repeat; width: 922px; height: 766px; @extend %ab; top: -111px; left: 50%; margin-left: -461px}
+			.agree_area {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/bg_before.png) no-repeat; width: 1150px; height: 550px; @extend %ab; top:640px; left: 50%; margin-left:-575px;
+				.app_down {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/bg_app_down.png) no-repeat; width: 1054px; height: 290px; @extend %ab; top:240px; left: 50%; margin-left:-527px;
+					.btn_google, .btn_ios {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/btn_google.png) no-repeat; width: 266px; height: 80px; @extend %ab; top: 148px; left: 22%}
+					.btn_ios {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/btn_ios.png) no-repeat; left: 49%}
+				}
+				.btn_invite {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_btn_reser.png) no-repeat; background-size: cover; width: 268px; height: 170px; @extend %ab; top: 15%; right: 4.3%; z-index: 1}
+				.btn_stone_g {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_google_btn.png) no-repeat; width: 295px; height: 461px; @extend %ab; top: 0; right: 0}
+				.input_basic {width: 509px; height: 81px; @extend %ab; top: 103px; left: 27.8%;}
+				.phone_tit {@extend %ab; top: 122px; left: 7.3%; cursor: pointer}
+			}
+			.agree_notice {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_1_notice.png) no-repeat; width: 801px; height: 216px; @extend %ab; top: 1228px; left: 50%; margin-left: -500px}
+			.paladin {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/img_paladin.png) no-repeat; width: 902px; height: 1396px; @extend %ab; top: 130px; margin-left: 788px}
+		}
+		&.section_3 {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_2.png) no-repeat center 0; width: 100%; height: 2500px; background-size: cover;
+			.section3_tit {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_2_tit.png) no-repeat; width: 606px; height: 680px; @extend %ab; top: 111px; left: 50%; margin-left: -303px}
+			.atk_txt {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_2_txt.png) no-repeat; width: 789px; height: 54px; @extend %ab; top: 686px; left: 50%; margin-left: -394.5px}
+			.atk_notice {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_2_notice.png) no-repeat; width: 702px; height: 75px; @extend %ab; top: 1600px; left: 50%; margin-left: -351px}
+			.playable {@extend %ab; top: 760px; left: 50%; margin-left: -230px;
+				video {width: 460px; height: 820px}
+				&::after {content:attr(data-content); @extend %ab; color: #fff; font-size: 24px; background: rgba(0, 0, 0, .7); top:0; width: 460px; height: 820px; display: flex; display: -webkit-flex; justify-content: center; -webkit-justify-content: center; align-items: center; -webkit-align-items: center}
+				&.active::after {background: none}
+				.first_guide, .second_guide, .third_guide,
+				.four_guide, .five_guide, .six_guide,
+				.seven_guide, .eight_guide, .nine_guide,
+				.second2_guide {@extend %ab; color: #fff; font-size: 30px; top:0; width: 460px; height: 820px; display: none; z-index: 10;
+					strong {color: #ffff00; font-weight: normal}
+				}
+				.first_guide:lang(ko){background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_play_1.png) no-repeat; background-size: cover}
+				.nine_guide:lang(ko){background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_play_2.png) no-repeat; background-size: cover}
+				.third_guide {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/bg_playable_1.png) no-repeat; background-size: cover}
+				.five_guide {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/bg_playable_2.png) no-repeat; background-size: cover}
+				.eight_guide {
+					.cloud_1 {
+						&::after {top: 190px; right: 28%; transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -o-transform: rotate(-90deg)}
+					}
+				}
+				.cloud_1 {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/bg_play_cloud.png) no-repeat; background-size: contain; width: 96%; height: 128px; margin-left: -48%; @extend %ab; top: 8.6%; left: 50%; z-index: 10; color: #fff; font-size: 14px; text-align: left; line-height: 18px;
+					p {@extend %ab; left: 112px;top: 22px;width: 318px;height: 72px; display: table}
+					&::after {content: ''; background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ico_finger_off.png) no-repeat; background-size: cover; @extend %ab; top: 25%;display: block;width: 50px;height: 80px;right: 1%; animation: fadeEffect 1s infinite; -webkit-animation: fadeEffect 1s infinite}
+				}
+			}
+			.btn_start {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_btn_start.png) no-repeat; background-size: cover; width: 478px; height: 140px; margin-top: 544px; @extend %ab; left: 50%; margin-left: -239px}
+		}
+		&.section_4 {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_3.png) no-repeat center 0; width: 100%; height: 2217px; background-size: cover;
+			.section4_tit {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_3_tit.png) no-repeat; width: 618px; height: 654px; @extend %ab; top: 111px; left: 50%; margin-left: -309px}
+			.parti_quick {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_3_reser.png) no-repeat; width: 849px; height: 250px; background-size: cover; @extend %ab; top: 736px; left: 50%; margin-left: -424.5px}
+			.btn_friend {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_btn_invite.png) no-repeat; width: 704px; height: 126px; @extend %ab; left: 50%; margin-left: -352px; top: 1010px}
+			.my_before_num {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_invite_num.png) no-repeat; width: 704px; height: 126px; @extend %ab; left: 50%; margin-left: -352px; top: 1010px;
+				.tb {@extend %ab; width: 50%; right: 0}
+			}
+			.parti_friend {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_3_invite.png) no-repeat; width: 860px; height: 230px; @extend %ab; top: 1160px; margin-left: -430px; left: 50%;
+				.friend_num {@extend %ab; left: 58%;height: 27%;width: 10.5%; font-size: 30px; color: #2d1265;
+					strong {vertical-align: middle; display: table-cell}
+				}
+				.friend_url {@extend %ab; font-size: 28px; color: #d0d6db; line-height: 32px; top: 56.5%; left: 5.2%; width: 69%; text-align: left}
+				.btn_copy {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_btn_copy.png) no-repeat; background-size: cover; width: 173px; height: 80px; @extend %ab; top: 50.4%; left: 77.4%}
+			}
+			.parti_notice {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_3_notice.png) no-repeat; background-size: cover; width: 696px; height: 103px; @extend %ab; top:1426px; left: 50%; margin-left: -415px}
+		}
+		&.section_5 {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_4.png) no-repeat center 0; width: 100%; height: 1892px; background-size: cover;
+			.section5_tit {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_4_tit.png) no-repeat; width: 544px; height: 158px; @extend %ab; top: 111px; left: 50%; margin-left: -272px}
+			.video_list {@extend %ab; width: 100%; top: 300px;
+				> li {float: left; margin-left: 10px;
+					&:first-child {margin: 0}
+					.video_temp {width: 322px; height: 572px; background: #000}
+				}
+			}
+		}
+		&.section_6 {background:#000; width: 100%; height: 150px; bottom: 0; display: block !important;
+			&::after {content: ''; background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/img_foot.png) no-repeat; @extend %ab; margin-top: -30.5px; top: 50%; right: 6.75%; display: block; width: 436px; height: 61px}
+		}
+	}
+	.quick_btn {position: fixed; top:129px; right: 16.2%; z-index: 20; @include trs(.3s, ease); opacity: 0;
+		&.on {right: 18.2%; opacity: 1}
+		> a {display: block; margin-top: 10px;
+			&:nth-of-type(1) {margin-top: 0}
+		}
+		.btn_cafe, .btn_sns_share, .btn_login,
+		.btn_logout {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ico_cafe.png) no-repeat; width: 119px; height: 49px}
+		.btn_sns_share {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ico_sns.png) no-repeat}
+		.btn_login {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ico_login.png) no-repeat}
+		.btn_logout {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ico_logout.png) no-repeat}
+	}
+}
+
+.pop_wrap	{width:100%;min-height:100%;z-index:1000;position:fixed;top:0;left:0;background-color:rgba(0,0,0,0.7);
+	.pop_layer	{width:610px;height:200px;position:absolute;top:50%;left:50%;z-index:1000;margin:-100px 0 0 -305px;border-radius:14px;-webkit-box-shadow:5px 5px 10px rgba(0,0,0,0.4);box-shadow:5px 5px 10px rgba(0,0,0,0.4);background-color:#fff;}
+	.pop_before {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/ko_pop_login.png) no-repeat; width: 687px; height: 656px; @extend %ab; top:50%;left:50%;z-index:1000;margin:-328px 0 0 -343.5px;
+		.input_basic {@extend %ab;  top: 45%;height: 81px;left: 16%;width: 482px}
+		input[type="text"]::-webkit-input-placeholder {color: #9581ab}
+		input[type="text"]::-moz-placeholder {color: #9581ab}
+		.btn_before_ok {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/btn_pop_reser.png) no-repeat; width: 488px; height: 85px; @extend %ab; top: 59.1%; left: 107px}
+		.btn_parti_bf {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/btn_pop_before.png) no-repeat; width: 240px; height: 72px; @extend %ab; top:78%; left: 51.6%}
+		.btn_close	{right: 30px; top: 10px; background: none}
+	}
+	.pop_before_ok {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/pop_before.png) no-repeat; width: 687px; height: 304px; @extend %ab; top:50%;left:50%;z-index:1000;margin:-152px 0 0 -343.5px;
+		.btn_close	{right: 20px; top: 10px; background: none}
+	}
+	.pop_sns {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/pop_sns.png) no-repeat; width: 687px; height: 304px; @extend %ab; top:50%;left:50%;z-index:1000;margin:-152px 0 0 -343.5px;
+		.btn_pop_fb, .btn_pop_tw {@extend %ab; top: 32%; left: 30%;width: 148px;height: 145px;}
+		.btn_pop_tw {left: 51.5% }
+		.btn_close	{right: 20px; top: 10px; background: none}
+	}
+	.pop_agree {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/pop_agree.png) no-repeat; width: 687px; height: 845px; @extend %ab; top:50%;left:50%;z-index:1000;margin:-422.5px 0 0 -343.5px;
+		.agree_1, .agree_2, .agree_3 {@extend %ab; color: #2b2b2b;font-size: 20px;top: 189px;left: 32px;width: 628px;height: 131px; line-height: 22px;
+			span {margin: 25px; display: block; height: 81px; overflow-y: auto}
+		}
+		.agree_2 {top:394px}
+		.agree_3 {top:602px}
+		.btn_agree_no, .btn_pop_agree {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/btn_agree_no.png) no-repeat; width: 198px; height: 57px; @extend %ab; top:753px; left: 129px}
+		.btn_pop_agree {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/btn_pop_agree.png) no-repeat; left: 340px}
+		.btn_close	{right: 20px; top: 10px; background: none}
+	}
+	.pop_note	{width:100%;height:100%;display:table;
+		> span {height:100%;display:table-cell;padding:0 5%;font-size:2.6rem;line-height:115%;color:#000;text-align:center;vertical-align:middle;}
+	}
+	.btn_close	{width:64px;height:64px;display:block;position:absolute;top:0;right:0;overflow:hidden;text-indent:-999px;cursor:pointer;background:url('http://image-glb.qpyou.cn/markup/img/2015/00/btn_close.png') no-repeat 50% 50%;background-size:36px 36px;}
+}
+
+/* input Style*/
+.input_basic {background: #fff; color: #000; text-align: center; font-size: 24px; box-sizing: border-box; -webkit-box-sizing: border-box}
+input[type="text"]::-webkit-input-placeholder {color: #767370}
+input[type="text"]::-moz-placeholder {color: #767370}
+
+/* Icon Style */
+.ic_main {background: url(http://image-glb.qpyou.cn/markup/img/2018/01/cs_update2018/spr_quick.png) no-repeat; display: inline-block; vertical-align: middle}
+
+/* animate Style */
+@-webkit-keyframes fadeOn {
+	0%	{opacity:0;}
+	100%	{opacity:1;}
+}
+@keyframes fadeOn {
+	0%	{opacity:0;}
+	100%	{opacity:1;}
+}
+@-webkit-keyframes fadeEffect {
+	0%	{opacity:1;}
+	50%	{opacity:0;}
+	100%	{opacity:1;}
+}
+@keyframes fadeEffect {
+	0%	{opacity:1;}
+	50%	{opacity:0;}
+	100%	{opacity:1;}
+}
+

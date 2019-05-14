@@ -1,0 +1,1 @@
+<img src="../image/<?php echo $_GET[sid]; ?>.jpg" alt="" />-
