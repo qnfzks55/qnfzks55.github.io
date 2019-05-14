@@ -1,5 +1,0 @@
-<menu>
-	<m title="HOME" link="../index.php"></m>
-	<m title="PORTFOLIO" link="index.php?mid=portfolio&amp;sid=portfolio"></m>
-	<m title="SKILLS" link="index.php?mid=skills&amp;sid=skills"></m>
-</menu>

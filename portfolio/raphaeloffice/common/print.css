@@ -1,5 +1,0 @@
-@charset "euc-kr";
-
-.print_view { clear:both; font-size:0.8em; font-family:µ¸¿ò; color:#727272; padding:6px; }
-.print_bt_area { clear:both; border-top:1px dotted #888; margin:55px 0 0 0; }
-.print_bt { background:url(../images/button_01.png) no-repeat; width:64px; height:26px; border:0px; color:#fff; font-family:µ¸¿ò; font-size:0.8em; }
