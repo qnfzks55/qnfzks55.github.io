@@ -528,6 +528,8 @@ ul.feature-icons li:before {background: rgba(4, 128, 211, 0.64); width: 2.5em; h
 .fa-picture-o:before {content: "\f03e"}
 .fa-tablet:before {content: "\f10a"}
 .fa-mobile:before {content: "\f10b"}
+.fa-react:before { font-family: 'FontAwesomeBrands' !important; content: "\f41b"}
+.fa-js:before { font-family: 'FontAwesomeBrands' !important; content: "\f3b8"}
 ul.icons {cursor: default; list-style: none; padding-left: 0}
 ul.icons > li {display: inline-block; opacity: 0.6; -moz-transition: all .2s ease-in; -webkit-transition: all .2s ease-in; -o-transition: all .2s ease-in; -ms-transition: all .2s ease-in; transition: all .2s ease-in }
 ul.icons > li:hover {opacity: 1}
