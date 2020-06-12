@@ -1,0 +1,50 @@
+[
+  {
+		"image" : "img-game-list-eh.jpg",
+		"title": "엑소스 히어로즈",
+		"tag" : [
+			{
+				"title" : "MOBILE"
+			},
+			{
+				"title" : "ACTION"
+			},
+			{
+				"title" : "RPG"
+			},
+			{
+				"title" : "MOBILE"
+			},
+			{
+				"title" : "ACTION"
+			},
+			{
+				"title" : "수집형RPG"
+			}
+		]
+	},
+	{
+		"image" : "img-game-list-sz.jpg",
+		"title": "퍼스트 서머너",
+		"tag" : [
+			{
+				"title" : "MOBILE"
+			},
+			{
+				"title" : "ACTION"
+			},
+			{
+				"title" : "RPG"
+			},
+			{
+				"title" : "MOBILE"
+			},
+			{
+				"title" : "ACTION"
+			},
+			{
+				"title" : "수집형RPG"
+			}
+		]
+	}
+]
