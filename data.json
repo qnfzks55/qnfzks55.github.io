@@ -31,19 +31,91 @@
 				"title" : "MOBILE"
 			},
 			{
-				"title" : "ACTION"
+				"title" : "RPG"
+			},
+			{
+				"title" : "전략RPG"
+			},
+			{
+				"title" : "전략"
+			},
+			{
+				"title" : "전략시뮬레이션"
+			},
+			{
+				"title" : "슈팅게임"
+			}
+		]
+	},
+	{
+		"image" : "img-game-list-xc.jpg",
+		"title": "크로스 크로니클",
+		"tag" : [
+			{
+				"title" : "MOBILE"
 			},
 			{
 				"title" : "RPG"
 			},
 			{
-				"title" : "MOBILE"
-			},
-			{
 				"title" : "ACTION"
 			},
 			{
-				"title" : "수집형RPG"
+				"title" : "MMORPG"
+			},
+			{
+				"title" : "RPG"
+			},
+			{
+				"title" : "ACTION"
+			}
+		]
+	},
+	{
+		"image" : "img-game-list-df.jpg",
+		"title": "드래곤 플라이트",
+		"tag" : [
+			{
+				"title" : "MOBILE"
+			},
+			{
+				"title" : "SHOOTING"
+			},
+			{
+				"title" : "아케이드"
+			},
+			{
+				"title" : "MOBILE"
+			},
+			{
+				"title" : "SHOOTING"
+			},
+			{
+				"title" : "아케이드"
+			}
+		]
+	},
+	{
+		"image" : "img-game-list-bs.jpg",
+		"title": "베리드 스타즈",
+		"tag" : [
+			{
+				"title" : "CONSOLE"
+			},
+			{
+				"title" : "RPG"
+			},
+			{
+				"title" : "어드벤처"
+			},
+			{
+				"title" : "MOBILE"
+			},
+			{
+				"title" : "SHOOTING"
+			},
+			{
+				"title" : "아케이드"
 			}
 		]
 	}
