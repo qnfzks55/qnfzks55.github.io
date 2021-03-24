@@ -54,7 +54,7 @@
 /* Layers */
 
 	#titleBar {
-		background: #222;
+		background: rgb(36, 41, 46);
 		color: #fff;
 		min-width: 320px;
 		
@@ -90,7 +90,7 @@
 			}
 
 			#titleBar .toggle:before {
-				background: rgba(4, 128, 211, 0.64);
+				background: #aaa;
 				color: #ffffff;
 				content: '\f0c9';
 				display: block;
@@ -105,6 +105,6 @@
 			}
 
 	#sidePanel {
-		background: rgba(4, 128, 211, 0.64);
+		background: rgb(36, 41, 46);
 		color: #d1f1e9;
 	}

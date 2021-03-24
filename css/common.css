@@ -160,8 +160,8 @@ line-height: 1.5em;
 }
 
 header.major h2 {
-color: rgba(4, 128, 211, 0.64);
-font-size: 3.5em;
+color: rgb(3, 102, 214);
+font-size: 2.5em;
 }
 
 header.major h2 + p {
@@ -515,10 +515,10 @@ padding: 0.35em 0 0 4em;
 position: relative;
 width: 46%;
 vertical-align: top;
-
 }
 
-ul.feature-icons li:before {background: rgba(4, 128, 211, 0.64); width: 2.5em; height: 2.5em; display:block; border-radius: 100%; color: #fff; font-family: 'FontAwesome'; position: absolute; left: 0; top: 30%; line-height: 2.5em; text-align: center;}
+ul.feature-icons li:before {border: 1px solid #aaa; width: 2.5em; height: 2.5em; display:block; border-radius: 100%; color: #aaa; font-family: 'FontAwesome'; position: absolute; left: 0; top: 30%; line-height: 2.5em; text-align: center;}
+
 .fa-code:before {content: "\f121"}
 .fa-bookmark:before {content: "\f02e"}
 .fa-html5:before {content: "\f13b"}
@@ -529,7 +529,9 @@ ul.feature-icons li:before {background: rgba(4, 128, 211, 0.64); width: 2.5em; h
 .fa-tablet:before {content: "\f10a"}
 .fa-mobile:before {content: "\f10b"}
 .fa-react:before { font-family: 'FontAwesomeBrands' !important; content: "\f41b"}
+.fa-sass:before { font-family: 'FontAwesomeBrands' !important; content: "\f41e"}
 .fa-js:before { font-family: 'FontAwesomeBrands' !important; content: "\f3b8"}
+
 ul.icons {cursor: default; list-style: none; padding-left: 0}
 ul.icons > li {display: inline-block; opacity: 0.6; -moz-transition: all .2s ease-in; -webkit-transition: all .2s ease-in; -o-transition: all .2s ease-in; -ms-transition: all .2s ease-in; transition: all .2s ease-in }
 ul.icons > li:hover {opacity: 1}
@@ -875,7 +877,7 @@ overflow: hidden;
 
 /* Header */
 .fa-facebook-square:before{content:"\f082"}
-#header {background: rgba(4, 128, 211, 0.64); color: #d1f1e9; height: 100%; position: fixed; text-align: center; top: 0; width: 23em; right: 0}
+#header {background: rgb(36, 41, 46); color: #d1f1e9; height: 100%; position: fixed; text-align: center; top: 0; width: 23em; right: 0}
 
 #header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
 	color: #ffffff;
@@ -941,7 +943,7 @@ overflow: hidden;
 }
 
 	#header > nav ul li {
-		border-top: solid 2px #3e9ddd;
+		border-top: solid 2px rgb(36, 41, 46);
 		display: block;
 		padding: 0;
 	}
@@ -963,7 +965,7 @@ overflow: hidden;
 				background: #fff;
 			}
 
-#header > nav ul li.active a {color: rgba(4, 128, 211, 0.64) !important;}
+#header > nav ul li.active a {color: rgb(36, 41, 46) !important;}
 
 	#header > nav ul li:first-child {
 		border-top: 0;
@@ -987,14 +989,14 @@ position: relative
 /* About LMJ */
 
 #about:before {
-background-image: url("../img/background.jpg");
-background-position: 0 65%;
-background-repeat: no-repeat;
-background-size: cover;
-content: '';
-display: block;
-height: 20em;
-width: 100%;
+	background-image: url("../img/background.jpg");
+	background-position: 0 65%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	content: '';
+	display: block;
+	height: 20em;
+	width: 100%;
 }
 
 /* Footer */
@@ -1021,7 +1023,7 @@ padding: 4em 0 2em 0;
 		padding-left: 1em;
 	}
 
-#footer .copyright .hlt {color: rgba(4, 128, 211, 0.64)}
+#footer .copyright .hlt {color: rgb(36, 41, 46)}
 		#footer .copyright li:first-child {
 			border-left: 0;
 			margin-left: 0;
