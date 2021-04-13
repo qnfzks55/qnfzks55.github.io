@@ -1,6 +1,6 @@
 .loading {
 	position: fixed; top: 0; left: 0; right: 0; bottom: 0;
-	z-index: 10003;
+	z-index: 20000;
 	background: #fff;
 	transition: all ease-in .3s;
 }
