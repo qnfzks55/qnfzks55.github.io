@@ -16,7 +16,6 @@ lmj.lmj_ui = function () {
 lmj.lmj_ui.prototype = (function () {
 
 	var $nav = $('#nav li');
-
 	function removeli() {
 		$nav.removeClass('active');
 	}
@@ -102,6 +101,11 @@ lmj.lmj_ui.prototype = (function () {
 				});
 			}
 			$("#btn_app_link").prop("href", downloadLink);
+		},
+		loadingUi: function () {
+			var loadingElement = document.createElement('div');
+			loadingElement.classList.add('loading');
+			document.body.append(loadingElement);
 		}
 	};
 })();

@@ -1,0 +1,13 @@
+.loading {
+	position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 10003;
+	background: #fff;
+	transition: all ease-in .3s;
+}
+.loading.disabled { visibility: hidden; opacity: 0; }
+.loading::after {
+	content: '';
+	background: url('../img/loading.png') no-repeat; background-size: cover;
+	position: absolute; top: 50%; left: 50%; transform: translate3d(-50%, -50%, 0);
+	width: 80px; height: 80px;		
+}

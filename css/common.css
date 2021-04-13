@@ -3,6 +3,9 @@
 
 /* Default Style
 --------------------------------------------------------------------  */
+html::-webkit-scrollbar, body::-webkit-scrollbar { width: 5px; }
+html::-webkit-scrollbar-track, body::-webkit-scrollbar-track { background: #fff; }
+html::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb { background: #ccc; border-radius: 3px; }
 * {font-family: 'Noto Sans KR', sans-serif !important;}
 body {background: #fff}
 body, input, select, textarea {color: #888; font-size: 16pt; font-weight: 400; line-height: 1.75em}
@@ -1024,12 +1027,12 @@ padding: 4em 0 2em 0;
 	}
 
 #footer .copyright .hlt {color: rgb(36, 41, 46)}
-		#footer .copyright li:first-child {
-			border-left: 0;
-			margin-left: 0;
-			padding-left: 0;
-		}
+#footer .copyright li:first-child {
+	border-left: 0;
+	margin-left: 0;
+	padding-left: 0;
+}
 
-		#footer .copyright li a {
-			color: inherit;
-		}
+#footer .copyright li a {
+	color: inherit;
+}
