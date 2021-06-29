@@ -466,11 +466,8 @@ position: relative;
 }
 
 .image.avatar img {
-	border: none; 
-	transform:translate3d(0, 0, 0) !important; 
-	display: block; 
+	border: none; 	 
 	width: 100%;
-	position: absolute; 
 }
 
 /* List */
