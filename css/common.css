@@ -462,10 +462,16 @@ position: relative;
 .image.avatar {
 	border-radius: 100%;
 	overflow: hidden;
-
+	position: relative;
 }
 
-.image.avatar img {border: none; transform:translate3d(0, 0, 0) !important; border-radius: 100%; display: block; width: 100%}
+.image.avatar img {
+	border: none; 
+	transform:translate3d(0, 0, 0) !important; 
+	display: block; 
+	width: 100%;
+	position: absolute; 
+}
 
 /* List */
 
@@ -533,7 +539,7 @@ ul.feature-icons li:before {border: 1px solid #aaa; width: 2.5em; height: 2.5em;
 .fa-mobile:before {content: "\f10b"}
 .fa-react:before { font-family: 'FontAwesomeBrands' !important; content: "\f41b"}
 .fa-sass:before { font-family: 'FontAwesomeBrands' !important; content: "\f41e"}
-.fa-js:before { font-family: 'FontAwesomeBrands' !important; content: "\f3b8"}
+.fa-js:before { font-family: 'FontAwesomeBrands' !important; content: "\f3b9"}
 
 ul.icons {cursor: default; list-style: none; padding-left: 0}
 ul.icons > li {display: inline-block; opacity: 0.6; -moz-transition: all .2s ease-in; -webkit-transition: all .2s ease-in; -o-transition: all .2s ease-in; -ms-transition: all .2s ease-in; transition: all .2s ease-in }
@@ -909,7 +915,7 @@ overflow: hidden;
 	#header > header .avatar {
 		display: block;
 		margin: 0 auto 2.25em auto;
-		width: 8em;
+		width: 8em; height: 8em;
 	}
 
 	#header > header h1 {
