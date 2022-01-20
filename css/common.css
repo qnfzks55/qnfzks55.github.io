@@ -537,6 +537,9 @@ ul.feature-icons li:before {border: 1px solid #aaa; width: 2.5em; height: 2.5em;
 .fa-react:before { font-family: 'FontAwesomeBrands' !important; content: "\f41b"}
 .fa-sass:before { font-family: 'FontAwesomeBrands' !important; content: "\f41e"}
 .fa-js:before { font-family: 'FontAwesomeBrands' !important; content: "\f3b9"}
+.fa-vuejs:before {font-family: 'FontAwesomeBrands' !important; content: "\f41f"}
+.fa-react:before {font-family: 'FontAwesomeBrands' !important; content: "\f41b"}
+
 
 ul.icons {cursor: default; list-style: none; padding-left: 0}
 ul.icons > li {display: inline-block; opacity: 0.6; -moz-transition: all .2s ease-in; -webkit-transition: all .2s ease-in; -o-transition: all .2s ease-in; -ms-transition: all .2s ease-in; transition: all .2s ease-in }

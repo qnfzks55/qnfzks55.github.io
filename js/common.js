@@ -69,7 +69,7 @@ lmj.lmj_ui.prototype = (function () {
 			});
 		},
 		portfolioScroll: function () {
-			var $img_area = $('.image');
+			var $img_area = $('#portfolio .image');
 			$img_area.hover(function () {
 				var $img_h = $(this).find('img').height() - $img_area.height();
 				$(this).find('img').css("transform", "translate3d(0, " + -($img_h) + "px, 0)");
