@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>로얄 크라운 전적 통계</title>
+<link href="https://static.line.games/rc/record/css/sub.css?v=38add1684117908633" rel="stylesheet"><script src="https://static.line.games/rc/record/js/sub.js?v=38add1684117911988"></script></head>
+<body>
+
+
+<div class="linegames-wrap">
+	<header class="header" id="header">
+		<div class="header-top">
+			<h1 class="logo"><a href="#">ROYAL CROWN</a></h1>
+			<div class="button-area">
+				<button type="button" class="button-global" data-button="lang">ENG</button>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="wrap">
+				<nav class="menu">
+				<ul class="list">
+							<li class=""><a href="../index.html">메인</a></li>
+							<li class="on"><a href="#">챔피언 순위</a></li>
+							<li><a href="#" data-button="commingsoon">맵 분석</a></li>
+						</ul>
+		</nav>
+				<div class="search-box">
+					<input type="text" placeholder="닉네임을 입력해주세요" />
+					<a href="#" class="button-search">검색</a>
+				</div>
+			</div>
+		</div>
+	</header>	<article class="sub-content">
+			<div class="wrap">
+
+
+				<div class="user-info-box">
+					<div class="user-image">
+						<span class="profile-img"><img src="https://static.line.games/rc/record/image/img-profile-sample.jpg?v=b48421684117908634" alt=""></span>
+					</div>
+					<div class="user-profile">
+						<strong class="user-nick">유저닉네임</strong>
+							<button type="button" class="button-renew" data-button="record"><em class="icon-renew"></em>전적갱신</button>
+						<span class="finish-renew">최종 갱신 : NN 시간 전</span>
+						
+					</div>
+				</div>
+
+				<div class="tier-info-box">
+					<div class="select-area">
+						<div class="select-box">
+							<button class="button-select" data-value="select">SEA</button>
+							<ul class="select-layer">
+								<li><button type="button" value="sea">SEA</button></li>
+								<li><button type="button" value="eu">EU</button></li>
+								<li><button type="button" value="sa">SA</button></li>
+								<li><button type="button" value="ea">EA</button></li>
+							</ul>
+						</div>
+						<div class="select-box">
+							<button class="button-select" data-value="select">프리시즌7</button>
+							<ul class="select-layer">
+								<li><button type="button" value="프리시즌7">프리시즌7</button></li>
+								<li><button type="button" value="프리시즌6">프리시즌6</button></li>
+								<li><button type="button" value="프리시즌5">프리시즌5</button></li>
+								<li><button type="button" value="프리시즌4">프리시즌4</button></li>
+								<li><button type="button" value="프리시즌3">프리시즌3</button></li>
+								<li><button type="button" value="프리시즌2">프리시즌2</button></li>
+								<li><button type="button" value="프리시즌1">프리시즌1</button></li>
+							</ul>
+						</div>
+					</div>
+					<ul class="tier-profile">
+						<li class="solo unrank">
+							<div class="tier-info">
+								<span class="tier-mark">솔로</span>
+								<p class="tier-unrank">Unranked</p>
+							</div>
+						</li>
+						<li class="duo">
+							<div class="tier-img">
+								<!--
+									* 각 티어별 클래스
+									* 브론즈 : tier-bronze
+									* 실버 : tier-silver
+									* 골드 : tier-gold
+									* 플래티넘 : tier-platinum
+									* 다이아몬드 : tier-diamond
+									* 마스터 : tier-master
+								-->
+								<i class="tier-master"></i>
+							</div>
+							<div class="tier-info">
+								<span class="tier-mark">듀오</span>
+								<strong class="tier-name">마스터</strong>
+								<p class="tier-record">
+										14,599P / 평균등수 2<br />
+										승% 56%  / TOP5% 30%<br />
+										랭킹 2위 (상위 0.01%)
+									</p>
+							</div>
+						</li>
+						<li class="squard">
+							<div class="tier-img">
+								<i class="tier-diamond"></i>
+							</div>
+							<div class="tier-info">
+								<span class="tier-mark">스쿼드</span>
+								<strong class="tier-name">다이아몬드</strong>
+								<p class="tier-record">
+										14,599P / 평균등수 2<br />
+										승% 56%  / TOP5% 30%<br />
+										랭킹 2위 (상위 0.01%)
+									</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="mod-tab-wrap">
+					<div class="mod-tab-area">
+						<ul class="mod-tab-list">
+							<li class="on"><a href="#">전체</a></li>
+							<li><a href="#">솔로</a></li>
+							<li><a href="#">듀오</a></li>
+							<li><a href="#">스쿼드</a></li>
+						</ul>
+					</div>
+
+					<div class="mod-tab-contents">
+						<div class="record-state">
+							<ul class="state-list">
+								<li class="stat-info">
+										<div class="state-head">최근 전체 20게임 스탯</div>
+									<div class="chart">
+										<canvas id="chart" width="300" height="300"></canvas>
+										<span class="chart-data"></span>
+									</div>
+								<ul class="state-info">
+										<li>순위<strong>2.3</strong></li>
+										<li>K/D/A <strong>3/7/5</strong></li>
+										<li>데미지<strong>48,500</strong></li>
+										<li>생존시간<strong>24:21</strong></li>
+									</ul>
+								</li>
+								<li>
+									<div class="champ-img">
+										<img src="https://static.line.games/rc/record/image/img-profile-sample.jpg?v=b48421684117908634" alt="">
+									</div>
+									<strong class="champ-name">챔피언이름</strong>
+									<span class="champ-txt">50%(1W 1L)</span>
+									<span class="champ-txt">3.25  KDA</span>
+								</li>
+								<li>
+									<div class="champ-img">
+										<img src="https://static.line.games/rc/record/image/img-profile-sample.jpg?v=b48421684117908634" alt="">
+									</div>
+									<strong class="champ-name">챔피언이름</strong>
+									<span class="champ-txt">50%(1W 1L)</span>
+									<span class="champ-txt">3.25  KDA</span>
+								</li>
+								<li>
+									<div class="champ-img">
+										<img src="https://static.line.games/rc/record/image/img-profile-sample.jpg?v=b48421684117908634" alt="">
+									</div>
+									<strong class="champ-name">챔피언이름</strong>
+									<span class="champ-txt">50%(1W 1L)</span>
+									<span class="champ-txt">3.25  KDA</span>
+								</li>
+							</ul>
+						</div>
+						<div class="record-detail">
+							<ul class="record-detail-list">
+								<!--
+									* 각 모드 클래스
+									* 솔로 : solo
+									* 듀오 : duo
+									* 스쿼드 : squard
+								-->
+								<li class="solo">
+									<div class="detail-state">
+										<span class="tier-mark">솔로</span>
+										<div class="rank-num">
+											<strong>#30</strong>/30
+										</div>
+										<p class="rank-time">15시간 전</p>
+									</div>
+									<div class="detail-profile">
+										<div class="champ-img">
+											<img src="https://static.line.games/rc/record/image/img-profile-sample.jpg?v=b48421684117908634" alt="">
+										</div>
+										<strong class="champ-name">챔피언이름</strong>
+									</div>
+								<div class="detail-info">킬<strong class="point-red">00</strong></div>
+										<div class="detail-info">데미지<strong class="point-gray">115,000</strong></div>
+										<div class="detail-info">생존 시간<strong class="point-blue">59:30</strong></div>
+									<div class="detail-member">
+										<a href="#">
+											<div class="detail-profile">
+												<div class="champ-img">
+													<img src="https://static.line.games/rc/record/image/img-profile-sample.jpg?v=b48421684117908634" alt="">
+												</div>
+												<strong class="champ-name">유저닉네임1</strong>
+											</div>
+										</a>
+										<a href="#">
+											<div class="detail-profile">
+												<div class="champ-img">
+													<img src="https://static.line.games/rc/record/image/img-profile-sample.jpg?v=b48421684117908634" alt="">
+												</div>
+												<strong class="champ-name">유저닉네임2</strong>
+											</div>
+										</a>
+										<a href="#">
+											<div class="detail-profile">
+												<div class="champ-img">
+													<img src="https://static.line.games/rc/record/image/img-profile-sample.jpg?v=b48421684117908634" alt="">
+												</div>
+												<strong class="champ-name">유저닉네임3</strong>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li class="duo">
+									<div class="detail-state">
+										<span class="tier-mark">듀오</span>
+										<div class="rank-num">
+											<strong>#4</strong>/30
+										</div>
+										<p class="rank-time">15시간 전</p>
+									</div>
+									<div class="detail-profile">
+										<div class="champ-img">
+											<img src="https://static.line.games/rc/record/image/img-profile-sample.jpg?v=b48421684117908634" alt="">
+										</div>
+										<strong class="champ-name">챔피언이름</strong>
+									</div>
+									<div class="detail-info">킬<strong class="point-red">00</strong></div>
+									<div class="detail-info">데미지<strong class="point-gray">999,989</strong></div>
+									<div class="detail-info">생존 시간<strong class="point-blue">59:30</strong></div>
+								<div class="detail-member">
+										<a href="#">
+											<div class="detail-profile">
+												<div class="champ-img">
+													<img src="https://static.line.games/rc/record/image/img-profile-sample.jpg?v=b48421684117908634" alt="">
+												</div>
+												<strong class="champ-name hlt">유저닉네임1</strong>
+											</div>
+										</a>
+										<a href="#">
+											<div class="detail-profile">
+												<div class="champ-img">
+													<img src="https://static.line.games/rc/record/image/img-profile-sample.jpg?v=b48421684117908634" alt="">
+												</div>
+												<strong class="champ-name">NARIHA P2245678PNARIHA P2245678PNARIHA P2245678P</strong>
+											</div>
+										</a>
+										<a href="#">
+											<div class="detail-profile">
+												<div class="champ-img">
+													<img src="https://static.line.games/rc/record/image/img-profile-sample.jpg?v=b48421684117908634" alt="">
+												</div>
+												<strong class="champ-name">유저닉네임3</strong>
+											</div>
+										</a>
+									</div>
+								</li> 
+								<li class="squard">
+									<div class="detail-state">
+										<span class="tier-mark">스쿼드</span>
+										<div class="rank-num">
+											<strong>#14</strong>/30
+										</div>
+										<p class="rank-time">15시간 전</p>
+									</div>
+									<div class="detail-profile">
+										<div class="champ-img">
+											<img src="https://static.line.games/rc/record/image/img-profile-sample.jpg?v=b48421684117908634" alt="">
+										</div>
+										<strong class="champ-name">김태완</strong>
+									</div>
+									<div class="detail-info">킬<strong class="point-red">00</strong></div>
+										<div class="detail-info">데미지<strong class="point-gray">999,989</strong></div>
+										<div class="detail-info">생존 시간<strong class="point-blue">59:30</strong></div>
+								<div class="detail-member">
+										<a href="#">
+											<div class="detail-profile">
+												<div class="champ-img">
+													<img src="https://static.line.games/rc/record/image/img-profile-sample.jpg?v=b48421684117908634" alt="">
+												</div>
+												<strong class="champ-name">이름없음</strong>
+											</div>
+										</a>
+										<a href="#">
+											<div class="detail-profile">
+												<div class="champ-img">
+													<img src="https://static.line.games/rc/record/image/img-profile-sample.jpg?v=b48421684117908634" alt="">
+												</div>
+												<strong class="champ-name">김두한</strong>
+											</div>
+										</a>
+										<a href="#">
+											<div class="detail-profile">
+												<div class="champ-img">
+													<img src="https://static.line.games/rc/record/image/img-profile-sample.jpg?v=b48421684117908634" alt="">
+												</div>
+												<strong class="champ-name">유저닉네임3</strong>
+											</div>
+										</a>
+									</div>
+								</li> 
+							</ul>
+							<div class="button-area">
+								<button type="button" class="button-more" data-button="more">더 보기</button>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+	</article>
+	<footer class="footer">
+		<div class="wrap">
+			<div class="foot-info">
+				<ul class="company-info">
+					<li><a href="https://line.games" target="_blank" class="button-foot-lg">라인게임즈</a></li>
+					<li><a href="#" target="_blank" class="button-foot-mc">미어캣게임즈</a></li>
+				</ul>
+				<p class="copy">&copy; LINE Games Corporation &amp; Meerkat GAMES. All Rights Reserved.</p>
+			</div>
+			<div class="foot-navi">
+				<ul class="list">
+					<li><a href="https://cs.line.games/policy/web/privacy?companyCd=LINE_GAMES&svcCd=LG_HOMEPAGE&langCd=ko" target="_blank">Privacy Policy</a></li>
+					<li><a href="https://cs.line.games/policy/web/terms?companyCd=LINE_GAMES&svcCd=LG_HOMEPAGE&langCd=ko" target="_blank">Terms of Service</a></li>
+					<li><a href="https://cs.line.games/policy/cookie/policy?companyCd=LINE_GAMES&langCd=en" target="_blank">Cookies Policy</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+		<div class="layerpopup contents" data-popup-id="language">
+			<div class="layer-wrap">
+				<div class="layer-head">서버 / 언어설정</div>
+				<div class="layer-content">
+					<ul class="language-list">
+						<li>
+							<strong class="head">서버 선택</strong>
+							<ul class="contents">
+								<li>
+									<label>
+										<input type="radio" name="server" class="radiobox">SEA
+									</label> 
+								</li>
+								<li>
+									<label>
+										<input type="radio" name="server" class="radiobox">EU
+									</label> 
+								</li>
+								<li>
+									<label>
+										<input type="radio" name="server" class="radiobox">SA
+									</label> 
+								</li>
+								<li>
+									<label>
+										<input type="radio" name="server" class="radiobox" checked="checked">EA
+									</label> 
+								</li>
+							</ul>
+						</li>
+						<li>
+							<strong class="head">언어 선택</strong>
+							<ul class="contents">
+								<li>
+									<label>
+										<input type="radio" name="language" class="radiobox">한국어
+									</label> 
+								</li>
+								<li>
+									<label>
+										<input type="radio" name="language" class="radiobox" checked="checked">English
+									</label> 
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="button-wrap">
+						<button class="button-primary">저장</button>
+						<button class="button-default" data-button="close">취소</button>
+				</div>
+			</div>
+		</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="layerpopup" data-popup-id="commingsoon">
+		<div class="layer-wrap">
+			<div class="layer-content">
+				<div class="content-area" data-wrap="content">
+						Coming Soon!
+				</div>
+			</div>
+			<div class="button-wrap">
+					<button class="button-primary close" data-button="close">확인</button>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+
+	<script>
+
+		window.addEventListener('load', _ => {
+
+			// 언어선택 팝업
+			let languagePopup = new Linegames.LayerPopup( document.querySelector( '[data-popup-id="language"]' ), {
+				elementHidden: true, // 레이어 팝업을 css 숨김이 아닌 html내 마크업을 remove / append 로 관리 합니다.
+				showCallback : function(wrap) {  }, // 팝업이 보여진 후 callback
+				hiddenCallback : function(wrap) {  } // 팝업이 사라진 후 callback
+			});
+		
+			document.querySelector('[data-button="lang"]').addEventListener('click', _ => {
+				languagePopup.show();
+			});
+
+			// Comming soon 팝업
+			let commingSoonPopup = new Linegames.LayerPopup( document.querySelector( '[data-popup-id="commingsoon"]' ), {
+				elementHidden: true, 
+				showCallback : function(wrap) {  }, 
+				hiddenCallback : function(wrap) {  } 
+			});
+
+			document.querySelector('[data-button="commingsoon"]').addEventListener('click', e => {
+				e.preventDefault();
+				commingSoonPopup.show();
+			});
+
+			// 차트 그리기
+			if(document.querySelector('.chart')){
+				let chart = new Linegames.Chart(document.querySelector('.chart'), {
+					data: {
+						numberData: 1, // 데이터 갯수 세팅
+						parts:{ "pt" : [40] }, // 각 퍼센트 게이지
+						colors:{ "cs" : ["#9b6bff"] } // 데이터 별 차트 색상
+					}
+				});
+			}
+
+			// 전적갱신 버튼 클릭 시 로딩 Effect 효과는 button-renew 에 active 클래스를 추가해주시면 됩니다
+			if(document.querySelector('[data-button="record"]')){
+				document.querySelector('[data-button="record"]').addEventListener('click', function() {
+					this.classList.add('active');
+					// 1초후에 active 클래스 제거
+					setTimeout(_ => {
+						this.classList.remove('active');
+					}, 1000);
+				});
+			}
+
+			// 셀렉트 박스 레이어 클릭 이벤트
+			new Linegames.SelectLayer(document.querySelectorAll('.select-box'));
+
+		});	
+	</script>
+
+</div>
+
+
+</body>
+</html>
