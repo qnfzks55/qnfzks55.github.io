@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+    <defs>
+        <style>
+            .cls-1{opacity:.3}.cls-2{fill:rgba(0,0,0,0)}.cls-3{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="my_page_setting_ic" class="cls-1" transform="translate(-790 -764)">
+        <path id="사각형_467" d="M0 0h72v72H0z" class="cls-2" data-name="사각형 467" transform="translate(790 764)"/>
+        <g id="그룹_115" data-name="그룹 115" transform="translate(809.662 783.662)">
+            <path id="패스_61" d="M511.011 501.238v-4.58l-4.107-1.251a11.755 11.755 0 0 0-.814-1.946l2.026-3.8-3.238-3.238-3.8 2.026a11.759 11.759 0 0 0-1.946-.814l-1.251-4.108H493.3l-1.251 4.108a11.71 11.71 0 0 0-1.946.814l-3.8-2.026-3.238 3.238 2.024 3.8a11.722 11.722 0 0 0-.813 1.946l-4.109 1.251v4.58l4.109 1.251a11.723 11.723 0 0 0 .813 1.946l-2.024 3.8 3.238 3.238 3.8-2.024a11.815 11.815 0 0 0 1.946.813l1.251 4.109h4.58l1.251-4.109a11.865 11.865 0 0 0 1.946-.813l3.8 2.024 3.238-3.238-2.026-3.8a11.713 11.713 0 0 0 .814-1.946z" class="cls-3" data-name="패스 61" transform="translate(-480.173 -483.53)"/>
+            <circle id="타원_12" cx="4.02" cy="4.02" r="4.02" class="cls-3" data-name="타원 12" transform="translate(11.399 11.398)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="_00_name" width="48" height="48" data-name="00_name" viewBox="0 0 48 48">
+    <defs>
+        <style>
+            .cls-1{fill:rgba(227,186,186,0)}.cls-2,.cls-4,.cls-6{fill:none}.cls-2,.cls-3,.cls-4{stroke:#454545}.cls-2,.cls-4{stroke-linecap:round}.cls-2,.cls-3{stroke-width:2px}.cls-2{stroke-miterlimit:10}.cls-3{fill:#fff}.cls-5{stroke:none}
+        </style>
+    </defs>
+    <path id="사각형_246" d="M0 0h48v48H0z" class="cls-1" data-name="사각형 246"/>
+    <path id="사각형_748" d="M0 0h48v48H0z" class="cls-1" data-name="사각형 748"/>
+    <g id="그룹_3342" data-name="그룹 3342" transform="translate(5 6)">
+        <ellipse id="타원_79" cx="9.482" cy="9.482" class="cls-2" data-name="타원 79" rx="9.482" ry="9.482" transform="translate(9.018 1)"/>
+        <path id="패스_251" d="M425.629 1069.971a14.984 14.984 0 0 0-4.272-10.473l-.144-.146a14.987 14.987 0 0 0-10.619-4.417h-4.928a15.08 15.08 0 0 0-15.036 15.036" class="cls-2" data-name="패스 251" transform="translate(-389.629 -1034.424)"/>
+        <g id="타원_373" class="cls-3" data-name="타원 373" transform="translate(25 22)">
+            <circle cx="8" cy="8" r="8" class="cls-5"/>
+            <circle cx="8" cy="8" r="7" class="cls-6"/>
+        </g>
+        <g id="_" data-name="+" transform="translate(-4.5 -5.5)">
+            <path id="선_128" d="M0 0v6" class="cls-4" data-name="선 128" transform="translate(37.5 32.5)"/>
+            <path id="선_129" d="M0 0v6" class="cls-4" data-name="선 129" transform="rotate(90 2.5 38)"/>
+        </g>
+    </g>
+</svg>

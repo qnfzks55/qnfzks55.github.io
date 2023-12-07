@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <style>
+            .cls-1,.cls-4{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#6788e6}.cls-4{stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h100v100H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="url_launcher_ic" class="cls-2">
+        <g id="그룹_3134" data-name="그룹 3134" transform="translate(-1267 -555)">
+            <circle id="타원_32" cx="50" cy="50" r="50" class="cls-3" data-name="타원 32" transform="translate(1267 555)"/>
+            <g id="Vector_Smart_Object" data-name="Vector Smart Object" transform="translate(-4784.883 -417.095)">
+                <g id="Vector_Smart_Object-2" data-name="Vector Smart Object">
+                    <path id="패스_135" d="M6099.455 1032.866l-1.67 1.719a5.7 5.7 0 0 1-8.209 0 6.122 6.122 0 0 1 0-8.453l7.219-7.433a5.7 5.7 0 0 1 8.209 0" class="cls-4" data-name="패스 135"/>
+                    <path id="패스_136" d="M6103.524 1011.769l1.874-1.93a5.7 5.7 0 0 1 8.21 0 6.122 6.122 0 0 1 0 8.454l-7.218 7.433a5.7 5.7 0 0 1-8.209 0" class="cls-4" data-name="패스 136"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

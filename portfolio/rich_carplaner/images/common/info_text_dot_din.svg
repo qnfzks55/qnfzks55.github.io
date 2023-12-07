@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4">
+    <defs>
+        <style>
+            .cls-1{fill:#b2b1b0}.cls-2{fill:#00ff19;opacity:0}
+        </style>
+    </defs>
+    <g id="info_text_dot_din" transform="translate(-83 -2476)">
+        <circle id="info_text_dot" cx="2" cy="2" r="2" class="cls-1" transform="translate(83 2476)"/>
+        <path id="G_4_4" d="M0 0h4v4H0z" class="cls-2" data-name="G_4*4" transform="translate(83 2476)"/>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .prefix__cls-2{isolation:isolate}
+        </style>
+    </defs>
+    <g id="prefix__icon_num_1" transform="translate(-335 -992)">
+        <rect id="prefix__사각형_457" width="40" height="40" data-name="사각형 457" rx="20" transform="translate(335 992)" style="fill:#263c96"/>
+        <g id="prefix___1" class="prefix__cls-2" data-name="1" transform="translate(349.999 1003.666)">
+            <g id="prefix__그룹_6529" class="prefix__cls-2" data-name="그룹 6529">
+                <path id="prefix__패스_4880" d="M680.248 393.268a1.521 1.521 0 0 1 .877.232.872.872 0 0 1 .337.772v14.838a.83.83 0 0 1-.35.748 1.555 1.555 0 0 1-1.633 0 .833.833 0 0 1-.35-.748v-13.089l-3.5 2.147a.915.915 0 0 1-.84.093 1.228 1.228 0 0 1-.758-1.342.87.87 0 0 1 .48-.643l4.175-2.5a5.542 5.542 0 0 1 .84-.383 2.25 2.25 0 0 1 .722-.125z" data-name="패스 4880" transform="translate(-674.016 -393.268)" style="fill:#fff"/>
+            </g>
+        </g>
+    </g>
+</svg>

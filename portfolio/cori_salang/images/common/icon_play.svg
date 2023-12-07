@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__icon_play" width="60" height="60" viewBox="0 0 60 60">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__그룹_7133" data-name="그룹 7133" transform="translate(-602.011 66.517)">
+        <g id="prefix__타원_192" data-name="타원 192">
+            <circle id="prefix__타원_243" cx="30" cy="30" r="30" data-name="타원 243" transform="translate(602.011 -66.517)" style="opacity:.2;fill:#fff"/>
+            <path id="prefix__패스_5325" d="M632.012-6.517a30.034 30.034 0 0 1-30-30 30.034 30.034 0 0 1 30-30 30.034 30.034 0 0 1 30 30 30.034 30.034 0 0 1-30 30zm0-59a29.032 29.032 0 0 0-29 29 29.032 29.032 0 0 0 29 29 29.033 29.033 0 0 0 29-29 29.033 29.033 0 0 0-29-29z" class="prefix__cls-2" data-name="패스 5325"/>
+        </g>
+        <path id="prefix__패스_4863" d="M624.011-27.853v-17.329a2.3 2.3 0 0 1 1.211-2.025 2.442 2.442 0 0 1 2.414.015l15.19 8.664a2.3 2.3 0 0 1 .892 3.128 2.3 2.3 0 0 1-.892.892l-15.19 8.664a2.447 2.447 0 0 1-2.414.015 2.3 2.3 0 0 1-1.211-2.024z" class="prefix__cls-2" data-name="패스 4863"/>
+    </g>
+</svg>

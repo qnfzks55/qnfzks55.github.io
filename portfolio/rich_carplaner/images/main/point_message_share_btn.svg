@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;stroke:#d4d4d4}.cls-2{fill:#454545}.cls-3{stroke:none}.cls-4{fill:none}
+        </style>
+    </defs>
+    <g id="point_message_share_btn" transform="translate(-476 -743)">
+        <g id="타원_111" class="cls-1" data-name="타원 111" transform="translate(476 743)">
+            <ellipse cx="36" cy="36" class="cls-3" rx="36" ry="36"/>
+            <ellipse cx="36" cy="36" class="cls-4" rx="35.5" ry="35.5"/>
+        </g>
+        <path id="패스_1003" d="M-2149.724 7563.967h-29.934a3.8 3.8 0 0 0-3.783 3.81v20.5a3.8 3.8 0 0 0 3.783 3.811h29.934a3.8 3.8 0 0 0 3.783-3.811v-20.5a3.8 3.8 0 0 0-3.783-3.81zm-14.967 16.673l-14.147-14.216h28.292zm-16.309-12.864v-.05l10.587 10.639-10.589 9.477zm12.321 12.327l2.552 2.565a2.009 2.009 0 0 0 1.436.6 2.007 2.007 0 0 0 1.434-.6l2.455-2.467 10.536 9.43h-29.061zm9.608-1.64l10.686-10.737V7588.03z" class="cls-2" data-name="패스 1003" transform="translate(2676.441 -6799.029)"/>
+    </g>
+</svg>

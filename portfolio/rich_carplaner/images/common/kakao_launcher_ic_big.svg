@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <style>
+            .cls-1{fill:#ffeb00}.cls-2{fill:#482d2f}
+        </style>
+    </defs>
+    <g id="kakao_launcher_ic" transform="translate(-1138 -555)">
+        <g id="그룹_3135" data-name="그룹 3135">
+            <g id="share_kakao" transform="translate(1138 555)">
+                <circle id="타원_32" cx="50" cy="50" r="50" class="cls-1" data-name="타원 32"/>
+                <path id="패스_161" d="M232.962 90.142c-12.172 0-22.036 7.859-22.036 17.551 0 6.162 3.989 11.58 10.021 14.711l-1.665 8.63 9.53-6.1a27.57 27.57 0 0 0 4.15.315c12.171 0 22.037-7.859 22.037-17.552s-9.866-17.555-22.037-17.555z" class="cls-2" data-name="패스 161" transform="translate(-183.343 -59.327)"/>
+            </g>
+        </g>
+    </g>
+</svg>

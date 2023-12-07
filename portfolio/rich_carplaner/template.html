@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>리치 카플래너 - 가이드</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Author" content="" />
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="리치 카플래너" />
+    <meta property="og:description" content="리치 카플래너" />
+    <!-- <meta
+      property="og:image"
+      content="http://richnco.co.kr/static/img/event/goodrichlounge/GoodRich_Lounge.jpg"
+    /> -->
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="js/lib/swiper/css/swiper.min.css"
+    />
+    <!-- <link
+      rel="apple-touch-icon-precomposed"
+      href="/static/img/common/hicon_114.png"
+    /> -->
+    <!-- <link
+      rel="shortcut icon"
+      sizes="96x96"
+      href="/static/img/common/hicon_96.png"
+    /> -->
+  </head>
+
+  <body>
+    <div style="padding: 3%;">
+      <div>
+        <strong>공통 헤더 - type1 (position: static 삭제 후 사용)</strong>
+        <div class="head_default_type1" style="position: static">
+          <a href="#" class="btn_back">뒤로가기</a>
+          이용약관 동의
+        </div>
+      </div>
+      <div>
+        <strong>공통 헤더 - type2 (position: static 삭제 후 사용)</strong>
+        <div class="head_default_type2" style="position: static">
+          <a href="#" class="btn_back">뒤로가기</a>
+          이용약관 동의
+        </div>
+      </div>
+      <div>
+        <strong>공통 헤더 - type3 (position: static 삭제 후 사용)</strong>
+        <div style="position: relative;">
+          <div class="head_default_type3" style="position: static">
+            <a href="#" class="btn_close"
+              ><img src="images/common/main_title_cancel_ic.svg" alt="닫기"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div>
+        <strong>탭메뉴 (position: static 삭제 후 사용)</strong>
+        <div class="tab_menu" style="position: static">
+          <ul>
+            <li class="on"><a href="#">수리/정비이력조회</a></li>
+            <li class=""><a href="#">조회 이력 확인</a></li>
+          </ul>
+        </div>
+        <br />
+        <div class="tab_menu_type2" style="position: static">
+          <ul class="js-tab-type">
+            <li class="on"><a href="#agree1" class="one">이용약관</a></li>
+            <li>
+              <a href="#agree2">개인정보<br />처리방침</a>
+            </li>
+            <li>
+              <a href="#agree3">개인정보<br />수집동의</a>
+            </li>
+            <li>
+              <a href="#agree4">마케팅<br />수신동의</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <strong>버튼(하단) - btn_default_w</strong><br />
+        <div style="background:#6788e6; display: inline-block; padding: 5%">
+          <button type="submit" class="btn_default_w">버튼</button>
+        </div>
+      </div>
+      <div>
+        <strong>버튼(하단) - btn_default</strong><br />
+        <button type="submit" class="btn_default">버튼</button>
+      </div>
+      <br />
+      <div>
+        <strong>caption1</strong>
+        <ul class="list_info_text">
+          <li>
+            수리 정비 이력 조회 시 포인트가 차감되며, 차량 조회 기간은 7일
+            입니다.
+          </li>
+          <li>
+            조회되는 정보는 정비/매매/검사 시에 해당 관리사업자가 입력한 것으로
+            오류가 있을 수 있습니다.
+          </li>
+          <li>
+            자동차 관리법 제59조제1항제1호에 따라 신고된 매매용 자동차의
+            경우에는 자동차소유자의 동의를 받지 아니하고 제14조의3제1호의 정보를
+            제공할 수 있습니다.
+          </li>
+        </ul>
+        <strong>caption2</strong>
+        <ul class="list_info_text_din">
+          <li>
+            수리 정비 이력 조회 시 포인트가 차감되며, 차량 조회 기간은 7일
+            입니다.
+          </li>
+          <li>
+            조회되는 정보는 정비/매매/검사 시에 해당 관리사업자가 입력한 것으로
+            오류가 있을 수 있습니다.
+          </li>
+          <li>
+            자동차 관리법 제59조제1항제1호에 따라 신고된 매매용 자동차의
+            경우에는 자동차소유자의 동의를 받지 아니하고 제14조의3제1호의 정보를
+            제공할 수 있습니다.
+          </li>
+        </ul>
+      </div>
+      <div>
+        <strong>Popup - modal</strong>
+        <button
+          type="button"
+          class="btn_square_dark"
+          onclick="richCarPlanetUI.layerPopUp({ selId: '#sample_modal'}); return false"
+        >
+          샘플모달(modal)
+        </button>
+        <div class="pop_layer modal" id="sample_modal" data-layer-type="modal">
+          <div class="pop_content">
+            <div class="pop_head">
+              <h3>휴면회원</h3>
+              <a href="#" class="btn_close"
+                ><img src="images/common/main_title_cancel_ic.svg" alt="닫기"
+              /></a>
+            </div>
+            <div class="pop_txt">
+              <strong>
+                진한폰트
+              </strong>
+              <strong class="t_l">
+                진한폰트 (좌측정렬 일때)
+              </strong>
+              내용입니다.<br />내용2123
+            </div>
+            <div class="pop_btn_area">
+              <ul>
+                <li>
+                  <button type="button" class="btn_square_dark">취소</button>
+                </li>
+                <li>
+                  <button type="button" class="btn_square_default">
+                    휴면해제
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <strong>Popup - fixed-modal</strong>
+        <button
+          type="button"
+          class="btn_square_dark"
+          onclick="richCarPlanetUI.layerPopUp({ selId: '#sample_fixed_modal'}); return false"
+        >
+          샘플모달(fixed-modal)
+        </button>
+        <div
+          class="pop_layer fixed-modal"
+          id="sample_fixed_modal"
+          data-layer-type="fixed-modal"
+        >
+          <div class="pop_content">
+            <div class="pop_head">
+              <h3>휴면회원</h3>
+              <a href="#" class="btn_close"
+                ><img src="images/common/main_title_cancel_ic.svg" alt="닫기"
+              /></a>
+            </div>
+            <div class="pop_txt">
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+              내용입니다.<br />
+            </div>
+            <div class="pop_btn_area">
+              <ul>
+                <li>
+                  <button type="button" class="btn_square_dark">취소</button>
+                </li>
+                <li>
+                  <button type="button" class="btn_square_default">
+                    휴면해제
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <strong>Popup - layer</strong>
+        <button
+          type="button"
+          class="btn_square_dark"
+          onclick="richCarPlanetUI.layerPopUp({ selId: '#gnb'}); return false"
+        >
+          샘플모달(Layer)
+        </button>
+        <div class="pop_layer layer" id="gnb" data-layer-type="layer">
+          <div class="pop_head">
+            <div class="sub_logo">
+              <img src="images/common/sub_logo.png" alt="리치 카플래닛" />
+            </div>
+            <a href="#" class="btn_close"
+              ><img src="images/common/main_title_cancel_ic.svg" alt="닫기"
+            /></a>
+          </div>
+          <div class="pop_content"></div>
+        </div>
+      </div>
+      <br />
+      <div style="position: relative">
+        <strong>Data Layer Select</strong>
+        <div class="input_type2">
+          <div class="layer_box">
+            <div class="layer_head">
+              <input type="text" value="데이타선택" readonly />
+              <!-- <button type="button" class="btn_layer_open">
+                펼치기
+              </button> -->
+            </div>
+            <div class="layer_cnt">
+              <ul>
+                <li>카카로트</li>
+                <li>베지타</li>
+                <li>크리링</li>
+                <li>마인부우</li>
+                <li>부르마</li>
+                <li>셀</li>
+                <li>트랭크스</li>
+                <li>미스터사탄</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div>
+        <strong>기본 폼</strong><br /><br />
+        <div class="input_type2">
+          <div class="title"><label for="member_name">이름</label></div>
+          <div class="wrap">
+            <div class="view_txt">
+              <input type="text" name="" placeholder="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div>
+        <strong>기본 폼 - 셀렉트 박스</strong><br /><br />
+        <div class="input_type2">
+          <div class="title mb_0">타이틀</div>
+          <div class="wrap pb_0">
+            <select class="type3">
+              <option value="NH농협">NH농협</option>
+              <option value="우리은행">우리은행</option>
+              <option value="신한은행">신한은행</option>
+              <option value="KB국민은행">KB국민은행</option>
+              <option value="하나은행">하나은행</option>
+              <option value="외환은행">외환은행</option>
+              <option value="IBK기업은행">IBK기업은행</option>
+              <option value="케이뱅크">케이뱅크</option>
+              <option value="카카오뱅크">카카오뱅크</option>
+              <option value="새마을금고">새마을금고</option>
+              <option value="BNK 부산은행">BNK 부산은행</option>
+              <option value="BNK 경남은행">BNK 경남은행</option>
+              <option value="광주은행">광주은행</option>
+              <option value="전북은행">전북은행</option>
+              <option value="신협">신협</option>
+              <option value="SC제일은행">SC제일은행</option>
+              <option value="KDB산업은행">KDB산업은행</option>
+              <option value="대구은행">대구은행</option>
+              <option value="제주은행">제주은행</option>
+              <option value="우체국">우체국</option>
+              <option value="수협">수협</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <!-- <div>
+        <strong>기본 폼 - 셀렉트 박스</strong><br /><br />
+        <div class="input_type2">
+          <div class="title not_size_title">
+            <label for="member_name">필드에요</label>
+          </div>
+          <div class="wrap pb_0">
+            <div class="view_txt m_0">
+              <div class="layer_box">
+                <div class="layer_head">
+                  <input type="text" value="데이타선택" readonly />
+                  <button type="button" class="btn_layer_open">
+                    펼치기
+                  </button>
+                </div>
+                <div class="layer_cnt">
+                  <ul>
+                    <li>카카로트</li>
+                    <li>베지타</li>
+                    <li>크리링</li>
+                    <li>마인부우</li>
+                    <li>부르마</li>
+                    <li>셀</li>
+                    <li>트랭크스</li>
+                    <li>미스터사탄</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+    <div>
+      <div class="common_loading on">
+        <div class="loading_guide">페이지 이동 중입니다.</div>
+      </div>
+    </div>
+    <script src="js/lib/jquery/jquery-1.12.4.min.js"></script>
+    <script src="js/lib/swiper/js/swiper.min.js"></script>
+    <script src="js/util.js"></script>
+    <script src="js/ui.js"></script>
+  </body>
+</html>

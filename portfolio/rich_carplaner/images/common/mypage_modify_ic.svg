@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{stroke:#454545;stroke-linejoin:round;stroke-width:3px}.cls-4{fill:#08ff00;opacity:0}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h40v40H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="mypage_modify_ic" class="cls-2">
+        <path id="선_53" d="M0 0h19.671" class="cls-3" data-name="선 53" transform="translate(9.829 25.166)"/>
+        <path id="패스_429" d="M564.147 764.065l4.67 4.67-4.67 4.669" class="cls-3" data-name="패스 429" transform="translate(-539.317 -743.568)"/>
+        <path id="선_54" d="M19.671 0H0" class="cls-3" data-name="선 54" transform="translate(9.829 13.67)"/>
+        <path id="패스_430" d="M535.947 738.874l-4.67 4.67 4.67 4.67" class="cls-3" data-name="패스 430" transform="translate(-521.449 -729.874)"/>
+        <path id="사각형_636" d="M0 0h40v40H0z" class="cls-4" data-name="사각형 636"/>
+    </g>
+</svg>

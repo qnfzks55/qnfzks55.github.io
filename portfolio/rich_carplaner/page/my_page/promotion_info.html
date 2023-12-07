@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>리치 카플래너</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Author" content="" />
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="리치 카플래너" />
+    <meta property="og:description" content="리치 카플래너" />
+    <!-- <meta
+      property="og:image"
+      content="http://richnco.co.kr/static/img/event/goodrichlounge/GoodRich_Lounge.jpg"
+    /> -->
+    <link rel="stylesheet" type="text/css" href="../../css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/sub1.css" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="../../images/common/hicon_512.png"
+    />
+    <link
+      rel="shortcut icon"
+      sizes="512x512"
+      href="../../images/common/hicon_512.png"
+    />
+  </head>
+
+  <body>
+    <div class="head_default_type1">
+      <a href="../../index.html" class="btn_back">뒤로가기</a>
+      <em>홍보정보 변경</em>
+    </div>
+    <div class="cnt_default_type5">
+      <div class="my_info_wrap">
+        <div class="my_info_body">
+          <ul class="account_info_list side_box">
+            <li>
+              <div class="input_type3">
+                <div class="title mb_0">
+                  <label for="ment">인사말</label>
+                </div>
+                <div class="form_txt">
+                  <textarea
+                    id="ment"
+                    name="ment"
+                    cols=""
+                    rows=""
+                    placeholder="예시) 차량선택부터 시승, 대출, 이력조회, 자동차 보험까지 중고차 구매에 필요한 모든 것을 상담해 드립니다."
+                    class=""
+                  ></textarea>
+                </div>
+              </div>
+              <ul class="list_info_text mt_20">
+                <li>
+                  인사말은 <span class="hlt">최대 60자까지</span> 등록
+                  가능합니다.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <div class="input_type2">
+                <div class="title">
+                  <label for="promotion_url">내 중고차 매물 URL</label>
+                </div>
+                <div class="wrap">
+                  <input
+                    type="text"
+                    name=""
+                    id="promotion_url"
+                    placeholder="예시) www.richcarplanner.com"
+                  />
+                </div>
+              </div>
+              <ul class="list_info_text mt_20">
+                <li>
+                  홍보할 중고차 매물 <span class="hlt">URL을 입력</span>해주세요
+                </li>
+              </ul>
+            </li>
+            <li>
+              <div class="input_type2">
+                <div class="title mb_0">
+                  <label for="promotion_url">홍보 이미지 등록</label>
+                </div>
+                <div class="wrap2 txt">
+                  이미지는 <span class="hlt">최대 3개까지</span> 등록 가능
+                  <button type="button" class="btn_round_b btn_promotion_img">
+                    추가
+                  </button>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <ul class="account_info_list2">
+            <li>
+              <div class="input_type2">
+                <div class="title">
+                  이미지
+                  <button
+                    type="button"
+                    class="btn_re_photo"
+                    style="display: block;"
+                  >
+                    재등록
+                  </button>
+                </div>
+                <div class="wrap p_0">
+                  <div class="input_file">
+                    <div class="file_area">
+                      <label class="file_label">
+                        <input
+                          type="file"
+                          class="upload_hidden"
+                          id="acco_img"
+                        />
+                        <div class="add_bg">
+                          <img
+                            src="../../images/common/identity_card_add_ic.svg"
+                            alt="이미지 등록"
+                          /><br />
+                          <span class="file_guide">
+                            이미지 등록<br />
+                            최적화 사이즈 (580*320)
+                          </span>
+                        </div>
+                      </label>
+                      <img
+                        src="#"
+                        alt=""
+                        id="acco_img_upload"
+                        class="upload_img"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="input_type2 mt_40">
+                <div class="title">
+                  <label for="img_add_url">이미지 연동 URL 등록</label>
+                </div>
+                <div class="wrap txt">
+                  <input
+                    type="text"
+                    name=""
+                    id="img_add_url"
+                    placeholder="예시) www.richcarplanner.com"
+                  />
+                </div>
+                <ul class="list_info_text mt_20">
+                  <li>
+                    이미지에 <span class="hlt">연결할 URL을 입력</span>해주세요
+                  </li>
+                </ul>
+                <button type="button" class="btn_round_b btn_promotion_del">
+                  삭제
+                </button>
+              </div>
+            </li>
+          </ul>
+          <div class="btn_area cnt_default_type1">
+            <button type="button" class="btn_default_b">수정</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../../js/lib/jquery/jquery-1.12.4.min.js"></script>
+    <script src="../../js/lib/swiper/js/swiper.min.js"></script>
+    <script src="../../js/util.js"></script>
+    <script src="../../js/ui.js"></script>
+    <script>
+      $(function() {
+        var promotion_num = 1;
+        var $acco_list = $(".account_info_list2");
+        var $img_list = $acco_list.find("li").html();
+
+        $(".btn_promotion_img").on("click", function() {
+          promotion_num++;
+          if (promotion_num <= 3 && promotion_num != null) {
+            $acco_list.append("<li>" + $img_list + "</li>");
+          } else {
+            alert("홍보 이미지는 최대 3개까지 등록 가능합니다.");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

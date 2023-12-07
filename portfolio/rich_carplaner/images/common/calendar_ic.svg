@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="calendar_ic" width="44" height="44" viewBox="0 0 44 44">
+    <defs>
+        <style>
+            .cls-1{fill:#959595}.cls-2{fill:#0f2;opacity:0}
+        </style>
+    </defs>
+    <g id="calendar_ic-2" data-name="calendar_ic" transform="translate(-322.959 -2725.894)">
+        <path id="패스_1770" d="M356.959 2773h-23v-21.3h23zm-20.5-2.5h18v-16.3h-18z" class="cls-1" data-name="패스 1770" transform="translate(0 -13.649)"/>
+        <g id="그룹_3289" data-name="그룹 3289" transform="translate(339.922 2735.894)">
+            <path id="사각형_596" d="M0 0h2.457v7.099H0z" class="cls-1" data-name="사각형 596"/>
+            <path id="사각형_597" d="M0 0h2.457v7.099H0z" class="cls-1" data-name="사각형 597" transform="translate(8.618)"/>
+        </g>
+        <g id="그룹_3290" data-name="그룹 3290" transform="translate(338.339 2745.914)">
+            <path id="사각형_598" d="M0 0h2.486v2.486H0z" class="cls-1" data-name="사각형 598"/>
+            <path id="사각형_599" d="M0 0h2.486v2.486H0z" class="cls-1" data-name="사각형 599" transform="translate(3.918)"/>
+            <path id="사각형_600" d="M0 0h2.486v2.486H0z" class="cls-1" data-name="사각형 600" transform="translate(7.836)"/>
+            <path id="사각형_601" d="M0 0h2.486v2.486H0z" class="cls-1" data-name="사각형 601" transform="translate(11.754)"/>
+        </g>
+        <g id="그룹_3291" data-name="그룹 3291" transform="translate(338.339 2750.292)">
+            <path id="사각형_602" d="M0 0h2.486v2.486H0z" class="cls-1" data-name="사각형 602"/>
+            <path id="사각형_603" d="M0 0h2.486v2.486H0z" class="cls-1" data-name="사각형 603" transform="translate(3.918)"/>
+            <path id="사각형_604" d="M0 0h2.486v2.486H0z" class="cls-1" data-name="사각형 604" transform="translate(7.836)"/>
+            <path id="사각형_605" d="M0 0h2.486v2.486H0z" class="cls-1" data-name="사각형 605" transform="translate(11.754)"/>
+        </g>
+    </g>
+    <path id="사각형_654" d="M0 0h44v44H0z" class="cls-2" data-name="사각형 654"/>
+</svg>

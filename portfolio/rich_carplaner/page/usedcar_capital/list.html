@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>리치 카플래너</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Author" content="" />
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="리치 카플래너" />
+    <meta property="og:description" content="리치 카플래너" />
+    <!-- <meta
+      property="og:image"
+      content="http://richnco.co.kr/static/img/event/goodrichlounge/GoodRich_Lounge.jpg"
+    /> -->
+    <link rel="stylesheet" type="text/css" href="../../css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/sub1.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/sub2.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../js/lib/swiper/css/swiper.min.css"
+    />
+    <!-- <link
+      rel="apple-touch-icon-precomposed"
+      href="/static/img/common/hicon_114.png"
+    /> -->
+    <!-- <link
+      rel="shortcut icon"
+      sizes="96x96"
+      href="/static/img/common/hicon_96.png"
+    /> -->
+  </head>
+
+  <body>
+    <div id="wrap">
+      <div class="head_default_type1">
+        <a href="../../index.html" class="btn_back">뒤로가기</a>
+        <em>중고차 캐피탈</em>
+      </div>
+      <div class="cnt_default_type5">
+        <div class="round_list_wrap">
+          <ul class="used_car_list">
+            <li class="active">
+              <a href="orix_capital.html">
+                <span class="bank_logo orix">오릭스 캐피탈</span>
+                <strong class="bank_tit">오릭스 캐피탈</strong>
+                <span class="round_tit">금리</span>
+                <strong class="round_cnt">연 4.9~16.9%</strong>
+                <span class="round_tit">최대</span>
+                <strong class="round_cnt">1억원</strong>
+                <p class="round_point hlt">※7등급 가입가능! 예외승인 가능!</p>
+                <div class="round_guide">
+                  7등급 금리 5.9% ~ 15.9% 적용<br />(개인신용 및 조건에 따라
+                  금리가 다릅니다.)
+                </div>
+                <ul class="bank_manage_list">
+                  <li>
+                    <button type="button" class="btn_default_b">
+                      고객상담
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      type="button"
+                      class="btn_default_b"
+                      onclick="richCarPlanetUI.layerPopUp({ selId: '#pop_breakdown'}); return false"
+                    >
+                      내역확인
+                    </button>
+                  </li>
+                </ul>
+              </a>
+              <div class="btn_record_share_con">
+                <button
+                  type="button"
+                  class="btn_icon btn_mail"
+                  onclick="richCarPlanetUI.layerPopUp({ selId: '.share_modal'}); return false"
+                >
+                  <img
+                    src="../../images/sub/repair/point_message_share_btn_repair.svg"
+                    alt="메일"
+                  />
+                </button>
+                <button class="btn_icon">
+                  <img
+                    src="../../images/main/point_kakao_share_btn.svg"
+                    alt="카카오톡"
+                  />
+                </button>
+              </div>
+            </li>
+            <!-- <li class="disabled">
+              <a href="#">
+                <span class="bank_logo nh">농협 개피탈</span>
+                <strong class="bank_tit">농협 캐피탈</strong>
+                <span class="round_tit"
+                  >다양한 캐피탈 서비스가 곧 출시됩니다.</span
+                >
+                <strong>연6.2~23%</strong>
+                <span class="round_tit">최대</span>
+                <strong>5천만원</strong>
+                <span class="round_tit">수수료</span>
+                <strong>7%</strong>
+              </a>
+            </li>
+            <li class="disabled">
+              <a href="#">
+                <span class="bank_logo hyundai">현대 캐피탈</span>
+                <strong class="bank_tit">현대 캐피탈</strong>
+                <span class="round_tit"
+                  >다양한 캐피탈 서비스가 곧 출시됩니다.</span
+                >
+                <strong>연6.2~23%</strong>
+                <span class="round_tit">최대</span>
+                <strong>5천만원</strong>
+                <span class="round_tit">수수료</span>
+                <strong>7%</strong>
+              </a>
+            </li> -->
+          </ul>
+          <div class="cnt_default_type1 pb_80">
+            <ul class="list_info_text">
+              <li>
+                다양한 캐피탈 서비스가 곧 출시될 예정입니다.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="pop_layer fixed-modal"
+      id="share_modal"
+      data-layer-type="fixed-modal"
+    >
+      <div class="pop_content">
+        <div class="pop_head">
+          <h3>문자 공유</h3>
+          <a href="#" class="btn_close"
+            ><img src="../../images/common/main_title_cancel_ic.svg" alt="닫기"
+          /></a>
+        </div>
+        <div class="pop_txt">
+          <div class="msg_share_cnt">
+            <form action="#" method="" autocomplete="off">
+              <div class="input_type2">
+                <div class="title">
+                  <label for="member_name">고객명</label>
+                </div>
+                <div class="wrap">
+                  <input
+                    type="text"
+                    name=""
+                    id="member_name"
+                    placeholder="예시) 홍길동"
+                  />
+                </div>
+                <div class="alert_guide" style="display: block">
+                  고객명을 입력해주세요
+                </div>
+              </div>
+              <div class="input_type2">
+                <div class="title">
+                  <label for="phone">고객 휴대폰 번호</label>
+                </div>
+                <div class="wrap cell">
+                  <div class="f_l">
+                    <select class="type2" name="phone_list" id="phone_list">
+                      <option value="010">010</option>
+                      <option value="011">011</option>
+                      <option value="016">016</option>
+                      <option value="018">018</option>
+                      <option value="019">019</option>
+                    </select>
+                  </div>
+                  <label for="phone" class="d_ib">
+                    <input
+                      type="tel"
+                      name=""
+                      id="phone"
+                      placeholder="예시) 00001111"
+                    />
+                  </label>
+                  <button type="button" class="btn_text_line">주소록</button>
+                </div>
+                <div class="alert_guide" style="display: block">
+                  휴대폰 번호를 입력해주세요
+                </div>
+              </div>
+            </form>
+            <div class="agree_box_area mt_40">
+              <div class="agree_head">
+                <div class="input_checkbox_type5">
+                  <label>
+                    <input type="checkbox" name="agree_chk" class="agree_ok" />
+                    <span>약관 전체 동의</span>
+                  </label>
+                </div>
+                <!-- <button type="button" class="btn_toggle_arrow">
+                  펼치기
+                </button> -->
+              </div>
+              <div class="agree_toggle_wrap">
+                <div class="agree_box">
+                  <div class="input_checkbox_type5 md">
+                    <label for="agree_1">
+                      <input type="checkbox" name="agree_chk" id="agree_1" />
+                      <span>개인(신용)정보 수집∙이용 동의(필수)</span>
+                    </label>
+                    <button
+                      type="button"
+                      class="btn_text_b"
+                      onclick="richCarPlanetUI.layerPopUp({ selId: '#pop_agree_1'}); return false"
+                    >
+                      보기
+                    </button>
+                  </div>
+                  <div class="alert_guide ml_20" style="display: block">
+                    개인정보 수집 및 이용에 동의해주세요
+                  </div>
+                </div>
+                <div class="agree_box">
+                  <div class="input_checkbox_type5 md">
+                    <label for="agree_2">
+                      <input type="checkbox" name="agree_chk" id="agree_2" />
+                      <span>개인(신용)정보 제공 동의(필수)</span>
+                    </label>
+                    <button
+                      type="button"
+                      class="btn_text_b"
+                      onclick="richCarPlanetUI.layerPopUp({ selId: '#pop_agree_2'}); return false"
+                    >
+                      보기
+                    </button>
+                  </div>
+                  <div class="alert_guide ml_20" style="display: block">
+                    개인(신용)정보 제공에 동의해주세요
+                  </div>
+                </div>
+                <div class="agree_box">
+                  <div class="input_checkbox_type5 md">
+                    <label for="agree_3">
+                      <input type="checkbox" name="agree_chk" id="agree_3" />
+                      <span>마케팅 정보 수신 동의(선택)</span>
+                    </label>
+                    <button
+                      type="button"
+                      class="btn_text_b"
+                      onclick="richCarPlanetUI.layerPopUp({ selId: '#pop_agree_3'}); return false"
+                    >
+                      보기
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pop_btn_area">
+          <ul>
+            <li>
+              <button type="button" class="btn_square_default">
+                전송
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- 개인(신용)정보 수집∙이용 동의 레이어팝업 -->
+    <div class="pop_layer layer" id="pop_agree_1" data-layer-type="layer">
+      <div class="pop_head">
+        <h3>개인(신용)정보 수집∙이용 동의</h3>
+        <a href="#" class="btn_close"
+          ><img src="../../images/common/main_title_cancel_ic.svg" alt="닫기"
+        /></a>
+      </div>
+      <div class="pop_content">
+        <div class="txt_area">
+          당사 및 당사 업무수탁자는 [개인정보보호법], [정보통신망 이용촉진 및
+          정보보호 등에 관한 법률] 에 따라 귀하의 개인(신용)정보를 다음과 같이
+          수집∙이용하고자 합니다.
+          <br /><br />
+          <table class="table_type2">
+            <tr>
+              <th scope="row">개인정보의 수집.이용목적</th>
+              <td>전화 등을 통한 캐피탈 대출 상담 및 안내</td>
+            </tr>
+            <tr>
+              <th scope="row">수집.이용하는 개인정보의 내용</th>
+              <td>성명, 전화번호, 차량정보 및 차량번호</td>
+            </tr>
+            <tr>
+              <th scope="row">개인정보 보유.이용기간</th>
+              <td>동의일로부터 5년</td>
+            </tr>
+            <tr>
+              <th scope="row">보험상담 및 가입권유 연락방법</th>
+              <td>전화, 문자</td>
+            </tr>
+          </table>
+
+          <br />
+          ※ 본 동의를 거부하실 수 있으나, 거부하는 경우에는 대출 상담 및 안내
+          서비스 제공이 제한될 수 있습니다. <br />
+          ※ 동의하시더라도 당사 고객센터통해 동의를 철회하거나 가입권유 목적의
+          연락에 대한 중단을 요청하실 수 있습니다.
+        </div>
+      </div>
+    </div>
+    <!-- // 개인(신용)정보 수집∙이용 동의 레이어팝업 -->
+    <!-- 개인(신용)정보 제공 동의 레이어팝업 -->
+    <div class="pop_layer layer" id="pop_agree_2" data-layer-type="layer">
+      <div class="pop_head">
+        <h3>개인(신용)정보 제공 동의</h3>
+        <a href="#" class="btn_close"
+          ><img src="../../images/common/main_title_cancel_ic.svg" alt="닫기"
+        /></a>
+      </div>
+      <div class="pop_content">
+        <div class="txt_area">
+          당사는 [개인정보보호법], [정보통신망 이용촉진 및 정보보호 등에 관한
+          법률] 에 따라 귀하의 개인(신용)정보를 다음과 같이 제3자에게 제공하고자
+          합니다. <br /><br />
+          <table class="table_type2">
+            <colgroup>
+              <col style="width: 35%" />
+            </colgroup>
+            <tr>
+              <th scope="row">제공받는 자</th>
+              <td>㈜오릭스캐피탈</td>
+            </tr>
+            <tr>
+              <th scope="row">이용목적</th>
+              <td>캐피탈 대출 상담 및 안내</td>
+            </tr>
+            <tr>
+              <th scope="row">제공하는 개인정보 내용</th>
+              <td>성명, 전화번호, 차량정보 및 차량번호</td>
+            </tr>
+            <tr>
+              <th scope="row">개인정보 보유∙이용 기간</th>
+              <td>동의일로부터 5년</td>
+            </tr>
+            <tr>
+              <th scope="row">대출 상담 및 안내 연락방법</th>
+              <td>전화, 문자</td>
+            </tr>
+          </table>
+
+          <br />
+          ※ 각 제공대상기관 및 이용목적의 구체적인 정보는 당사 리치 카플래너
+          앱에서 확인하실 수 있습니다.<br />
+          ※ 본 동의를 거부하실 수 있으나, 거부하는 경우에는 대출 상담 및 안내
+          서비스 제공이 제한될 수 있습니다. <br />
+          ※동의하시더라도 당사 고객센터(02-6410-7253)를 통해 동의를 철회하거나
+          가입권유 목적의 연락에 대한 중단을 요청하실 수 있습니다.
+        </div>
+      </div>
+    </div>
+    <!-- // 개인(신용)정보 제공 동의 레이어팝업 -->
+    <!-- 마케팅 정보 수신 동의 레이어팝업 -->
+    <div class="pop_layer layer" id="pop_agree_3" data-layer-type="layer">
+      <div class="pop_head">
+        <h3>마케팅 정보 수신 동의</h3>
+        <a href="#" class="btn_close"
+          ><img src="../../images/common/main_title_cancel_ic.svg" alt="닫기"
+        /></a>
+      </div>
+      <div class="pop_content">
+        <div class="txt_area">
+          <h4>1. 개인(신용)정보의 수집∙이용에 관한 사항</h4>
+          <br />
+          1) 당사는 [개인정보보호법] 및 [신용정보의 이용 및 보호에 관한 법률]에
+          따라 보험상품 소개 및 홍보 등을 위하여 귀하의 개인(신용)정보를 다음과
+          같이 수집∙이용하고자 합니다.<br /><br />
+          2) 개인(신용)정보의 수집∙이용 목적 및 항목∙수집목적: 캐피탈 대출 안내,
+          (TM)을 통한 다이렉트자동차보험 안내 , 자동차보험안내∙필수수집항목:
+          성명, 전화번호, 차량정보 및 차량번호<br /><br />
+          3) 개인(신용)정보 보유∙이용기간: 동의일로부터 5년<br /><br />
+          <h4>2. 개인(신용)정보의 제공에 관한 사항</h4>
+          <br />
+          1) 당사는 [개인정보보호법] 및 [신용정보의 이용 및 보호에 관한 법률]에
+          따라 귀하의 개인(신용)정보를 다음과 같이 제3자에게 상품소개 및 홍보 등
+          영업목적으로 제공하고자 합니다.<br /><br />
+          2) 개인(신용)정보를 제공받는 자 <br /><br />
+          ㈜오릭스캐피탈, ㈜애드인슈, 현대해상화재보험㈜, 한화손해보험㈜,
+          롯데손해보험㈜, ㈜KB손해보험, DB손해보험㈜, 메리츠화재해상보험㈜,
+          흥국화재해상보험㈜, AXA손해보험㈜, MG손해보험㈜, 더케이손해보험㈜,
+          삼성화재해상보험㈜<br /><br />
+          3) 개인(신용)정보를 제공받는 자의 이용 목적 및 항목<br />
+          .제공목적: 오릭스 캐피탈 대출 상담<br />
+          .제공항목: 성명, 핸드폰번호<br /><br />
+          4) 개인(신용)정보 보유∙이용기간: 동의일로부터 5년
+        </div>
+      </div>
+    </div>
+    <!-- // 마케팅 정보 수신 동의 레이어팝업 -->
+
+    <!-- 내역확인 레이어팝업 -->
+    <div class="pop_layer layer" id="pop_breakdown" data-layer-type="layer">
+      <div class="pop_head" id="pop_header">
+        <h3>내역 확인</h3>
+        <a href="#" class="btn_close"
+          ><img src="../../images/common/main_title_cancel_ic.svg" alt="닫기"
+        /></a>
+      </div>
+      <div class="pop_content">
+        <div class="cnt_default_type1">
+          <div class="pull_refresh">
+            <span>대출상태</span>
+            <button class="btn_refresh">업데이트<i>새로고침</i></button>
+          </div>
+          <div id="pull_body">
+            <ul class="breakdown_list">
+              <li>
+                <div class="breakdown_tit">
+                  <strong>이*호/010*****123</strong>
+                  <strong>소나타/프리미엄/2011년식</strong>
+                </div>
+                <ul class="breakdown_info">
+                  <li>
+                    <span class="tit">계약번호</span>
+                    <strong>12345678</strong>
+                  </li>
+                  <li>
+                    <span class="tit">신청일자</span>
+                    <strong>2019년04월01일</strong>
+                  </li>
+                </ul>
+                <ul class="breakdown_state">
+                  <li class="active">상담신청</li>
+                  <!--[D] 신청상태 표시 active 클래스 추가 -->
+                  <li class="active">신용조회</li>
+                  <li class="active">상담완료(조건부)</li>
+                  <li class="active">대출완료</li>
+                </ul>
+                <div class="btn_area">
+                  <button
+                    type="button"
+                    class="btn_default_b btn_direct_share"
+                    onclick="richCarPlanetUI.layerPopUp({ selId: '#direct_share_pop'}); return false"
+                  >
+                    다이렉트 보험 공유
+                  </button>
+                </div>
+              </li>
+              <li>
+                <div class="breakdown_tit">
+                  <strong>이*호/010*****123</strong>
+                  <strong>벤츠 E클래스 마이바흐/프리미엄/2018년식</strong>
+                </div>
+                <ul class="breakdown_info">
+                  <li>
+                    <span class="tit">계약번호</span>
+                    <strong>12345678</strong>
+                  </li>
+                  <li>
+                    <span class="tit">신청일자</span>
+                    <strong>2019년04월01일</strong>
+                  </li>
+                </ul>
+                <ul class="breakdown_state">
+                  <li class="active">상담신청</li>
+                  <li class="active">신용조회</li>
+                  <li>상담완료(승인)</li>
+                  <li>대출완료</li>
+                </ul>
+                <div class="btn_area">
+                  <button
+                    type="button"
+                    class="btn_default_b btn_direct_share"
+                    onclick="richCarPlanetUI.layerPopUp({ selId: '#direct_share_pop'}); return false"
+                  >
+                    다이렉트 보험 공유
+                  </button>
+                </div>
+              </li>
+              <!-- <li>
+                  <div class="breakdown_tit">
+                    <strong>이*호/010*****123</strong>
+                    <strong>벤츠 E클래스 마이바흐/프리미엄/2018년식</strong>
+                  </div>
+                  <ul class="breakdown_info">
+                    <li>
+                      <span class="tit">계약번호</span>
+                      <strong>12345678</strong>
+                    </li>
+                    <li>
+                      <span class="tit">신청일자</span>
+                      <strong>2019년04월01일</strong>
+                    </li>
+                  </ul>
+                  <ul class="breakdown_state">
+                    <li class="active">상담신청</li>
+                    <li class="active">신용조회</li>
+                    <li>상담완료</li>
+                    <li>대출완료</li>
+                  </ul>
+                  <div class="btn_area">
+                    <button type="button" class="btn_default_b btn_direct_share" onclick="richCarPlanetUI.layerPopUp({ selId: '#direct_share_pop'}); return false">다이렉트 보험 공유</button>
+                  </div>
+                </li> -->
+            </ul>
+            <ul class="list_info_text mt_60">
+              <li>
+                캐피탈 신청 및 진행에 문제가 있는 경우<br />
+                아래의 상담번호로 문의해 주시기 바랍니다
+              </li>
+            </ul>
+            <table class="table_type2 mt_30">
+              <thead>
+                <tr>
+                  <th scope="col">상담번호</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="t_c">
+                    <a href="tel:02-2184-0787">02-2184-0787</a> /
+                    <a href="tel:02-2184-0788">02-2184-0788</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table_type2 mt_20">
+              <thead>
+                <tr>
+                  <th scope="col">운영시간</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="t_c">
+                    평일: 09시~18시/ 토요일: 10시~17시<br />
+                    (공휴일 및 일요일 상담 불가)
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- // 내역확인 레이어팝업 -->
+    <!-- 다이렉트 보험공유 레이어팝업 -->
+    <div class="pop_layer modal" id="direct_share_pop" data-layer-type="modal">
+      <div class="pop_content">
+        <div class="pop_head">
+          <h3>다이렉트 보험 공유</h3>
+          <a href="#" class="btn_close"
+            ><img src="../../images/common/main_title_cancel_ic.svg" alt="닫기"
+          /></a>
+        </div>
+        <div class="pop_txt">
+          <strong>
+            고객님께 다이렉트 자동차 보험<br />
+            상담신청 페이지를 공유하시겠습니까?
+          </strong>
+        </div>
+        <div class="pop_btn_area">
+          <ul>
+            <li>
+              <button type="button" class="btn_square_dark btn_close">
+                닫기
+              </button>
+            </li>
+            <li>
+              <button type="button" class="btn_square_default">전송</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- //다이렉트 보험공유 레이어팝업 -->
+    <script src="../../js/lib/jquery/jquery-1.12.4.min.js"></script>
+    <script src="../../js/lib/swiper/js/swiper.min.js"></script>
+    <script src="../../js/util.js"></script>
+    <script src="../../js/ui.js"></script>
+    <script>
+      var page = 1;
+      var totalPage = 5;
+      var str = "";
+
+      var screenHeight =
+        window.innerHeight ||
+        document.documentElement.clientHeight ||
+        $("body").outerHeight();
+      var $headHeight = $("#pop_header").outerHeight();
+      // var $tabHeight = $(".tab_menu").outerHeight();
+      var $headerHeight = $headHeight;
+      var $iScroll = $("#infinite_scroll");
+      var vwUnit = 720 * 0.01 * 1;
+      var sumScroll =
+        (Number(screenHeight - $iScroll.height() + $headerHeight) / vwUnit) *
+          1 +
+        "vw";
+      console.log(screenHeight);
+
+      $iScroll.css({
+        "padding-bottom": sumScroll
+      });
+
+      $(window).scroll(function() {
+        if (page != totalPage) {
+          if (
+            $(window).scrollTop() >=
+            $(document).height() - $(window).height() - $headHeight
+          ) {
+            $(".common_loading").addClass("on");
+            if (page < totalPage) {
+              ++page;
+            }
+
+            str =
+              "<li>" +
+              '<div class="breakdown_tit">' +
+              "<strong>이*호/010*****123</strong>" +
+              "<strong>소나타/프리미엄/2011년식</strong>" +
+              "</div>" +
+              '<ul class="breakdown_info">' +
+              "<li>" +
+              '<span class="tit">계약번호</span>' +
+              "<strong>12345678</strong>" +
+              "</li>" +
+              "<ul>" +
+              '<span class="tit">신청일자</span>' +
+              "<strong>2019년04월01일</strong>" +
+              '<ul class="breakdown_state">' +
+              '<li class="active">상담신청</li>' +
+              '<li class="active">신용조회</li>' +
+              "<li>상담완료</li>" +
+              "<li>대출완료</li>" +
+              "<li>대출완료</li>" +
+              "</ul>" +
+              '<div class="btn_area">' +
+              '<button type="button" class="btn_default_b btn_direct_share" onclick="richCarPlanetUI.layerPopUp({ selId: "#direct_share_pop"}); return false">다이렉트 보험 공유</button>' +
+              "</div>" +
+              "</li>";
+
+            $iScroll.css({
+              "padding-bottom": 9.7 + "%"
+            });
+
+            $.ajax({
+              url: "list.html",
+              success: function(result) {
+                $(".common_loading").removeClass("on");
+                if (page < totalPage) {
+                  $(".breakdown_list").append(str);
+                }
+              }
+            });
+          }
+        }
+        console.log("dd");
+      });
+    </script>
+  </body>
+</html>

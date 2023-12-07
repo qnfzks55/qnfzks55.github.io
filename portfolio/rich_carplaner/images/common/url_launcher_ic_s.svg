@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="url_launcher_ic_s" width="34" height="34" viewBox="0 0 34 34">
+    <defs>
+        <style>
+            .cls-1{fill:#6788e6}.cls-2{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <circle id="타원_32" cx="17" cy="17" r="17" class="cls-1" data-name="타원 32"/>
+    <g id="Vector_Smart_Object" data-name="Vector Smart Object" transform="translate(10.744 10.682)">
+        <g id="Vector_Smart_Object-2" data-name="Vector Smart Object" transform="translate(-1.439 -1.482)">
+            <path id="패스_135" d="M6094.305 1025.785l-.927.954a3.164 3.164 0 0 1-4.555 0 3.4 3.4 0 0 1 0-4.691l4.006-4.125a3.166 3.166 0 0 1 4.556 0" class="cls-2" data-name="패스 135" transform="translate(-6087.883 -1012.038)"/>
+            <path id="패스_136" d="M6101.146 1010.134l1.04-1.071a3.166 3.166 0 0 1 4.557 0 3.4 3.4 0 0 1 0 4.692l-4.006 4.125a3.165 3.165 0 0 1-4.556 0" class="cls-2" data-name="패스 136" transform="translate(-6092.465 -1008.095)"/>
+        </g>
+    </g>
+</svg>

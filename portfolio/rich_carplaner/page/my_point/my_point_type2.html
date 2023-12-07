@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>리치 카플래너</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Author" content="" />
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="리치 카플래너" />
+    <meta property="og:description" content="리치 카플래너" />
+    <!-- <meta
+      property="og:image"
+      content="http://richnco.co.kr/static/img/event/goodrichlounge/GoodRich_Lounge.jpg"
+    /> -->
+    <link rel="stylesheet" type="text/css" href="../../css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/sub1.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/sub2.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../js/lib/swiper/css/swiper.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="../../css/common.css" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="../../images/common/hicon_512.png"
+    />
+    <link
+      rel="shortcut icon"
+      sizes="512x512"
+      href="../../images/common/hicon_512.png"
+    />
+  </head>
+
+  <body>
+    <div class="head_default_type1">
+      <a href="../../index.html" class="btn_back">뒤로가기</a>
+      <em>내 포인트</em>
+    </div>
+    <div class="cnt_default_type5">
+      <div class="cnt_default_type1">
+        <div class="my_point_type2">
+          <div class="my_info_layer_con">
+            <div class="my_info_layer">
+              <!--[D]여성일때 woman 클래스 추가-->
+              <div class="my_pf_info woman">
+                님 포인트
+              </div>
+              <div class="my_point type2"></div>
+            </div>
+          </div>
+          <div class="input_type2 m_0">
+            <div class="title">
+              <label for="draw_point">출금 포인트</label>
+              <button
+                type="button"
+                class="btn_question"
+                onclick="richCarPlanetUI.layerPopUp({ selId: '#withdraw_modal'}); return false"
+              >
+                ?
+              </button>
+              <span class="deposit_date">입금예정일: 11/20</span>
+            </div>
+            <div class="wrap">
+              <input
+                type="text"
+                name=""
+                id="draw_point"
+                placeholder="출금 포인트 입력"
+              />
+            </div>
+          </div>
+          <div class="btn_area2">
+            <button type="button" class="btn_default">출금신청</button>
+          </div>
+        </div>
+      </div>
+      <div class="my_point_list">
+        <div class="my_point_head">
+          <button type="button" class="btn_cal_prev">
+            이전
+          </button>
+          <div class="dateStart">
+            <input type="text" name="" id="txtDate" readonly />
+            <button
+              type="button"
+              class="ui-datepicker-trigger btn_datepicker"
+              onclick="richCarPlanetUI.layerPopUp({ selId: '#calendar_modal'}); return false"
+            >
+              <img src="../../images/common/calendar_ic.svg" alt="달력" />
+            </button>
+          </div>
+          <button type="button" class="btn_cal_next">
+            다음
+          </button>
+        </div>
+        <ul class="my_point_body">
+          <li class="active">
+            <!--[D]적립 시 active 클래스 추가 -->
+            <span class="point_type">적립</span>
+            <dl>
+              <dt>
+                다이렉트 자동차 보험
+                <em class="point_view">5,000 P</em>
+              </dt>
+              <dd>2019-04-01</dd>
+            </dl>
+          </li>
+          <li>
+            <span class="point_type">차감</span>
+            <dl>
+              <dt>
+                수리/정비 이력 조회
+                <em class="point_view">-1,000 P</em>
+              </dt>
+              <dd>2019-04-01</dd>
+            </dl>
+          </li>
+          <li>
+            <span class="point_type">차감</span>
+            <dl>
+              <dt>
+                포인트 출금
+                <em class="point_view">-1,000 P</em>
+              </dt>
+              <dd>2019-04-01</dd>
+            </dl>
+          </li>
+          <li>
+            <span class="point_type">출금 반려</span>
+            <dl>
+              <dt>
+                통장 사본 불일치
+              </dt>
+              <dd>2019-04-01</dd>
+            </dl>
+          </li>
+        </ul>
+        <!-- //[D] 포인트 없을 때 -->
+        <!-- <div class="not_data lg ico type4">
+          적립된 포인트가 없습니다.<br />
+          다양한 활동으로 나만의 비상금을 적립하세요.
+        </div> -->
+      </div>
+    </div>
+    <div class="pop_layer modal" id="withdraw_modal" data-layer-type="modal">
+      <div class="pop_content">
+        <div class="pop_head">
+          <h3>포인트 출금 안내</h3>
+          <a href="#" class="btn_close"
+            ><img src="../../images/common/main_title_cancel_ic.svg" alt="닫기"
+          /></a>
+        </div>
+        <div class="pop_txt">
+          <ul class="list_info_text">
+            <li>
+              최초 출금신청시 계좌정보를 입력해야 됩니다.
+            </li>
+            <li>
+              입금예정일이 주말(공휴일)인 경우 익영업일에 입금됩니다.
+            </li>
+            <li>
+              입금예정일 3일 전까지 출금취소가 가능합니다.
+            </li>
+          </ul>
+        </div>
+        <div class="pop_btn_area">
+          <ul>
+            <li>
+              <button type="button" class="btn_square_default btn_close">
+                확인
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="common_loading"></div>
+    <div class="bg_shadow" style="display: none;"></div>
+
+    <script src="../../js/lib/jquery/jquery-1.12.4.min.js"></script>
+    <script src="../../js/lib/bootstrap/bootstrap-datepicker.min.js"></script>
+    <script src="../../js/lib/bootstrap/bootstrap-datepicker.ko.min.js"></script>
+    <script src="../../js/lib/swiper/js/swiper.min.js"></script>
+    <!-- <script src="https://momentjs.com/downloads/moment.min.js"></script> -->
+    <script src="../../js/util.js"></script>
+    <script src="../../js/ui.js"></script>
+    <script>
+      (function($) {
+        $(function() {
+          // $("#txtDate").val(moment().format("YYYY년MM월"));
+
+          $(".dateStart").on("click", function() {
+            $(".bg_shadow").show();
+            $(".dateStart")
+              .datepicker({
+                minViewMode: 1,
+                language: "ko",
+                format: "yyyy년mm월",
+                beforeShowDay: function(date) {}
+              })
+              .on("changeDate", function() {
+                $(".datepicker").hide();
+                $(".bg_shadow").hide();
+              });
+          });
+
+          // var page = 1;
+          // var totalPage = 5;
+          // var str = "";
+
+          // var screenHeight =
+          //   window.innerHeight ||
+          //   document.documentElement.clientHeight ||
+          //   $("body").outerHeight();
+          // var $headHeight = $(".head_default_type1").outerHeight();
+          // var $iScroll = $("#infinite_scroll");
+          // var vwUnit = 720 * 0.01 * 1;
+          // var sumScroll =
+          //   (Number(
+          //     screenHeight -
+          //       $iScroll.height() -
+          //       $(".cnt_default_type1").outerHeight() +
+          //       $headHeight
+          //   ) /
+          //     vwUnit) *
+          //     1 +
+          //   "vw";
+
+          // console.log($iScroll.height());
+          // $iScroll.css({ "padding-bottom": sumScroll });
+
+          // $(window).scroll(function() {
+          //   if (page != totalPage) {
+          //     if (
+          //       $(window).scrollTop() >=
+          //       $(document).height() - $(window).height() - $headHeight
+          //     ) {
+          //       $(".common_loading").addClass("on");
+          //       if (page < totalPage) {
+          //         ++page;
+          //       }
+
+          //       str =
+          //         "<li>" +
+          //         '<span class="point_type">출금 반려</span>' +
+          //         "<dl>" +
+          //         "<dt>통장 사본 불일치</dt>" +
+          //         "<dd>2019-04-01</dd>" +
+          //         "</dl>" +
+          //         "</li>";
+
+          //       $.ajax({
+          //         url: "my_point_type2.html",
+          //         success: function(result) {
+          //           $(".common_loading").removeClass("on");
+
+          //           if (page < totalPage) {
+          //             $(".my_point_body").append(str);
+          //           }
+          //         }
+          //       });
+          //     }
+          //   }
+
+          //   if (page == totalPage) {
+          //     $iScroll.css({
+          //       "padding-bottom": 0
+          //     });
+          //   }
+          // });
+        });
+      })(jQuery);
+    </script>
+  </body>
+</html>

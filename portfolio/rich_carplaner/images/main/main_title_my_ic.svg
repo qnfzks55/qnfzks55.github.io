@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+    <defs>
+        <style>
+            .cls-1{fill:rgba(255,255,255,0)}.cls-2{fill:rgba(227,186,186,0)}.cls-3{fill:none;stroke:#454545;stroke-linecap:round;stroke-miterlimit:10;stroke-width:3px}.cls-4{fill:#454545}
+        </style>
+    </defs>
+    <g id="main_title_my_ic" transform="translate(-549 -536)">
+        <path id="사각형_587" d="M0 0h72v72H0z" class="cls-1" data-name="사각형 587" transform="translate(549 536)"/>
+        <g id="그룹_3229" data-name="그룹 3229" transform="translate(-27 93)">
+            <g id="_01_user" data-name="01_user" transform="translate(588 453)">
+                <path id="사각형_246" d="M0 0h47v50H0z" class="cls-2" data-name="사각형 246"/>
+                <g id="그룹_592" data-name="그룹 592" transform="translate(5 7)">
+                    <ellipse id="타원_79" cx="9.482" cy="9.482" class="cls-3" data-name="타원 79" rx="9.482" ry="9.482" transform="translate(9.018 1)"/>
+                    <path id="패스_251" d="M421.357 1059.5l-.144-.146a14.987 14.987 0 0 0-10.619-4.417h-4.928a15.08 15.08 0 0 0-15.036 15.036" class="cls-3" data-name="패스 251" transform="translate(-389.629 -1034.424)"/>
+                </g>
+            </g>
+            <g id="그룹_3227" data-name="그룹 3227" transform="translate(1)">
+                <path id="Op_component_4" d="M2921.051 4843.888h-2.623v-5.088a1.349 1.349 0 0 0-1.316-1.523 1.371 1.371 0 0 0-1.332 1.523v5.084h-2.506v-5.084a1.333 1.333 0 1 0-2.646-.073v5.157h-2.579v-7.442a1.2 1.2 0 0 1 1.282-1.256 1.236 1.236 0 0 1 1.168.682l.114.257.206-.194a2.749 2.749 0 0 1 1.917-.745 2.837 2.837 0 0 1 2.225.947l.144.17.154-.161a3.317 3.317 0 0 1 2.5-.957c1.5 0 3.294.657 3.294 3.789z" class="cls-4" data-name="Op component 4" transform="translate(-2296.997 -4346.751)"/>
+                <path id="Op_component_6" d="M2930.833 4836.992l-3.083 7a3.738 3.738 0 0 1-4.28 2.488 1.1 1.1 0 0 1-1.021-1.214 1.083 1.083 0 0 1 .417-.734.92.92 0 0 1 .541-.16 1.446 1.446 0 0 1 .26.025 1.531 1.531 0 0 0 1.667-.611l.024-.059-3.012-6.738a1.219 1.219 0 0 1-.029-1 1.264 1.264 0 0 1 .737-.682 1.557 1.557 0 0 1 1.031-.032 1.184 1.184 0 0 1 .724.744l1.884 5.05 1.738-5.053a1.161 1.161 0 0 1 .6-.7 1.484 1.484 0 0 1 1.124-.01 1.193 1.193 0 0 1 .7.641 1.307 1.307 0 0 1-.022 1.045z" class="cls-4" data-name="Op component 6" transform="translate(-2296.997 -4346.751)"/>
+            </g>
+        </g>
+    </g>
+</svg>

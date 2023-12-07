@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>리치 카플래너</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Author" content="" />
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="리치 카플래너" />
+    <meta property="og:description" content="리치 카플래너" />
+    <!-- <meta
+      property="og:image"
+      content="http://richnco.co.kr/static/img/event/goodrichlounge/GoodRich_Lounge.jpg"
+    /> -->
+    <link rel="stylesheet" type="text/css" href="../../css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/sub2.css" />
+    <!-- <link
+      rel="apple-touch-icon-precomposed"
+      href="/static/img/common/hicon_114.png"
+    /> -->
+    <!-- <link
+      rel="shortcut icon"
+      sizes="96x96"
+      href="/static/img/common/hicon_96.png"
+    /> -->
+  </head>
+
+  <body>
+    <div class="pop_layer modal" id="push_otifications" data-layer-type="modal">
+      <div class="pop_content">
+        <div class="pop_head">
+          <h3>딜러정보 변경안내</h3>
+          <a href="#" class="btn_close"
+            ><img src="../../images/common/main_title_cancel_ic.svg" alt="닫기"
+          /></a>
+        </div>
+        <div class="pop_txt2">
+          <strong>
+            변경정보가 정확하지 않은 경우 <br />
+            심사 반려 및 서비스가 제한될 수 있습니다.<br />
+            딜러정보를 수정하시겠습니까?
+          </strong>
+        </div>
+        <div class="pop_btn_area">
+          <ul>
+            <li>
+              <button type="button" class="btn_square_dark">취소</button>
+            </li>
+            <li>
+              <button type="button" class="btn_square_default">확인</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="../../js/lib/jquery/jquery-1.12.4.min.js"></script>
+    <script src="../../js/lib/swiper/js/swiper.min.js"></script>
+    <script src="../../js/util.js"></script>
+    <script src="../../js/ui.js"></script>
+    <script>
+      $(function() {
+        richCarPlanetUI.layerPopUp({ selId: "#push_otifications" });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#fff}.cls-4{fill:#0f3;opacity:0}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h60v60H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="identity_card_add_ic" class="cls-2">
+        <path id="합치기_3" d="M-4474.5-3428.171l-10.959 10.96-2.829-2.829 10.959-10.959-10.96-10.96 2.828-2.828 10.96 10.96 10.961-10.96 2.828 2.828-10.96 10.961 10.959 10.959-2.827 2.829z" class="cls-3" data-name="합치기 3" transform="rotate(45 -6400.4 3737.766)"/>
+        <path id="사각형_648" d="M0 0h60v60H0z" class="cls-4" data-name="사각형 648"/>
+    </g>
+</svg>

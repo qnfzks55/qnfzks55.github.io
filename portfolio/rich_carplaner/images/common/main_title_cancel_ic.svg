@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+    <defs>
+        <style>
+            .cls-1{fill:rgba(255,255,255,0)}.cls-2{fill:#454545}
+        </style>
+    </defs>
+    <g id="main_title_cancel_ic" transform="translate(-1087 -917)">
+        <path id="사각형_548" d="M0 0h72v72H0z" class="cls-1" data-name="사각형 548" transform="translate(1087 917)"/>
+        <g id="그룹_2819" data-name="그룹 2819" transform="translate(783.288 473.789)">
+            <path id="사각형_440" d="M0 0h35v4H0z" class="cls-2" data-name="사각형 440" transform="rotate(135 79.917 306.689)"/>
+            <path id="사각형_439" d="M0 0h35v4H0z" class="cls-2" data-name="사각형 439" transform="rotate(45 -396.082 628.688)"/>
+        </g>
+    </g>
+</svg>

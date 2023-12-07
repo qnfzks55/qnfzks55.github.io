@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__btn_pg_last_off" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#999}
+        </style>
+    </defs>
+    <g id="prefix__타원_196" data-name="타원 196" style="fill:#fff;stroke:#e8e8e8">
+        <circle cx="15" cy="15" r="15" style="stroke:none"/>
+        <circle cx="15" cy="15" r="14.5" style="fill:none"/>
+    </g>
+    <g id="prefix__그룹_6935" data-name="그룹 6935" transform="translate(11.6 11.4)">
+        <path id="prefix__패스_5188" d="M302.81 221.666a.6.6 0 0 0 .424-.176l3.425-3.425-3.425-3.424a.6.6 0 1 0-.848.849l2.575 2.575-2.575 2.576a.6.6 0 0 0 .424 1.025z" class="prefix__cls-2" data-name="패스 5188" transform="translate(-302.21 -214.465)"/>
+        <path id="prefix__패스_5189" d="M298.81 221.666a.6.6 0 0 0 .424-.176l3.425-3.425-3.425-3.424a.6.6 0 1 0-.848.849l2.575 2.575-2.575 2.576a.6.6 0 0 0 .424 1.025z" class="prefix__cls-2" data-name="패스 5189" transform="translate(-294.21 -214.465)"/>
+    </g>
+</svg>

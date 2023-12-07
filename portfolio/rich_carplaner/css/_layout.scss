@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@import "mixin";
+
+$font: "NotoSans", sans-serif;
+// $font2: "Samsung Sharp Sans", sans-serif;
+$point-color: #1e46ba;
+$point-color2: #63a1da;
+
+#wrap {
+  width: 100%;
+}
+#header {
+  padding: 4.3% 9.4% 4.2% 9.7%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #fff;
+  h1 {
+    float: left;
+    padding: VW(16px) 0;
+    line-height: VW(40px);
+    img {
+      width: VW(303px);
+      height: VW(40px);
+    }
+  }
+  .main_btn_area {
+    float: right;
+    display: block;
+    .btn_my {
+      display: inline-block;
+      img {
+        width: VW(72px);
+        height: VW(72px);
+      }
+    }
+    .btn_gnb {
+      display: inline-block;
+      img {
+        width: VW(72px);
+        height: VW(72px);
+      }
+    }
+  }
+  @include clearfix();
+}
+#container {
+  background: #efefef;
+  position: absolute;
+  top: VW(185px);
+  left: 0;
+  right: 0;
+  margin-top: (VW(288px) - VW(40px)) / 2; // 40px : .my_point 영역
+  padding: VW(134px) 0 VW(80px);
+  overflow: hidden;
+  z-index: 900;
+}
+#footer {
+  font-size: VW(24px);
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: VW(36px);
+  letter-spacing: VW(-0.6px);
+  text-align: center;
+  color: #8b8b8b;
+  margin-top: VW(80px);
+}

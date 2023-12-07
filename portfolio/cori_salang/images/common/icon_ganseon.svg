@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="40" viewBox="0 0 75 40">
+    <defs>
+        <style>
+            .prefix__cls-2{isolation:isolate}.prefix__cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__icon_ganseon" transform="translate(-335 -1120)">
+        <rect id="prefix__사각형_456" width="75" height="40" data-name="사각형 456" rx="20" transform="translate(335 1120)" style="fill:#395cb4"/>
+        <g id="prefix__간선" class="prefix__cls-2" transform="translate(353.332 1130)">
+            <g id="prefix__그룹_6534" class="prefix__cls-2" data-name="그룹 6534">
+                <path id="prefix__패스_4884" d="M675.831 388.406c0 5.578-3.713 9.547-9.852 11.415l-1.005-1.913c4.833-1.472 7.822-4.2 8.242-7.54h-7.355v-1.962zm-5.277 17.112h11.767v1.962h-14.2v-6.958h2.428zm13.938-12.56v1.985h-3.013v7.12h-2.4v-15.269h2.4v6.163z" class="prefix__cls-3" data-name="패스 4884" transform="translate(-664.974 -386.794)"/>
+                <path id="prefix__패스_4885" d="M688.375 399.167a8.32 8.32 0 0 1-4.81-4.668 8.9 8.9 0 0 1-5.113 5.158l-1.283-1.867a7.594 7.594 0 0 0 5.113-7.262v-2.452h2.452v2.5a7.181 7.181 0 0 0 4.925 6.725zm6.793 6.35v1.962H680.95v-6.653h2.43v4.692zm-2.895-12H688v-1.983h4.272v-4.74h2.4v15.688h-2.4z" class="prefix__cls-3" data-name="패스 4885" transform="translate(-656.845 -386.794)"/>
+            </g>
+        </g>
+    </g>
+</svg>

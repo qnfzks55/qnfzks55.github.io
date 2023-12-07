@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <style>
+            .cls-1{fill:#e6678a}.cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="message_launcher_ic" transform="translate(-371 -1055)">
+        <circle id="타원_32" cx="50" cy="50" r="50" class="cls-1" data-name="타원 32" transform="translate(371 1055)"/>
+        <g id="그룹_3136" data-name="그룹 3136" transform="translate(-135.79 695.155)">
+            <g id="그룹_2720" data-name="그룹 2720" transform="translate(537.79 395.845)">
+                <g id="패스_323" data-name="패스 323">
+                    <path id="패스_423" d="M672.846 141.508a1.427 1.427 0 0 1-1.427-1.427v-8.435h-5.684a1.427 1.427 0 0 1-1.427-1.427v-21.53a1.428 1.428 0 0 1 1.427-1.427h35.537a1.428 1.428 0 0 1 1.428 1.427v21.53a1.428 1.428 0 0 1-1.428 1.427h-20.12l-7.176 9.307a1.427 1.427 0 0 1-1.13.555zm-5.684-12.718h5.684a1.428 1.428 0 0 1 1.428 1.427v5.674l5.047-6.546a1.428 1.428 0 0 1 1.13-.556h19.393v-18.673h-32.682z" class="cls-2" data-name="패스 423" transform="translate(-664.307 -107.261)"/>
+                </g>
+                <g id="타원_51" data-name="타원 51" transform="translate(25.74 9.905)">
+                    <circle id="타원_65" cx="2.288" cy="2.288" r="2.288" class="cls-2" data-name="타원 65"/>
+                </g>
+                <g id="타원_52" data-name="타원 52" transform="translate(16.909 9.905)">
+                    <circle id="타원_66" cx="2.288" cy="2.288" r="2.288" class="cls-2" data-name="타원 66"/>
+                </g>
+                <g id="타원_53" data-name="타원 53" transform="translate(8.077 9.905)">
+                    <circle id="타원_67" cx="2.288" cy="2.288" r="2.288" class="cls-2" data-name="타원 67"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

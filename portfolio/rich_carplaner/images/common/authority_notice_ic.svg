@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="authority_notice_ic" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <style>
+            .cls-1{fill:rgba(255,255,255,0)}.cls-2{fill:rgba(227,186,186,0)}.cls-3{fill:#fff}.cls-3,.cls-5{stroke:#454545;stroke-width:3px}.cls-4{fill:#454545}.cls-5,.cls-7{fill:none}.cls-6{stroke:none}
+        </style>
+    </defs>
+    <path id="사각형_591" d="M0 0h80v80H0z" class="cls-1" data-name="사각형 591"/>
+    <g id="authority_notice_ic-2" data-name="authority_notice_ic" transform="translate(6.143 4.286)">
+        <path id="사각형_252" d="M0 0h67.143v71.429H0z" class="cls-2" data-name="사각형 252" transform="translate(-.143 -.286)"/>
+        <g id="그룹_3356" data-name="그룹 3356" transform="translate(.5 1)">
+            <g id="타원_382" class="cls-3" data-name="타원 382" transform="translate(26.857 49.714)">
+                <circle cx="7" cy="7" r="7" class="cls-6"/>
+                <circle cx="7" cy="7" r="5.5" class="cls-7"/>
+            </g>
+            <circle id="타원_383" cx="5" cy="5" r="5" class="cls-4" data-name="타원 383" transform="translate(27.857 5.714)"/>
+            <path id="합치기_24" d="M579.858 5474.715h-20l4.333-8.862v-17.639a17.5 17.5 0 0 1 35 0v17.407l4.446 9.094z" class="cls-3" data-name="합치기 24" transform="translate(-548.5 -5419.5)"/>
+            <path id="선_138" d="M0 0h33" class="cls-5" data-name="선 138" transform="translate(16.357 45.214)"/>
+        </g>
+    </g>
+</svg>

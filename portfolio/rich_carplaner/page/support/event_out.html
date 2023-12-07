@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>리치 카플래너</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Author" content="" />
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="리치 카플래너" />
+    <meta property="og:description" content="리치 카플래너" />
+    <!-- <meta
+      property="og:image"
+      content="http://richnco.co.kr/static/img/event/goodrichlounge/GoodRich_Lounge.jpg"
+    /> -->
+    <link rel="stylesheet" type="text/css" href="../../css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/sub2.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../js/lib/swiper/css/swiper.min.css"
+    />
+    <!-- <link
+      rel="apple-touch-icon-precomposed"
+      href="/static/img/common/hicon_114.png"
+    /> -->
+    <!-- <link
+      rel="shortcut icon"
+      sizes="96x96"
+      href="/static/img/common/hicon_96.png"
+    /> -->
+  </head>
+
+  <body>
+    <div id="wrap">
+      <div class="responsive_wrap">
+        <div class="responsive_box4">
+          <div class="notice_wrap">
+            <div class="accordion_type3 event">
+              <div class="panel" style="display: block">
+                <div class="event_view">
+                  <div class="p_r">
+                    <img src="../../images/common/top_img.png" />
+                    <span class="date_time">
+                      2020. 01. 06 ~ 2020. 01. 31
+                    </span>
+                  </div>
+                  <div class="p_r">
+                    <img src="../../images/common/event1_out.png" />
+                  </div>
+                  <img src="../../images/common/event2_out.png" />
+                  <div class="event_info_area">
+                    <strong class="tit">당첨자 발표 및 경품지급</strong>
+                    <p>
+                      리치 카플래너 공지 참고
+                    </p>
+                    <strong class="tit hlt mt_35">EVENT 1</strong>
+                    <p>
+                      1월 13일/20일/28일, 2월 3일<br />당첨자에게 기프티콘
+                      문자로 발송
+                    </p>
+                    <strong class="tit hlt mt_35">EVENT 2</strong>
+                    <p>
+                      2월 10일 당첨자 발표 후 경품 개별 배송
+                    </p>
+                  </div>
+                  <div class="event_apply_area ver3">
+                    <p class="apply_guide">
+                      리치 카플래너의 앞길에 대한민국 대표 딜러분들의 관심과
+                      참여 부탁드립니다.
+                    </p>
+                  </div>
+                  <a href="#" class="btn_square_default btn_app_down">
+                    APP 다운로드
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pop_layer modal" id="evt_share_modal" data-layer-type="modal">
+      <div class="pop_content">
+        <div class="pop_head">
+          <h3>공유하기</h3>
+          <a href="#" class="btn_close"
+            ><img src="../../images/common/main_title_cancel_ic.svg" alt="닫기"
+          /></a>
+        </div>
+        <div class="pop_txt">
+          <ul class="list_share">
+            <li>
+              <a href="#" class="icon kako_launcher_ic">
+                <span>카카오톡</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="icon facebook_launcher_ic">
+                <span>페이스북</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="../../js/lib/jquery/jquery-1.12.4.min.js"></script>
+    <script src="../../js/lib/swiper/js/swiper.min.js"></script>
+    <script src="../../js/util.js"></script>
+    <script src="../../js/ui.js"></script>
+    <script>
+      var varUA = navigator.userAgent.toLowerCase(); //userAgent 값 얻기
+      var deviceOs = null;
+      var androidLink =
+        "https://play.google.com/store/apps/details?id=kr.richplanet.app.richcarplanner";
+      var iosLink = "javascript:alert('앱스토어 등록 중입니다.')";
+      var downloadLink = "javascript:alert('지원하지 않는 OS입니다.')";
+      if (varUA.match("android") != null) {
+        //안드로이드 일때 처리
+        deviceOs = "android";
+        downloadLink = androidLink;
+      } else if (
+        varUA.indexOf("iphone") > -1 ||
+        varUA.indexOf("ipad") > -1 ||
+        varUA.indexOf("ipod") > -1
+      ) {
+        //IOS 일때 처리
+        deviceOs = "ios";
+        downloadLink = iosLink;
+      } else {
+        //아이폰, 안드로이드 외 처리
+      }
+
+      $(function() {
+        $(".btn_app_down").prop("href", downloadLink);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_notice_info" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <style>
+            .cls-1,.cls-5{fill:none}.cls-1{stroke:#454545;stroke-linejoin:round;stroke-width:1.973px}.cls-2{fill:#454545;font-size:22px;font-family:SDGothicNeo1B,SDGothicNeo1;letter-spacing:-.05em}.cls-3{fill:rgba(255,0,0,0)}.cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="info">
+        <g id="Ellipse_4" data-name="Ellipse 4">
+            <g id="Ellipse_4-2" data-name="Ellipse 4">
+                <g id="Ellipse_4-3" class="cls-1" data-name="Ellipse 4">
+                    <circle cx="15" cy="15" r="15" class="cls-4"/>
+                    <circle cx="15" cy="15" r="14.013" class="cls-5"/>
+                </g>
+            </g>
+        </g>
+        <text id="_" class="cls-2" data-name="?" transform="translate(20 23)">
+            <tspan x="-9.834" y="0">?</tspan>
+        </text>
+    </g>
+    <path id="G_32_16_" d="M0 0h30v30H0z" class="cls-3" data-name="G_32(16)"/>
+</svg>

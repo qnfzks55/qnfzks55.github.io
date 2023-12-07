@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+    <defs>
+        <style>
+            .cls-1,.cls-4{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#00ff4c;opacity:0}.cls-4{stroke:#1e46ba;stroke-linejoin:round;stroke-width:3px}.cls-5{fill:#6788e6}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h44v44H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="radio_select_btn" class="cls-2">
+        <path id="패스_1776" d="M0 0h44v44H0z" class="cls-3" data-name="패스 1776"/>
+        <g id="그룹_3319" data-name="그룹 3319" transform="translate(-85.5 -299.5)">
+            <ellipse id="타원_69" cx="14" cy="14" class="cls-4" data-name="타원 69" rx="14" ry="14" transform="translate(93.5 307.5)"/>
+            <circle id="타원_341" cx="6.5" cy="6.5" r="6.5" class="cls-5" data-name="타원 341" transform="translate(101 315)"/>
+        </g>
+    </g>
+</svg>

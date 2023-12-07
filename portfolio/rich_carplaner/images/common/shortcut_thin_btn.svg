@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{stroke:#454545;stroke-width:2px}.cls-4{fill:#0f3;opacity:0}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h40v40H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="shortcut_thin_btn" class="cls-2">
+        <path id="패스_437" d="M-9518.4-804.8l12 11.8-12 12.2" class="cls-3" data-name="패스 437" transform="translate(9532.4 813.3)"/>
+        <path id="사각형_633" d="M0 0h40v40H0z" class="cls-4" data-name="사각형 633"/>
+    </g>
+</svg>

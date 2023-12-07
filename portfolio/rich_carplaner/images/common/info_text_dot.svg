@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="info_text_dot" width="4" height="4" viewBox="0 0 4 4">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:#454545}.cls-2{opacity:0}
+        </style>
+    </defs>
+    <circle id="info_text_dot-2" cx="2" cy="2" r="2" class="cls-1" data-name="info_text_dot"/>
+    <path id="G_4_4" d="M0 0h4v4H0z" class="cls-2" data-name="G_4*4"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="kakao_launcher_ic_s" width="34" height="34" viewBox="0 0 34 34">
+    <defs>
+        <style>
+            .cls-1{fill:#ffeb00}.cls-2{fill:#482d2f}
+        </style>
+    </defs>
+    <circle id="타원_32" cx="17" cy="17" r="17" class="cls-1" data-name="타원 32"/>
+    <path id="패스_161" d="M219.455 90.142c-4.711 0-8.529 3.042-8.529 6.793a6.587 6.587 0 0 0 3.879 5.694l-.645 3.34 3.689-2.363a10.671 10.671 0 0 0 1.606.122c4.711 0 8.53-3.042 8.53-6.794s-3.819-6.792-8.53-6.792z" class="cls-2" data-name="패스 161" transform="translate(-202.585 -80.627)"/>
+</svg>

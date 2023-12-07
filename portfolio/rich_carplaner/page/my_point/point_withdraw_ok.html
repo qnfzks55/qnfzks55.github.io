@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>리치 카플래너</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Author" content="" />
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="리치 카플래너" />
+    <meta property="og:description" content="리치 카플래너" />
+    <!-- <meta
+      property="og:image"
+      content="http://richnco.co.kr/static/img/event/goodrichlounge/GoodRich_Lounge.jpg"
+    /> -->
+    <link rel="stylesheet" type="text/css" href="../../css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/sub1.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../js/lib/swiper/css/swiper.min.css"
+    />
+    <!-- <link
+      rel="apple-touch-icon-precomposed"
+      href="/static/img/common/hicon_114.png"
+    /> -->
+    <!-- <link
+      rel="shortcut icon"
+      sizes="96x96"
+      href="/static/img/common/hicon_96.png"
+    /> -->
+  </head>
+
+  <body>
+    <div id="wrap">
+      <div class="head_default_type1">
+        <a href="#" class="btn_back">뒤로가기</a>
+        <em>포인트 출금</em>
+      </div>
+      <div class="cnt_default_type2">
+        <div class="p_withdraw_wrap">
+          <form action="#" method="post">
+            <div class="input_type2">
+              <div class="title">
+                <label for="withdraw">출금 포인트</label>
+                <button
+                  type="button"
+                  class="btn_question"
+                  onclick="richCarPlanetUI.layerPopUp({ selId: '#withdraw_modal'}); return false"
+                >
+                  ?
+                </button>
+                <span class="deposit_date">입금예정일: 11/20</span>
+              </div>
+              <div class="wrap">
+                <input type="text" name="" id="withdraw" placeholder="10,000" />
+              </div>
+            </div>
+            <div class="input_type2">
+              <div class="title">이름</div>
+              <div class="wrap">
+                <input
+                  type="text"
+                  name=""
+                  id="acco_number"
+                  placeholder="이재호"
+                  disabled
+                />
+              </div>
+            </div>
+            <div class="input_type2">
+              <div class="title">
+                신분증 사본
+                <button type="button" class="btn_re_photo">
+                  다시촬영
+                </button>
+              </div>
+              <div class="wrap p_0">
+                <div class="input_file">
+                  <div class="file_area">
+                    <label
+                      class="file_label"
+                      onclick="uploadImage('acco_img', 'acco_img_upload')"
+                    >
+                      <input type="file" class="upload_hidden" id="acco_img" />
+                      <div class="add_bg">
+                        <img
+                          src="../../images/common/identity_card_add_ic.svg"
+                          alt="신분증 사본 올리기"
+                        /><br />
+                        <span class="file_guide">
+                          주민등록증 또는 운전면허증을<br />
+                          등록해주세요
+                        </span>
+                      </div>
+                    </label>
+                    <img
+                      src="#"
+                      alt=""
+                      id="acco_img_upload"
+                      class="upload_img"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="alert_guide" style="display: block">
+                신분증을 등록해주세요
+              </div>
+            </div>
+            <div class="input_type2">
+              <div class="title mb_0">입금은행</div>
+              <div class="wrap pb_0">
+                <select name="" id="" class="type3">
+                  <option value="NH농협">NH농협</option>
+                  <option value="우리은행">우리은행</option>
+                  <option value="신한은행">신한은행</option>
+                  <option value="KB국민은행">KB국민은행</option>
+                  <option value="하나은행">하나은행</option>
+                  <option value="외환은행">외환은행</option>
+                  <option value="IBK기업은행">IBK기업은행</option>
+                  <option value="케이뱅크">케이뱅크</option>
+                  <option value="카카오뱅크">카카오뱅크</option>
+                  <option value="새마을금고">새마을금고</option>
+                  <option value="BNK 부산은행">BNK 부산은행</option>
+                  <option value="BNK 경남은행">BNK 경남은행</option>
+                  <option value="광주은행">광주은행</option>
+                  <option value="전북은행">전북은행</option>
+                  <option value="신협">신협</option>
+                  <option value="SC제일은행">SC제일은행</option>
+                  <option value="KDB산업은행">KDB산업은행</option>
+                  <option value="대구은행">대구은행</option>
+                  <option value="제주은행">제주은행</option>
+                  <option value="우체국">우체국</option>
+                  <option value="수협">수협</option>
+                </select>
+              </div>
+              <div class="alert_guide" style="display: block">
+                입금은행을 선택해주세요
+              </div>
+            </div>
+            <div class="input_type2">
+              <div class="title">
+                <label for="acco_number">계좌번호</label>
+              </div>
+              <div class="wrap">
+                <input
+                  type="text"
+                  name=""
+                  id="acco_number"
+                  placeholder="계좌번호를 입력해주세요"
+                />
+              </div>
+              <div class="alert_guide" style="display: block">
+                계좌번호를 입력해주세요
+              </div>
+            </div>
+            <div class="input_type2">
+              <div class="title">
+                통장사본
+                <button type="button" class="btn_re_photo">
+                  다시촬영
+                </button>
+              </div>
+              <div class="wrap p_0">
+                <div class="input_file">
+                  <div class="file_area">
+                    <label
+                      class="file_label"
+                      onclick="uploadImage('acco_img2', 'acco_img2_upload')"
+                    >
+                      <input type="file" class="upload_hidden" id="acco_img2" />
+                      <div class="add_bg">
+                        <img
+                          src="../../images/common/identity_card_add_ic.svg"
+                          alt="통장 사본을 등록해주세요"
+                        /><br />
+                        <span class="file_guide">
+                          통장 사본을 등록해주세요
+                        </span>
+                      </div>
+                    </label>
+                    <img
+                      src="#"
+                      alt=""
+                      id="acco_img2_upload"
+                      class="upload_img"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="alert_guide" style="display: block">
+                통장 사본을 촬영해주세요
+              </div>
+            </div>
+            <div class="btn_area">
+              <button
+                type="button"
+                class="btn_default_b"
+                onclick="richCarPlanetUI.layerPopUp({ selId: '#withdraw_ok_modal'}); return false"
+              >
+                출금신청
+              </button>
+            </div>
+            <!-- <ul class="list_info_text">
+                    <li>
+                      본인 인증 정보는 변경 할 수 없습니다
+                    </li>
+                    <li>
+                      본인 인증 정보와 입금정보가 다른 경우 출금이 제한됩니다
+                    </li>
+                    <li>
+                      입금 계좌정보는 마이페이지>계좌정보에서 수정 하실수 있습니다
+                    </li>
+                    <li>
+                      입금 계좌 변경 시 통장 사본도 첨부하셔야 합니다
+                    </li>
+                    <li>
+                      출금 완료 시 세금 3.3% 제외되어 입금 처리됩니다
+                    </li>
+                  </ul> -->
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="pop_layer modal" id="withdraw_ok_modal" data-layer-type="modal">
+      <div class="pop_content">
+        <div class="pop_head">
+          <h3>출금신청 확인</h3>
+          <a href="#" class="btn_close"
+            ><img src="../../images/common/main_title_cancel_ic.svg" alt="닫기"
+          /></a>
+        </div>
+        <div class="pop_txt5">
+          <strong>
+            출금취소는 <span class="hlt">입금예정일 3일</span> 전까지
+            가능하며<br />
+            이후에는 취소할 수 없습니다.
+          </strong>
+          <table class="table_type2 mt_60">
+            <colgroup>
+              <col style="width: 34.767%" />
+              <col style="width: 65.233%" />
+            </colgroup>
+            <thead></thead>
+            <tbody>
+              <tr>
+                <th scope="row">신청 포인트</th>
+                <td>
+                  <span class="hlt">10,000P</span>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">성함</th>
+                <td>
+                  이재호
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">계좌번호</th>
+                <td>
+                  국민은행<br />
+                  0000011111222222
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pop_txt">
+          <ul class="list_info_text ver2">
+            <li>출금신청 하시겠습니까?</li>
+          </ul>
+        </div>
+        <div class="pop_btn_area">
+          <ul>
+            <li>
+              <button type="button" class="btn_square_dark btn_close">
+                취소
+              </button>
+            </li>
+            <li>
+              <button type="button" class="btn_square_default">확인</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="pop_layer modal" id="withdraw_modal" data-layer-type="modal">
+      <div class="pop_content">
+        <div class="pop_head">
+          <h3>포인트 출금 안내</h3>
+          <a href="#" class="btn_close"
+            ><img src="../../images/common/main_title_cancel_ic.svg" alt="닫기"
+          /></a>
+        </div>
+        <div class="pop_txt">
+          <ul class="list_info_text">
+            <li>
+              최초 출금신청시 계좌정보를 입력해야 됩니다.
+            </li>
+            <li>
+              입금예정일이 주말(공휴일)인 경우 익영업일에 입금됩니다.
+            </li>
+            <li>
+              입금예정일 3일 전까지 출금취소가 가능합니다.
+            </li>
+          </ul>
+        </div>
+        <div class="pop_btn_area">
+          <ul>
+            <li>
+              <button type="button" class="btn_square_default btn_close">
+                확인
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="../../js/lib/jquery/jquery-1.12.4.min.js"></script>
+    <script src="../../js/lib/swiper/js/swiper.min.js"></script>
+    <script src="../../js/util.js"></script>
+    <script src="../../js/ui.js"></script>
+  </body>
+</html>

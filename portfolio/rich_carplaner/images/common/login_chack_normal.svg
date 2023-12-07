@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="login_chack_normal" width="68" height="68" viewBox="0 0 68 68">
+    <defs>
+        <style>
+            .cls-1{fill:rgba(255,255,255,0)}.cls-2{fill:none;stroke:#959595;stroke-linejoin:round;stroke-width:3px}
+        </style>
+    </defs>
+    <path id="사각형_548" d="M0 0h68v68H0z" class="cls-1" data-name="사각형 548"/>
+    <g id="그룹_3305" data-name="그룹 3305" transform="translate(-462.5 -405.5)">
+        <ellipse id="타원_68" cx="14" cy="14" class="cls-2" data-name="타원 68" rx="14" ry="14" transform="translate(482.5 425.5)"/>
+        <path id="패스_432" d="M260.457 901.451l-10.124 10.124-5.637-5.637" class="cls-2" data-name="패스 432" transform="translate(243.358 -466.473)"/>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <style>
+            .cls-1,.cls-6{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:rgba(255,255,255,0)}.cls-4{fill:rgba(227,186,186,0)}.cls-5{fill:#fff}.cls-6{stroke:#454545;stroke-width:3px}.cls-7,.cls-9{fill:#454545}.cls-8,.cls-9{stroke:none}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h80v80H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="authority_photo_ic" class="cls-2">
+        <path id="사각형_591" d="M0 0h80v80H0z" class="cls-3" data-name="사각형 591"/>
+        <g id="authority_photo_ic-2" data-name="authority_photo_ic" transform="translate(6.143 4.286)">
+            <path id="사각형_252" d="M0 0h67.143v71.429H0z" class="cls-4" data-name="사각형 252" transform="translate(-.143 -.286)"/>
+            <g id="합치기_15" class="cls-5" data-name="합치기 15">
+                <path d="M602.857 5548.215h-36a5.506 5.506 0 0 1-5.5-5.5v-26.61c0-3.032 2.467-5.5 5.5-5.5h7.5v-1.891c0-1.379 1.121-2.5 2.5-2.5h16c1.379 0 2.5 1.121 2.5 2.5v1.891h7.5c3.033 0 5.5 2.468 5.5 5.5v26.61c0 3.033-2.467 5.5-5.5 5.5z" class="cls-8" transform="translate(-551.001 -5489.999)"/>
+                <path d="M602.857 5546.715c2.206 0 4-1.795 4-4v-26.61c0-2.205-1.794-4-4-4h-9v-3.391c0-.551-.448-1-1-1h-16c-.552 0-1 .449-1 1v3.391h-9a4.004 4.004 0 0 0-4 4v26.61c0 2.205 1.795 4 4 4h36m0 3h-36a7 7 0 0 1-7-7v-26.61a7 7 0 0 1 7-7h6v-.391a4 4 0 0 1 4-4h16a4 4 0 0 1 4 4v.391h6a7 7 0 0 1 7 7v26.61a7 7 0 0 1-7 7z" class="cls-9" transform="translate(-551.001 -5489.999)"/>
+            </g>
+            <g id="타원_357" class="cls-6" data-name="타원 357" transform="translate(21.857 27.714)">
+                <circle cx="12" cy="12" r="12" class="cls-8"/>
+                <circle cx="12" cy="12" r="10.5" class="cls-1"/>
+            </g>
+            <circle id="타원_358" cx="2.5" cy="2.5" r="2.5" class="cls-7" data-name="타원 358" transform="translate(46.857 25.714)"/>
+        </g>
+    </g>
+</svg>

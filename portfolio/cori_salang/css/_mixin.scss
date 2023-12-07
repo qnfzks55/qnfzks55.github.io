@@ -1,0 +1,35 @@
+@mixin button-bg($bg) {
+  background: $bg;
+  &:hover {
+    background: darken($bg, 8%);
+    transition: all 0.3s ease;
+  }
+  &:active {
+    background: darken($bg, 40%);
+  }
+}
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+@mixin hidden-txt() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  white-space: nowrap;
+  text-align: left;
+}
+
+// Rem 수치계산
+@function Rem($child: 0, $parent: 16px) {
+  @return ($child/ $parent) + rem;
+}
+
+// vw 수치 계산
+@function VW($el) {
+  $vw_cnt: (720 * 0.01) * 1px;
+  @return ($el/$vw_cnt) * 1vw;
+}

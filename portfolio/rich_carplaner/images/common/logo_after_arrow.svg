@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="120" viewBox="0 0 70 120">
+    <defs>
+        <style>
+            .cls-1,.cls-4{fill:none}.cls-1{stroke:#c5c5c5;stroke-width:3px}.cls-2{fill:#fff;stroke:#707070;opacity:0}.cls-3{stroke:none}
+        </style>
+    </defs>
+    <g id="logo_after_arrow_" data-name="logo_after_arrow" transform="translate(-560 -61)">
+        <path id="패스_1887" d="M-3508-614.5l-16 16 16 16" class="cls-1" data-name="패스 1887" transform="rotate(180 -1472 -238.75)"/>
+        <g id="사각형_2159" class="cls-2" data-name="사각형 2159">
+            <path d="M0 0h70v120H0z" class="cls-3" transform="translate(560 61)"/>
+            <path d="M.5.5h69v119H.5z" class="cls-4" transform="translate(560 61)"/>
+        </g>
+    </g>
+</svg>

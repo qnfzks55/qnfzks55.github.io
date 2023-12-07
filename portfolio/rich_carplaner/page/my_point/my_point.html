@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>리치 카플래너</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Author" content="" />
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="리치 카플래너" />
+    <meta property="og:description" content="리치 카플래너" />
+    <!-- <meta
+      property="og:image"
+      content="http://richnco.co.kr/static/img/event/goodrichlounge/GoodRich_Lounge.jpg"
+    /> -->
+    <link rel="stylesheet" type="text/css" href="../../css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/sub1.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../js/lib/swiper/css/swiper.min.css"
+    />
+  
+    <link rel="stylesheet" type="text/css" href="../../css/common.css" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="../../images/common/hicon_512.png"
+    />
+    <link
+      rel="shortcut icon"
+      sizes="512x512"
+      href="../../images/common/hicon_512.png"
+    />
+  </head>
+
+  <body>
+    <div class="head_default_type1" id="head_mask">
+      <a href="../../index.html" class="btn_back">뒤로가기</a>
+      <em>내 포인트</em>
+    </div>
+    <div class="my_info_layer" data-info-layer="sub">
+      <!--[D]여성일때 woman 클래스 추가-->
+      <div class="my_pf_info woman">
+        님 포인트
+      </div>
+      <div class="my_point type2"></div>
+      <ul class="my_point_btn">
+        <li class="single">
+          <button class="btn_default_w">출금 신청</button>
+        </li>
+      </ul>
+    </div>
+    <div class="cnt_default_type4">
+      <div class="my_point_wrap">
+        <div class="my_point_swipe">
+          <div class="my_point_tab">
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><!-- //[D] 내역이 없을때 disabled 클래스 추가 (UI 바 이슈) -->
+              <div class="search_area">
+                <div class="left_area">
+                  <div class="select_area">
+                    <select>
+                      <option value="전체">전체</option>
+                      <option value="적립">적립</option>
+                      <option value="차감">차감</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="right_area">
+                  <div class="select_area">
+                    <select>
+                      <option value="" selected disabled>전체</option>
+                      <option value="다이렉트 보험가입"
+                        >다이렉트 보험가입</option
+                      >
+                      <option value="이벤트">이벤트</option>
+                      <option value="포인트 출금">포인트 출금</option>
+                      <option value="수리정비 조회">수리정비 조회</option>
+                    </select>
+                  </div>
+                  <div class="date_search">
+                    <div class="input_area">
+                      <input type="text" id="dateStart" readonly />
+                    </div>
+                    <em>~</em>
+                    <div class="input_area">
+                      <input type="text" id="dateEnd" readonly />
+                    </div>
+                    <button type="button" class="btn_look">조회</buttonㅇ>
+                  </div>
+                  <ul class="date_searcn_btn">
+                    <li>
+                      <button type="button" onclick="setSearchDate('1w')">7일</button>
+                    </li>
+                    <li>
+                      <button type="button" onclick="setSearchDate('1m')">1개월</button>
+                    </li>
+                    <li>
+                      <button type="button" onclick="setSearchDate('3m')">3개월</button>
+                    </li>
+                    <li>
+                      <button type="button" onclick="setSearchDate('6m')">6개월</button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- <div class="not_data type3 lg ico">
+                  적립된 포인트가 없습니다.<br />
+                  다양한 활동으로 나만의 비상금을 적립하세요
+              </div> -->
+               <div class="progress_area">
+                <ul class="progress_list">
+                  <li class="active">
+                    <div class="left_area">
+                      <span class="cate_title">적립</span>
+                    </div>
+                    <div class="right_area">
+                      <strong>다이렉트 보험 가입</strong>
+                      <div class="point_box">
+                        <span class="point_num">5,000</span>
+                      </div>
+                      <span class="date_time">2019.04.01<br />AM 06:30</span>
+                    </div>
+                  </li>
+                  <li class="active">
+                      <div class="left_area">
+                        <span class="cate_title">적립</span>
+                      </div>
+                      <div class="right_area">
+                        <strong>다이렉트 보험 가입</strong>
+                        <div class="point_box">
+                          <span class="point_num">5,000</span>
+                        </div>
+                        <span class="date_time">2019.04.01<br />AM 06:30</span>
+                      </div>
+                    </li>
+                  <li>
+                    <div class="left_area">
+                      <span class="cate_title">차감</span>
+                    </div>
+                    <div class="right_area">
+                      <strong>정비 이력 조회</strong>
+                      <div class="point_box">
+                        <span class="point_num">1,000</span>
+                      </div>
+                      <span class="date_time">2019.04.01<br />AM 06:30</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="left_area">
+                      <span class="cate_title">차감</span>
+                    </div>
+                    <div class="right_area">
+                      <strong>포인트 출금</strong>
+                      <div class="point_box">
+                          <span class="point_num">10,000</span>
+                        </div>
+                      <span class="date_time">2019.04.01<br />AM 06:30</span>
+                    </div>
+                  </li>
+                  <li class="active">
+                    <div class="left_area">
+                      <span class="cate_title">적립</span>
+                    </div>
+                    <div class="right_area">
+                      <strong>다이렉트 보험 가입</strong>
+                      <div class="point_box">
+                        <span class="point_num">5,000</span>
+                      </div>
+                      <span class="date_time">2019.04.01<br />AM 06:30</span>
+                    </div>
+                  </li>
+                  <li class="active">
+                    <div class="left_area">
+                      <span class="cate_title">적립</span>
+                    </div>
+                    <div class="right_area">
+                      <strong>다이렉트 보험 가입</strong>
+                      <div class="point_box">
+                        <span class="point_num">5,000</span>
+                      </div>
+                      <span class="date_time">2019.04.01<br />AM 06:30</span>
+                    </div>
+                  </li>
+                  <li class="active">
+                    <div class="left_area">
+                      <span class="cate_title">적립</span>
+                    </div>
+                    <div class="right_area">
+                      <strong>다이렉트 보험 가입</strong>
+                      <div class="point_box">
+                        <span class="point_num">5,000</span>
+                      </div>
+                      <span class="date_time">2019.04.01<br />AM 06:30</span>
+                    </div>
+                  </li>
+                  <li class="active">
+                    <div class="left_area">
+                      <span class="cate_title">적립</span>
+                    </div>
+                    <div class="right_area">
+                      <strong>다이렉트 보험 가입</strong>
+                      <div class="point_box">
+                        <span class="point_num">5,000</span>
+                      </div>
+                      <span class="date_time">2019.04.01<br />AM 06:30</span>
+                    </div>
+                  </li>
+                  <li class="active">
+                    <div class="left_area">
+                      <span class="cate_title">적립</span>
+                    </div>
+                    <div class="right_area">
+                      <strong>다이렉트 보험 가입</strong>
+                      <div class="point_box">
+                        <span class="point_num">5,000</span>
+                      </div>
+                      <span class="date_time">2019.04.01<br />AM 06:30</span>
+                    </div>
+                  </li>
+                  <li class="active">
+                    <div class="left_area">
+                      <span class="cate_title">적립</span>
+                    </div>
+                    <div class="right_area">
+                      <strong>다이렉트 보험 가입</strong>
+                      <div class="point_box">
+                        <span class="point_num">5,000</span>
+                      </div>
+                      <span class="date_time">2019.04.01<br />AM 06:30</span>
+                    </div>
+                  </li>
+                </ul> 
+              </div> 
+            </div>
+            <div class="swiper-slide disabled">
+              <div class="search_area">
+                <div class="left_area">
+                  <div class="select_area">
+                    <select>
+                      <option value="전체">전체</option>
+                      <option value="출금완료">출금 완료</option>
+                      <option value="출금반려">출금 반려</option>
+                      <option value="출금신청">출금 신청</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="progress_area">
+                <ul class="progress_list">
+                  <li class="active">
+                    <div class="left_area">
+                      <span class="cate_title">출금 완료</span>
+                    </div>
+                    <div class="right_area">
+                      <strong>완료일:2019.04.01</strong>
+                      <ul class="withdraw_list">
+                        <li>
+                          <div class="point_box">
+                            <span class="tit">신청금액</span>
+                            <span class="point_num">5,000</span>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="point_box">
+                            <span class="tit">출금금액</span>
+                            <span class="point_num">5,000</span>
+                          </div>
+                        </li>
+                      </ul>
+                      <div class="accordion_type2">
+                        <div class="accordion">
+                          <div class="inner">
+                            <div class="btn_arrow"></div>
+                          </div>
+                        </div>
+                        <div class="panel">
+                          <div class="inner">
+                            <ul class="withdraw_list">
+                              <li>
+                                <div class="point_box">
+                                  <span class="tit">신청일</span>
+                                  <span class="txt">2019-04-01 오전 06:30</span>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="point_box">
+                                  <span class="tit">완료일</span>
+                                  <span class="txt">2019-04-01 오전 06:30</span>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="point_box">
+                                  <span class="tit">출금 정보</span>
+                                  <span class="txt"
+                                    >우리은행, 312-3321231-****</span
+                                  >
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="active_2">
+                    <div class="left_area">
+                      <span class="cate_title">출금 신청</span>
+                    </div>
+                    <div class="right_area">
+                      <strong>신청일:2019.04.01</strong>
+                      <ul class="withdraw_list">
+                        <li>
+                          <div class="point_box">
+                            <span class="tit">신청금액</span>
+                            <span class="point_num">5,000</span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="left_area">
+                      <span class="cate_title">출금 반려</span>
+                    </div>
+                    <div class="right_area">
+                      <strong>완료일:2019.04.01</strong>
+                      <ul class="withdraw_list">
+                        <li>
+                          <div class="point_box">
+                            <span class="tit">반려사유</span>
+                            <span class="txt"
+                              >잘못된 출금 정보 잘못된 출금 정보 잘못된 출금
+                              정보 잘못된 출금 정보 잘못된 출금 정보</span
+                            >
+                          </div>
+                        </li>
+                        <li>
+                          <div class="point_box">
+                            <span class="tit">신청금액</span>
+                            <span class="point_num">5,000</span>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="point_box">
+                            <span class="tit">출금금액</span>
+                            <span class="point_num">5,000</span>
+                          </div>
+                        </li>
+                      </ul>
+                      <div class="accordion_type2">
+                        <div class="accordion">
+                          <div class="inner">
+                            <div class="btn_arrow"></div>
+                          </div>
+                        </div>
+                        <div class="panel">
+                          <div class="inner">
+                            <ul class="withdraw_list">
+                              <li>
+                                <div class="point_box">
+                                  <span class="tit">신청일</span>
+                                  <span class="txt">2019-04-01 오전 06:30</span>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="point_box">
+                                  <span class="tit">완료일</span>
+                                  <span class="txt">2019-04-01 오전 06:30</span>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="point_box">
+                                  <span class="tit">출금 정보</span>
+                                  <span class="txt"
+                                    >우리은행, 312-3321231-****</span
+                                  >
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div> -->
+              <div class="not_data lg ico type3">
+                  출금내역이 없습니다. 
+              </div>
+            </div>
+            <!-- <div class="swiper-slide">
+              <div class="progress_area point_lv">
+                <ul class="progress_list">
+                  <li class="active">
+                    <div class="left_area">
+                      <span class="cate_title">상위1%</span>
+                    </div>
+                    <div class="right_area">
+                      <div class="point_box">
+                        <span class="tit">평균</span>
+                        <span class="point_num">115,000</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="left_area">
+                      <span class="cate_title">상위5%</span>
+                    </div>
+                    <div class="right_area">
+                      <div class="point_box">
+                        <span class="tit">평균</span>
+                        <span class="point_num">95,000</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="left_area">
+                      <span class="cate_title">상위20%</span>
+                    </div>
+                    <div class="right_area">
+                      <div class="point_box">
+                        <span class="tit">평균</span>
+                        <span class="point_num">75,000</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="left_area">
+                      <span class="cate_title">상위40%</span>
+                    </div>
+                    <div class="right_area">
+                      <div class="point_box">
+                        <span class="tit">평균</span>
+                        <span class="point_num">55,000</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="left_area">
+                      <span class="cate_title">상위70%</span>
+                    </div>
+                    <div class="right_area">
+                      <div class="point_box">
+                        <span class="tit">평균</span>
+                        <span class="point_num">35,000</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="left_area">
+                      <span class="cate_title">상위100%</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../../js/lib/jquery/jquery-1.12.4.min.js"></script>
+    <script src="../../js/lib/jquery/jquery-ui.min.js"></script>
+    <script src="../../js/lib/swiper/js/swiper.min.js"></script>
+    <script src="../../js/util.js"></script>
+    <script src="../../js/ui.js"></script>
+    <script>
+      (function($) {
+        $(function() {
+          $("#dateStart").datepicker({
+            dateFormat: "yy-mm-dd",
+            showOn: "button",
+            buttonImage: "../../images/common/calendar_ic.svg",
+            showOtherMonths: true,
+            showMonthAfterYear: true,
+            dayNamesMin: ["일", "월", "화", "수", "목", "금", "토"],
+            nextText: "다음",
+            prevText: "이전",
+            yearSuffix: "년",
+            monthNames: [
+              "1월",
+              "2월",
+              "3월",
+              "4월",
+              "5월",
+              "6월",
+              "7월",
+              "8월",
+              "9월",
+              "10월",
+              "11월",
+              "12월"
+            ],
+            monthNamesShort: [
+              "1 월",
+              "2 월",
+              "3 월",
+              "4 월",
+              "5 월",
+              "6 월",
+              "7 월",
+              "8 월",
+              "9 월",
+              "10 월",
+              "11 월",
+              "12 월"
+            ],
+            changeYear: true,
+            changeMonth: true
+          });
+          $("#dateEnd").datepicker({
+            dateFormat: "yy-mm-dd",
+            showOn: "button",
+            buttonImage: "../../images/common/calendar_ic.svg",
+            showOtherMonths: true,
+            showMonthAfterYear: true,
+            dayNamesMin: ["일", "월", "화", "수", "목", "금", "토"],
+            yearSuffix: "년",
+            nextText: "다음",
+            prevText: "이전",
+            monthNames: [
+              "1월",
+              "2월",
+              "3월",
+              "4월",
+              "5월",
+              "6월",
+              "7월",
+              "8월",
+              "9월",
+              "10월",
+              "11월",
+              "12월"
+            ],
+            monthNamesShort: [
+              "1 월",
+              "2 월",
+              "3 월",
+              "4 월",
+              "5 월",
+              "6 월",
+              "7 월",
+              "8 월",
+              "9 월",
+              "10 월",
+              "11 월",
+              "12 월"
+            ],
+            changeYear: true,
+            changeMonth: true
+          });
+        });
+      })(jQuery);
+    </script>
+  </body>
+</html>

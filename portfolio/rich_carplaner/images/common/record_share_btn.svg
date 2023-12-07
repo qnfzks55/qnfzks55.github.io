@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="46" viewBox="0 0 112 46">
+    <defs>
+        <style>
+            .cls-1,.cls-4{fill:none}.cls-1{stroke:#fff;stroke-width:2px}.cls-2{fill:#fff;font-size:22px;font-family:NotoSansCJKkr-Bold,Noto Sans CJK KR;font-weight:700;letter-spacing:-.05em}.cls-3{stroke:none}
+        </style>
+    </defs>
+    <g id="record_share_btn" transform="translate(-498 -410)">
+        <g id="사각형_436" class="cls-1" data-name="사각형 436" transform="translate(498 410)">
+            <rect width="112" height="46" class="cls-3" rx="16"/>
+            <rect width="110" height="44" x="1" y="1" class="cls-4" rx="15"/>
+        </g>
+        <text id="이력공유" class="cls-2" transform="translate(554 443)">
+            <tspan x="-38.83" y="0">이력공유</tspan>
+        </text>
+    </g>
+</svg>

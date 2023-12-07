@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 68 68">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;opacity:0}.cls-2{fill:none;stroke:#767676;stroke-width:4px}
+        </style>
+    </defs>
+    <g id="drop_down_clause_open" transform="translate(-578 -585)">
+        <path id="사각형_610" d="M0 0h68v68H0z" class="cls-1" data-name="사각형 610" transform="translate(578 585)"/>
+        <path id="패스_434" d="M0 0l12 11.8L0 24" class="cls-2" data-name="패스 434" transform="rotate(90 5.5 619)"/>
+    </g>
+</svg>

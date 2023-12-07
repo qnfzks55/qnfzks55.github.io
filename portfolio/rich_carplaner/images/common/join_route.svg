@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="_05_join_route" width="48" height="48" data-name="05_join_route" viewBox="0 0 48 48">
+    <defs>
+        <style>
+            .cls-1{fill:rgba(227,186,186,0)}.cls-2,.cls-3,.cls-6{fill:none}.cls-2,.cls-3,.cls-4{stroke:#454545;stroke-width:2px}.cls-3{stroke-linecap:round}.cls-4{fill:#fff}.cls-5{stroke:none}
+        </style>
+    </defs>
+    <path id="사각형_253" d="M0 0h48v48H0z" class="cls-1" data-name="사각형 253"/>
+    <g id="그룹_3354" data-name="그룹 3354" transform="translate(-93.812 -1087.889)">
+        <path id="패스_1834" d="M15.524 52.125h22.991s6.443.069 6.443 6-6.956 6-6.956 6H16.549s-6.736-.077-6.736 5.858 6.736 5.784 6.736 5.784H38" class="cls-2" data-name="패스 1834" transform="translate(90 1046.536)"/>
+        <path id="선_137" d="M0 0l5.858 5.858" class="cls-3" data-name="선 137" transform="translate(122.877 1116.673)"/>
+        <path id="선_138" d="M5.858 0L0 5.858" class="cls-3" data-name="선 138" transform="translate(122.877 1122.531)"/>
+        <g id="타원_384" class="cls-4" data-name="타원 384" transform="translate(102.146 1094.889)">
+            <circle cx="3.5" cy="3.5" r="3.5" class="cls-5"/>
+            <circle cx="3.5" cy="3.5" r="2.5" class="cls-6"/>
+        </g>
+    </g>
+</svg>

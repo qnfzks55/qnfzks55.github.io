@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+    <defs>
+        <style>
+            .cls-1,.cls-5{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:rgba(255,255,255,0)}.cls-4{fill:#454545}.cls-5{stroke:#454545;stroke-width:4px}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h72v72H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="title_back_btn" class="cls-2">
+        <path id="사각형_474" d="M0 0h72v72H0z" class="cls-3" data-name="사각형 474"/>
+        <path id="사각형_435" d="M0 0h35v4H0z" class="cls-4" data-name="사각형 435" transform="translate(21.451 33.5)"/>
+        <path id="패스_425" d="M-9518.4-804.8l14.1 13.865-14.1 14.335" class="cls-5" data-name="패스 425" transform="rotate(180 -4742.15 -377.8)"/>
+    </g>
+</svg>

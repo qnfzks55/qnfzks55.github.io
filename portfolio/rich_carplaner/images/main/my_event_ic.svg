@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:#454545}.cls-2{fill:#0f2;opacity:0}
+        </style>
+    </defs>
+    <g id="my_event_ic" transform="translate(-605.79 -389)">
+        <g id="그룹_2721" data-name="그룹 2721" transform="translate(615.175 393)">
+            <g id="그룹_2717" data-name="그룹 2717">
+                <g id="패스_327" data-name="패스 327" transform="translate(0 .133)">
+                    <path id="패스_424" d="M815.783 121.213a7.875 7.875 0 0 1-5.585-2.308 5.63 5.63 0 0 0-7.95 0 1.138 1.138 0 0 1-1.943-.8v-12.497a1.138 1.138 0 0 1 .333-.8 7.909 7.909 0 0 1 11.169 0 5.632 5.632 0 0 0 7.95 0 1.138 1.138 0 0 1 1.943.8V118.1a1.137 1.137 0 0 1-.333.8 7.874 7.874 0 0 1-5.584 2.313zm-9.56-6.226a7.877 7.877 0 0 1 5.584 2.308 5.632 5.632 0 0 0 7.617.308v-9.767a7.918 7.918 0 0 1-9.227-1.423 5.63 5.63 0 0 0-7.616-.308v9.766a7.915 7.915 0 0 1 3.643-.884z" class="cls-1" data-name="패스 424" transform="translate(-800.306 -102.495)"/>
+                </g>
+                <g id="선_23" data-name="선 23">
+                    <path id="사각형_427" d="M0 0h2.276v33H0z" class="cls-1" data-name="사각형 427"/>
+                </g>
+            </g>
+        </g>
+        <path id="사각형_642" d="M0 0h40v40H0z" class="cls-2" data-name="사각형 642" transform="translate(605.79 389)"/>
+    </g>
+</svg>

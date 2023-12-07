@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="40" viewBox="0 0 75 40">
+    <defs>
+        <style>
+            .prefix__cls-2{isolation:isolate}.prefix__cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__icon_jiseon" transform="translate(-335 -1156)">
+        <rect id="prefix__사각형_457" width="75" height="40" data-name="사각형 457" rx="20" transform="translate(335 1156)" style="fill:#4e9f31"/>
+        <g id="prefix__지선" class="prefix__cls-2" transform="translate(353.333 1166)">
+            <g id="prefix__그룹_6533" class="prefix__cls-2" data-name="그룹 6533">
+                <path id="prefix__패스_4882" d="M672.828 392.887a9.512 9.512 0 0 0 5.462 8.545l-1.33 1.89a10.335 10.335 0 0 1-5.323-6.092 10.874 10.874 0 0 1-5.3 6.628l-1.378-1.913c3.268-1.517 5.44-5.44 5.44-9.058v-2.008h-4.693V388.9h11.814v1.983h-4.692zm9.572-6.093v21.08h-2.428v-21.08z" class="prefix__cls-3" data-name="패스 4882" transform="translate(-664.96 -386.794)"/>
+                <path id="prefix__패스_4883" d="M688.375 399.167a8.32 8.32 0 0 1-4.81-4.668 8.9 8.9 0 0 1-5.113 5.158l-1.283-1.867a7.594 7.594 0 0 0 5.113-7.262v-2.452h2.452v2.5a7.181 7.181 0 0 0 4.925 6.725zm6.793 6.35v1.962H680.95v-6.653h2.43v4.692zm-2.895-12H688v-1.983h4.272v-4.74h2.4v15.688h-2.4z" class="prefix__cls-3" data-name="패스 4883" transform="translate(-656.821 -386.794)"/>
+            </g>
+        </g>
+    </g>
+</svg>

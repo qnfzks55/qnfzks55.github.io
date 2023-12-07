@@ -1,0 +1,105 @@
+// Noto Sans
+@font-face {
+  font-family: "NotoSans";
+  font-style: normal;
+  font-weight: 100;
+  src: local("NotoSans"),
+    url("fonts/notosans/NotoSans-Thin.woff2") format("woff2"),
+    url("fonts/notosans/NotoSans-Thin.woff") format("woff"),
+    url("fonts/notosans/NotoSans-Thin.eot") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "NotoSans";
+  font-style: normal;
+  font-weight: 300;
+  src: local("NotoSans"),
+    url("fonts/notosans/NotoSans-Light.woff2") format("woff2"),
+    url("fonts/notosans/NotoSans-Light.woff") format("woff"),
+    url("fonts/notosans/NotoSans-Light.eot") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "NotoSans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("NotoSans"),
+    url("fonts/notosans/NotoSans-Regular.woff2") format("woff2"),
+    url("fonts/notosans/NotoSans-Regular.woff") format("woff"),
+    url("fonts/notosans/NotoSans-Regular.eot") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "NotoSans";
+  font-style: normal;
+  font-weight: 500;
+  src: local("NotoSans"),
+    url("fonts/notosans/NotoSans-Medium.woff2") format("woff2"),
+    url("fonts/notosans/NotoSans-Medium.woff") format("woff"),
+    url("fonts/notosans/NotoSans-Medium.eot") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "NotoSans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("NotoSans"),
+    url("fonts/notosans/NotoSans-Bold.woff2") format("woff2"),
+    url("fonts/notosans/NotoSans-Bold.woff") format("woff"),
+    url("fonts/notosans/NotoSans-Bold.eot") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "NotoSans";
+  font-style: normal;
+  font-weight: 900;
+  src: local("NotoSans"),
+    url("fonts/notosans/NotoSans-Black.woff2") format("woff2"),
+    url("fonts/notosans/NotoSans-Black.woff") format("woff"),
+    url("fonts/notosans/NotoSans-Black.eot") format("embedded-opentype");
+}
+
+// 나눔스퀘어라운드
+@font-face {
+  font-family: "NanumSquareRound";
+  font-style: normal;
+  font-weight: 100;
+  src: local("※"),
+    url("fonts/nanumsquareround/NanumSquareRoundL.woff2") format("woff2"),
+    url("fonts/nanumsquareround/NanumSquareRoundL.woff") format("woff"),
+    url("fonts/nanumsquareround/NanumSquareRoundL.eot")
+      format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "NanumSquareRound";
+  font-style: normal;
+  font-weight: 400;
+  src: local("※"),
+    url("fonts/nanumsquareround/NanumSquareRoundR.woff2") format("woff2"),
+    url("fonts/nanumsquareround/NanumSquareRoundR.woff") format("woff"),
+    url("fonts/nanumsquareround/NanumSquareRoundR.eot")
+      format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "NanumSquareRound";
+  font-style: normal;
+  font-weight: 700;
+  src: local("※"),
+    url("fonts/nanumsquareround/NanumSquareRoundB.woff2") format("woff2"),
+    url("fonts/nanumsquareround/NanumSquareRoundB.woff") format("woff"),
+    url("fonts/nanumsquareround/NanumSquareRoundB.eot")
+      format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "NanumSquareRound";
+  font-style: normal;
+  font-weight: 900;
+  src: local("※"),
+    url("fonts/nanumsquareround/NanumSquareRoundEB.woff2") format("woff2"),
+    url("fonts/nanumsquareround/NanumSquareRoundEB.woff") format("woff"),
+    url("fonts/nanumsquareround/NanumSquareRoundEB.eot")
+      format("embedded-opentype");
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="104" height="32" viewBox="0 0 104 32">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{stroke:#454545;stroke-width:2px}.cls-4{fill:#454545;font-size:20px;font-family:NotoSansCJKkr-Regular,Noto Sans CJK KR;letter-spacing:-.05em}.cls-5{stroke:none}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h104v32H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="waiting_badge_mark" class="cls-2">
+        <g id="사각형_436" class="cls-3" data-name="사각형 436">
+            <rect width="104" height="32" class="cls-5" rx="16"/>
+            <rect width="102" height="30" x="1" y="1" class="cls-1" rx="15"/>
+        </g>
+        <text id="답변대기" class="cls-4" transform="translate(52 24)">
+            <tspan x="-35.3" y="0">답변대기</tspan>
+        </text>
+    </g>
+</svg>

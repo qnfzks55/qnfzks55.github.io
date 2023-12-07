@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__icon_sns_instagram" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#333}
+        </style>
+    </defs>
+    <path id="prefix__사각형_51" d="M0 0H100V100H0z" data-name="사각형 51" style="fill:transparent"/>
+    <g id="prefix__그룹_3635" data-name="그룹 3635" transform="translate(30 30)">
+        <path id="prefix__패스_2349" d="M505.989 236.445H489.08a11.543 11.543 0 0 0-11.546 11.543V264.9a11.54 11.54 0 0 0 11.546 11.542h16.909a11.541 11.541 0 0 0 11.545-11.542v-16.91a11.544 11.544 0 0 0-11.545-11.545zm7.86 28.753a7.668 7.668 0 0 1-7.665 7.666h-17.305a7.671 7.671 0 0 1-7.665-7.666v-17.307a7.667 7.667 0 0 1 7.665-7.665h17.305a7.665 7.665 0 0 1 7.665 7.665z" class="prefix__cls-2" data-name="패스 2349" transform="translate(-477.534 -236.445)"/>
+        <path id="prefix__패스_2350" d="M494.664 243.27a10.377 10.377 0 1 0 10.382 10.38 10.375 10.375 0 0 0-10.382-10.38zm0 17.1a6.728 6.728 0 1 1 6.729-6.725 6.724 6.724 0 0 1-6.729 6.729z" class="prefix__cls-2" data-name="패스 2350" transform="translate(-474.667 -233.548)"/>
+        <path id="prefix__패스_2351" d="M499.825 241.294a2.418 2.418 0 1 0 2.419 2.417 2.419 2.419 0 0 0-2.419-2.417z" class="prefix__cls-2" data-name="패스 2351" transform="translate(-469.101 -234.387)"/>
+    </g>
+</svg>

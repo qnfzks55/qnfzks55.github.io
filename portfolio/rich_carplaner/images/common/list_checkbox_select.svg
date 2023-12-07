@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#1e46ba;stroke-linejoin:round;stroke-width:3px}.cls-2{fill:#00ff4c;opacity:0}
+        </style>
+    </defs>
+    <g id="list_checkbox_select" transform="translate(-12 -12)">
+        <ellipse id="타원_69" cx="14" cy="14" class="cls-1" data-name="타원 69" rx="14" ry="14" transform="translate(19.5 19.5)"/>
+        <path id="패스_433" d="M259.472 901.451l-9.492 10.124-5.285-5.637" class="cls-1" data-name="패스 433" transform="translate(-218.195 -872.951)"/>
+        <path id="사각형_638" d="M0 0h44v44H0z" class="cls-2" data-name="사각형 638" transform="translate(12 12)"/>
+    </g>
+</svg>

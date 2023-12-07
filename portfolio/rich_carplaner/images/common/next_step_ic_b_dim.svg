@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="next_step_ic_b_dim" width="28" height="28" viewBox="0 0 28 28">
+    <defs>
+        <style>
+            .cls-1{opacity:.3}.cls-2,.cls-3{fill:#454545}.cls-3{opacity:0}
+        </style>
+    </defs>
+    <g id="next_step_ic_w_dim" class="cls-1" transform="translate(-196 -1151)">
+        <path id="제외_2" d="M-10873-4588a13.91 13.91 0 0 1-9.9-4.1 13.912 13.912 0 0 1-4.1-9.9 13.906 13.906 0 0 1 4.1-9.9 13.914 13.914 0 0 1 9.9-4.1 13.914 13.914 0 0 1 9.9 4.1 13.906 13.906 0 0 1 4.1 9.9 13.912 13.912 0 0 1-4.1 9.9 13.91 13.91 0 0 1-9.9 4.1zm-1.88-21l-2.12 2.117 4.973 4.973-4.973 4.97 2.12 2.12 7.073-7.071-.021-.022.021-.022-7.073-7.065z" class="cls-2" data-name="제외 2" transform="translate(11083 5767)"/>
+        <path id="사각형_745" d="M0 0h28v28H0z" class="cls-3" data-name="사각형 745" transform="translate(196 1151)"/>
+    </g>
+</svg>

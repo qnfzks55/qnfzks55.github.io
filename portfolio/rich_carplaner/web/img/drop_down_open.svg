@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#959595;stroke-width:4px}.cls-2{fill:#0f5;opacity:0}
+        </style>
+    </defs>
+    <g id="drop_down_open" transform="translate(-296 -229)">
+        <path id="패스_431" d="M-9518.4-804.8l5.689 5.595-5.689 5.784" class="cls-1" data-name="패스 431" transform="rotate(90 -5123.91 4650.99)"/>
+        <path id="G_60_60" d="M0 0h60v60H0z" class="cls-2" data-name="G_60*60" transform="translate(296 229)"/>
+    </g>
+</svg>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>리치 카플래너</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Author" content="" />
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="리치 카플래너" />
+    <meta property="og:description" content="리치 카플래너" />
+    <!-- <meta
+      property="og:image"
+      content="http://richnco.co.kr/static/img/event/goodrichlounge/GoodRich_Lounge.jpg"
+    /> -->
+    <link rel="stylesheet" type="text/css" href="../../css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/sub1.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/sub2.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../js/lib/swiper/css/swiper.min.css"
+    />
+    <!-- <link
+      rel="apple-touch-icon-precomposed"
+      href="/static/img/common/hicon_114.png"
+    /> -->
+    <!-- <link
+      rel="shortcut icon"
+      sizes="96x96"
+      href="/static/img/common/hicon_96.png"
+    /> -->
+  </head>
+
+  <body>
+    <div class="responsive_wrap">
+      <div class="responsive_box3">
+        <div class="planner_info fixed">
+          <h1>리치카플래너</h1>
+        </div>
+      </div>
+      <div class="responsive_box5">
+        <div class="join_stage_wrap">
+          <div class="join_stage_img">
+            <img src="../../images/common/join_complate.png" alt="신청 완료" />
+          </div>
+          <dl>
+            <dt>리치 카플래너 가입신청이<br />완료되었습니다.</dt>
+            <dd>
+              24시간 이내 가입신청 승인처리가 완료된 후,<br />
+              가입심사 안내메시지가 자동 발송되며,<br />
+              APP에서도 확인하실 수 있습니다.
+            </dd>
+          </dl>
+          <table class="table_type2">
+            <colgroup>
+              <col style="width: 40%" />
+              <col />
+            </colgroup>
+            <tr>
+              <th scope="row">가입 관련문의</th>
+              <td><a href="tel:1670-2124">1670-2124</a></td>
+            </tr>
+            <tr>
+              <th scope="row">운영시간</th>
+              <td>평일 09:00~18:00</td>
+            </tr>
+          </table>
+        </div>
+        <div class="join_stage_btn">
+          <a href="#" class="btn_app_down"
+            >리치 카플래너 다운로드<i class="ic_down">다운로드</i></a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="../../js/lib/jquery/jquery-1.12.4.min.js"></script>
+    <script src="../../js/lib/swiper/js/swiper.min.js"></script>
+    <script src="../../js/util.js"></script>
+    <script src="../../js/ui.js"></script>
+    <script type="text/javascript">
+      var varUA = navigator.userAgent.toLowerCase(); //userAgent 값 얻기
+      var deviceOs = null;
+      var androidLink =
+        "https://play.google.com/store/apps/details?id=kr.richplanet.app.richcarplanner";
+      var iosLink =
+        "https://apps.apple.com/kr/app/%EB%A6%AC%EC%B9%98-%EC%B9%B4%ED%94%8C%EB%9E%98%EB%84%88/id1494246786";
+      var downloadLink = "javascript:alert('지원하지 않는 OS입니다.')";
+      if (varUA.match("android") != null) {
+        //안드로이드 일때 처리
+        deviceOs = "android";
+        downloadLink = androidLink;
+      } else if (
+        varUA.indexOf("iphone") > -1 ||
+        varUA.indexOf("ipad") > -1 ||
+        varUA.indexOf("ipod") > -1
+      ) {
+        //IOS 일때 처리
+        deviceOs = "ios";
+        downloadLink = iosLink;
+      } else {
+        //아이폰, 안드로이드 외 처리
+        downloadLink =
+          "https://play.google.com/store/apps/details?id=kr.richplanet.app.richcarplanner";
+      }
+
+      $(function() {
+        $(".btn_app_down").prop("href", downloadLink);
+      });
+    </script>
+  </body>
+</html>

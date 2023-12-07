@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:#454545}.cls-2{fill:#0f2;opacity:0}
+        </style>
+    </defs>
+    <g id="my_inquiry_ic" transform="translate(-380 -389.471)">
+        <g id="그룹_2718" data-name="그룹 2718" transform="translate(387 394.471)">
+            <g id="그룹_2714" data-name="그룹 2714">
+                <g id="선_14" data-name="선 14" transform="translate(13.692)">
+                    <path id="사각형_423" d="M0 0h14.961v2.276H0z" class="cls-1" data-name="사각형 423" transform="rotate(-45 12.77 5.29)"/>
+                </g>
+                <g id="패스_312" data-name="패스 312" transform="translate(0 2.228)">
+                    <path id="패스_422" d="M421.824 136.717h-21.378a1.138 1.138 0 0 1-1.138-1.138V109.9a1.138 1.138 0 0 1 1.138-1.138h16.549v2.276h-15.411v23.4h19.1v-19.71h2.276v20.851a1.138 1.138 0 0 1-1.136 1.138z" class="cls-1" data-name="패스 422" transform="translate(-399.308 -108.762)"/>
+                </g>
+                <g id="선_15" data-name="선 15" transform="translate(5.499 14.214)">
+                    <path id="사각형_424" d="M0 0h12.654v2.276H0z" class="cls-1" data-name="사각형 424"/>
+                </g>
+                <g id="선_16" data-name="선 16" transform="translate(5.499 18.54)">
+                    <path id="사각형_425" d="M0 0h12.654v2.276H0z" class="cls-1" data-name="사각형 425"/>
+                </g>
+                <g id="선_17" data-name="선 17" transform="translate(5.499 22.865)">
+                    <path id="사각형_426" d="M0 0h12.654v2.276H0z" class="cls-1" data-name="사각형 426"/>
+                </g>
+            </g>
+        </g>
+        <path id="사각형_641" d="M0 0h40v40H0z" class="cls-2" data-name="사각형 641" transform="translate(380 389.471)"/>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:#454545}.cls-2{fill:#08ff00;opacity:0}
+        </style>
+    </defs>
+    <g id="mypage_cancel_ic" transform="translate(-317 -410.727)">
+        <path id="사각형_441" d="M0 0h24.65v2.817H0z" class="cls-1" data-name="사각형 441" transform="rotate(135 85.649 283.251)"/>
+        <path id="사각형_442" d="M0 0h24.65v2.817H0z" class="cls-1" data-name="사각형 442" transform="rotate(45 -343.46 607.64)"/>
+        <path id="G_40_40" d="M0 0h40v40H0z" class="cls-2" data-name="G_40*40" transform="translate(317 410.727)"/>
+    </g>
+</svg>

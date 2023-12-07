@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="url_call_homepage" width="26" height="26" viewBox="0 0 26 26">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;opacity:0}.cls-2{fill:#454545;stroke:#454545;stroke-linecap:round;stroke-linejoin:round}
+        </style>
+    </defs>
+    <path id="사각형_779" d="M0 0h26v26H0z" class="cls-1" data-name="사각형 779"/>
+    <path id="제외_3" d="M4.57 18H0V8l8-8 8 8v10h-4.57v-5.628H4.57V18z" class="cls-2" data-name="제외 3" transform="translate(5.5 4.5)"/>
+</svg>

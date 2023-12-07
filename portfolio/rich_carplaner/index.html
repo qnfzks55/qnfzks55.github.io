@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>리치 카플래너</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="Author" content="" />
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="리치 카플래너" />
+    <meta property="og:description" content="리치 카플래너" />
+    <!-- <meta
+      property="og:image"
+      content="http://richnco.co.kr/static/img/event/goodrichlounge/GoodRich_Lounge.jpg"
+    /> -->
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/sub1.css" />
+    <link rel="stylesheet" type="text/css" href="css/sub2.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="js/lib/swiper/css/swiper.min.css"
+    />
+    <!-- <link
+      rel="apple-touch-icon-precomposed"
+      href="/static/img/common/hicon_114.png"
+    /> -->
+    <!-- <link
+      rel="shortcut icon"
+      sizes="96x96"
+      href="/static/img/common/hicon_96.png"
+    /> -->
+  </head>
+
+  <body>
+    <div id="wrap">
+      <div id="header">
+        <h1>
+          <img src="images/common/richcar_logo.png" alt="리치 카플래너" />
+        </h1>
+        <div class="main_btn_area">
+          <a href="page/my_page/my_info.html" class="btn_my"
+            ><img src="images/main/main_title_my_ic.svg" alt="my"
+          /></a>
+          <a
+            href="#;"
+            class="btn_gnb"
+            onclick="richCarPlanetUI.layerPopUp({ selId: '#gnb'}); return false"
+            ><img src="images/common/main_title_more_ic.svg" alt="메뉴"
+          /></a>
+        </div>
+      </div>
+      <div class="my_info_layer" data-info-layer="main">
+        <!--[D]여성일때 woman 클래스 추가-->
+        <div class="my_pf_info woman">
+          내 포인트
+        </div>
+        <div class="my_point">0<em>P</em></div>
+        <ul class="my_point_btn">
+          <li>
+            <button
+              type="button"
+              onclick="location.href='page/my_point/my_point_type2.html'"
+              class="btn_default_w"
+            >
+              포인트 출금
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div id="container">
+        <div class="main_section">
+          <div class="btn_banner_top">
+            <a href="page/direct_car/call_consulting.html" class="btn_banner">
+              <strong><em class="hlt">다이렉트</em> 자동차 보험</strong>
+            </a>
+            <!-- <button class="btn_icon">
+              <img src="images/main/point_message_share_btn.svg" alt="메일" />
+            </button>
+            <button class="btn_icon">
+              <img src="images/main/point_kakao_share_btn.svg" alt="카카오톡" />
+            </button> -->
+            <a href="page/usedcar_capital/list.html" class="btn_banner">
+              <strong><em class="hlt">중고차</em> 캐피탈</strong>
+            </a>
+          </div>
+          <ul class="btn_banner_list">
+            <li>
+              <a href="#" class="btn_banner">
+                <strong><em class="hlt">시승</em> 보험 (준비 중)</strong>
+              </a>
+            </li>
+          </ul>
+          <!-- <button
+            type="button"
+            class="btn_share mt_40"
+            onclick="richCarPlanetUI.layerPopUp({ selId: '#share_modal'}); return false"
+          >
+            고객에게 공유하기
+          </button> -->
+        </div>
+        <div class="main_swipe">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="page/support/event_join.html">
+                <img src="images/main/bn_main_1.png" alt="" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="page/support/event_join.html">
+                <img src="images/main/bn_main_2.png" alt="" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="page/support/event_first.html">
+                <img src="images/main/bn_main_3.png" alt="" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none">
+                <img src="images/main/bn_main_4.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <!-- <a href="#"
+            ><img
+              src="images/main/main_banner_open_enent.png"
+              alt="수리/정비이력조회 무료? - 리치 카플래너 OPEN EVENT"
+          /></a> -->
+        </div>
+        <div class="main_section mt_100">
+          <ul class="btn_banner_mem_list">
+            <li>
+              <a href="page/repair/repair.html" class="btn_banner">
+                <strong>수리/정비이력 조회</strong>
+              </a>
+            </li>
+            <!-- <li>
+              <a
+                href="page/performance_insur/performance_insur.html"
+                class="btn_banner"
+              >
+                <strong>성능상태점검책임보험 보장안내</strong>
+              </a>
+            </li> -->
+          </ul>
+        </div>
+        <div class="main_section">
+          <!-- <h2><a href="#" class="btn_more">더보기</a></h2> -->
+          <ul class="main_notice_list">
+            <li>
+              <a href="#" class="notice_link">리치 카플래너 광고료 안내</a
+              >
+            </li>
+          </ul>
+          <!-- <div class="main_notice_swipe">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <ul class="main_notice_list">
+                  <li>
+                    <a href="#" class="notice_link"
+                      >리치카플래너 딜러만을 위한 특별한 혜택 리치카플래너
+                      딜러만을 위한 특별한 혜택</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="notice_link"
+                      >일일일행을 통해 습관을 만들자</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="swiper-slide">
+                <ul class="main_notice_list">
+                  <li>
+                    <a href="#" class="notice_link">ㅇㄴㅁㅇㄴㅁ</a>
+                  </li>
+                  <li>
+                    <a href="#" class="notice_link"
+                      >일일일행을 통해 습관을 만들자</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div> -->
+        </div>
+        <!-- <div id="footer">Copyright 2019 by Insuon All right Reserved.</div> -->
+      </div>
+    </div>
+    <div class="pop_layer layer" id="gnb" data-layer-type="layer">
+      <div class="pop_head">
+        <div class="sub_logo">
+          <img src="images/common/sub_logo.png" alt="리치 카플래닛" />
+          <a href="page/setup/setup.html" class="btn_app_set">앱 설정</a>
+          <a href="#" class="btn_close"
+            ><img src="images/common/main_title_cancel_ic.svg" alt="닫기"
+          /></a>
+        </div>
+      </div>
+      <div class="pop_content">
+        <ul class="menu_list">
+          <li>
+            <a href="page/my_page/my_info.html">내 정보</a>
+          </li>
+          <li>
+            <a href="page/my_point/my_point_type2.html">내 포인트</a>
+          </li>
+          <li>
+            <a href="page/direct_car/call_consulting.html"
+              >다이렉트 자동차보험</a
+            >
+          </li>
+          <li>
+            <a href="page/usedcar_capital/orix_capital.html">중고차 캐피탈</a>
+          </li>
+          <li>
+            <a href="#">시승보험 (준비 중)</a>
+          </li>
+          <!-- <li>
+            <a href="page/ew_insur/ew_insur.html">EW(워런티) 보험</a>
+          </li> -->
+          <li>
+            <a href="page/repair/repair.html">수리/정비이력 조회</a>
+          </li>
+          <!-- <li>
+            <a href="page/performance_insur/performance_insur.html"
+              >성능상태점검책임보험 보장안내</a
+            >
+          </li> -->
+        </ul>
+        <dl class="define_list">
+          <dt>고객센터</dt>
+          <dd><a href="page/support/notice.html">공지사항</a></dd>
+          <dd><a href="page/support/faq.html">FAQ</a></dd>
+          <dd><a href="page/support/question.html">1:1문의</a></dd>
+          <dd><a href="page/support/event.html">이벤트문의</a></dd>
+        </dl>
+      </div>
+    </div>
+    <!-- 고객에게 공유하기 레이어 팝업 -->
+    <div
+      class="pop_layer fixed-modal"
+      id="share_modal"
+      data-layer-type="fixed-modal"
+    >
+      <div class="pop_content">
+        <div class="pop_head">
+          <h3>고객에게 공유하기</h3>
+          <a href="#" class="btn_close"
+            ><img src="images/common/main_title_cancel_ic.svg" alt="닫기"
+          /></a>
+        </div>
+        <div class="pop_txt3">
+          <strong>
+            고객에게 필요한 정보와 서비스를 선택하여<br />직접 확인 가능한 URL로
+            한 번에 전송합니다.
+          </strong>
+        </div>
+        <div class="pop_txt2">
+          <div class="msg_share_cnt">
+            <form action="#" method="" autocomplete="off">
+              <div class="input_checkbox_type4">
+                <label>
+                  <input type="checkbox" checked />
+                  <span class="lines">
+                    다이렉트 자동차 보험<br />
+                    <em class="txt">다이렉트 자동차 보험 상담 신청</em>
+                  </span>
+                </label>
+              </div>
+              <div class="input_checkbox_type4 mt_30">
+                <label>
+                  <input type="checkbox" checked />
+                  <span class="lines">
+                    중고차 캐피탈<br />
+                    <em class="txt">중고차 구매시 이용 가능한 캐피탈 서비스</em>
+                  </span>
+                </label>
+              </div>
+              <div class="input_checkbox_type4 mt_30">
+                <label>
+                  <input type="checkbox" checked />
+                  <span class="lines">
+                    성능상태점검 책임보험<br />
+                    <em class="txt">대상차량, 보상기간, 보상금액 안내</em>
+                  </span>
+                </label>
+              </div>
+              <div class="input_type2">
+                <div class="wrap"></div>
+                <div class="alert_guide" style="display: block;">
+                  공유할 서비스를 선택해주세요
+                </div>
+              </div>
+              <div class="input_type2">
+                <div class="title">
+                  <label for="member_name">고객명</label>
+                </div>
+                <div class="wrap">
+                  <input
+                    type="text"
+                    name=""
+                    id="member_name"
+                    placeholder="예시) 홍길동"
+                  />
+                </div>
+                <div class="alert_guide" style="display: block">
+                  이름을 입력해주세요
+                </div>
+              </div>
+              <div class="input_type2">
+                <div class="title">
+                  <label for="phone">고객 휴대폰 번호</label>
+                </div>
+                <div class="wrap cell">
+                  <div class="f_l">
+                    <select class="type2" name="phone_list" id="phone_list">
+                      <option value="010">010</option>
+                      <option value="011">011</option>
+                      <option value="016">016</option>
+                      <option value="018">018</option>
+                      <option value="019">019</option>
+                    </select>
+                  </div>
+                  <label for="phone" class="d_ib">
+                    <input
+                      type="tel"
+                      name=""
+                      id="phone"
+                      placeholder="예시) 00001111"
+                    />
+                  </label>
+                  <button type="button" class="btn_text_line">주소록</button>
+                </div>
+                <div class="alert_guide" style="display: block">
+                  휴대폰 번호를 입력해주세요
+                </div>
+              </div>
+            </form>
+            <div class="agree_box_area mt_20">
+              <div class="agree_head">
+                <div class="input_checkbox_type5">
+                  <label>
+                    <input type="checkbox" name="agree_chk" class="agree_ok" />
+                    <span>약관 전체 동의</span>
+                  </label>
+                </div>
+                <!-- <button type="button" class="btn_toggle_arrow">
+                  펼치기
+                </button> -->
+              </div>
+              <div class="agree_toggle_wrap">
+                <div class="agree_box">
+                  <div class="input_checkbox_type5 md">
+                    <label for="agree_1">
+                      <input type="checkbox" name="agree_chk" id="agree_1" />
+                      <span>개인(신용)정보 수집∙이용 동의(필수)</span>
+                    </label>
+                    <button
+                      type="button"
+                      class="btn_text_b"
+                      onclick="richCarPlanetUI.layerPopUp({ selId: '#pop_agree_1'}); return false"
+                    >
+                      보기
+                    </button>
+                  </div>
+                  <div class="alert_guide ml_20" style="display: block">
+                    개인정보 수집 및 이용에 동의해주세요
+                  </div>
+                </div>
+                <div class="agree_box">
+                  <div class="input_checkbox_type5 md">
+                    <label for="agree_2">
+                      <input type="checkbox" name="agree_chk" id="agree_2" />
+                      <span>개인(신용)정보 제공 동의(필수)</span>
+                    </label>
+                    <button
+                      type="button"
+                      class="btn_text_b"
+                      onclick="richCarPlanetUI.layerPopUp({ selId: '#pop_agree_2'}); return false"
+                    >
+                      보기
+                    </button>
+                  </div>
+                  <div class="alert_guide ml_20" style="display: block">
+                    개인(신용)정보 제공에 동의해주세요
+                  </div>
+                </div>
+                <div class="agree_box">
+                  <div class="input_checkbox_type5 md">
+                    <label for="agree_3">
+                      <input type="checkbox" name="agree_chk" id="agree_3" />
+                      <span>마케팅 정보 수신 동의(선택)</span>
+                    </label>
+                    <button
+                      type="button"
+                      class="btn_text_b"
+                      onclick="richCarPlanetUI.layerPopUp({ selId: '#pop_agree_3'}); return false"
+                    >
+                      보기
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pop_btn_area">
+          <ul>
+            <li>
+              <button type="button" class="btn_square_default">
+                전송
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- //고객에게 공유하기 레이어 팝업 -->
+    <!-- 개인(신용)정보 수집∙이용 동의 레이어팝업 -->
+    <div class="pop_layer layer" id="pop_agree_1" data-layer-type="layer">
+      <div class="pop_head">
+        <h3>개인(신용)정보 수집∙이용 동의</h3>
+        <a href="#" class="btn_close"
+          ><img src="../../images/common/main_title_cancel_ic.svg" alt="닫기"
+        /></a>
+      </div>
+      <div class="pop_content">
+        <div class="txt_area">
+          당사 및 당사 업무수탁자는 [개인정보보호법], [정보통신망 이용촉진 및
+          정보보호 등에 관한 법률] 에 따라 귀하의 개인(신용)정보를 다음과 같이
+          수집∙이용하고자 합니다.<br />
+          <br />
+          <table class="table_type2">
+            <tr>
+              <th scope="row">개인정보의 수집.이용목적</th>
+              <td>보험상품/서비스 소개 및 상담</td>
+            </tr>
+            <tr>
+              <th scope="row">수집.이용하는 개인정보의 내용</th>
+              <td>
+                성명, 전화번호, 거주지역, 연령, 차량정보, 기존보험사, 기타문의
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">개인정보 보유.이용기간</th>
+              <td>동의일로부터 5년</td>
+            </tr>
+            <tr>
+              <th scope="row">보험상담 및 가입권유 연락방법</th>
+              <td>전화, 문자, SNS</td>
+            </tr>
+          </table>
+
+          <br />
+          ※ 본 동의를 거부하실 수 있으나, 거부하는 경우에는 보험상품소개 및
+          가입상담 서비스 제공이 제한될 수 있습니다.<br />
+          ※ 동의하시더라도 당사 고객센터를 통해 동의를 철회하거나 가입권유
+          목적의 연락에 대한 중단을 요청하실 수 있습니다.
+        </div>
+      </div>
+    </div>
+    <!-- // 개인(신용)정보 수집∙이용 동의 레이어팝업 -->
+    <!-- 개인(신용)정보 제공 동의 레이어팝업 -->
+    <div class="pop_layer layer" id="pop_agree_2" data-layer-type="layer">
+      <div class="pop_head">
+        <h3>개인(신용)정보 제공 동의</h3>
+        <a href="#" class="btn_close"
+          ><img src="../../images/common/main_title_cancel_ic.svg" alt="닫기"
+        /></a>
+      </div>
+      <div class="pop_content">
+        <div class="txt_area">
+          당사는 [개인정보보호법], [정보통신망 이용촉진 및 정보보호 등에 관한
+          법률] 에 따라 귀하의 개인(신용)정보를 다음과 같이 제3자에게 제공하고자
+          합니다. <br /><br />
+          <table class="table_type2">
+            <colgroup>
+              <col style="width: 35%" />
+            </colgroup>
+            <tr>
+              <th scope="row">제공받는 자</th>
+              <td>
+                당사의 모집위탁계약을 체결한 자(설계사, 대리점), ㈜애드인슈,
+                현대해상화재보험㈜, 한화손해보험㈜, 롯데손해보험㈜,
+                ㈜KB손해보험, DB손해보험㈜, 메리츠화재해상보험㈜,
+                흥국화재해상보험㈜, AXA손해보험㈜, MG손해보험㈜,
+                더케이손해보험㈜, 삼성화재해상보험㈜
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">이용목적</th>
+              <td>보험상품/서비스소개 및 상담, 다이렉트자동차보험료 계산</td>
+            </tr>
+            <tr>
+              <th scope="row">제공하는 개인정보 내용</th>
+              <td>
+                성명, 전화번호, 거주지역, 연령, 차량정보, 기존보험사,
+                가입보험사, 기타문의
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">개인정보 보유∙이용 기간</th>
+              <td>동의일로부터 5년</td>
+            </tr>
+            <tr>
+              <th scope="row">보험상담 및 가입권유 연락방법</th>
+              <td>전화, 문자</td>
+            </tr>
+          </table>
+
+          <br />
+          ※ 각 제공대상기관 및 이용목적의 구체적인 정보는 당사 리치 카플래너
+          앱에서 확인하실 수 있습니다.<br />
+          ※ 본 동의를 거부하실 수 있으나, 거부하는 경우에는 보험상품 소개 및
+          가입상담 서비스 제공이 제한될 수 있습니다.<br />
+          ※ 동의하시더라도 당사 고객센터(02-6410-7253)를 통해 동의를 철회하거나
+          가입권유 목적의 연락에 대한 중단을 요청하실 수 있습니다.
+        </div>
+      </div>
+    </div>
+    <!-- // 개인(신용)정보 제공 동의 레이어팝업 -->
+    <!-- 마케팅 정보 수신 동의 레이어팝업 -->
+    <div class="pop_layer layer" id="pop_agree_3" data-layer-type="layer">
+      <div class="pop_head">
+        <h3>마케팅 정보 수신 동의</h3>
+        <a href="#" class="btn_close"
+          ><img src="../../images/common/main_title_cancel_ic.svg" alt="닫기"
+        /></a>
+      </div>
+      <div class="pop_content">
+        <div class="txt_area">
+          <h4>1. 개인(신용)정보의 수집∙이용에 관한 사항</h4>
+          <br />
+          1) 당사는 [개인정보보호법] 및 [신용정보의 이용 및 보호에 관한 법률]에
+          따라 보험상품 소개 및 홍보 등을 위하여 귀하의 개인(신용)정보를 다음과
+          같이 수집∙이용하고자 합니다.<br /><br />
+          2) 개인(신용)정보의 수집∙이용 목적 및 항목∙수집목적: 호전환(TM)을 통한
+          다이렉트자동차보험 안내, CM을 위한 다이렉트
+          자동차보험안내∙필수수집항목: 성명, 핸드폰번호, 연령, 차량정보, 선택한
+          보험가입정보<br /><br />
+          3) 개인(신용)정보 보유∙이용기간: 동의일로부터 5년<br /><br />
+          <h4>2. 개인(신용)정보의 제공에 관한 사항</h4>
+          <br />
+          1) 당사는 [개인정보보호법] 및 [신용정보의 이용 및 보호에 관한 법률]에
+          따라 귀하의 개인(신용)정보를 다음과 같이 제3자에게 상품소개 및 홍보 등
+          영업목적으로 제공하고자 합니다.<br /><br />
+          2) 개인(신용)정보를 제공받는 자 <br />
+          ㈜애드인슈, 현대해상화재보험㈜, 한화손해보험㈜, 롯데손해보험㈜,
+          ㈜KB손해보험, DB손해보험㈜, 메리츠화재해상보험㈜, 흥국화재해상보험㈜,
+          AXA손해보험㈜, MG손해보험㈜, 더케이손해보험㈜, 삼성화재해상보험㈜<br /><br />
+          3) 개인(신용)정보를 제공받는 자의 이용 목적 및 항목<br />
+          .제공목적: 다이렉트자동차보험 비교견적<br />
+          .제공항목: 성명, 핸드폰번호<br /><br />
+          4) 개인(신용)정보 보유∙이용기간: 동의일로부터 5년
+        </div>
+      </div>
+    </div>
+    <!-- // 마케팅 정보 수신 동의 레이어팝업 -->
+
+    <script src="js/lib/jquery/jquery-1.12.4.min.js"></script>
+    <script src="js/lib/swiper/js/swiper.min.js"></script>
+    <script src="js/util.js"></script>
+    <script src="js/ui.js"></script>
+  </body>
+</html>

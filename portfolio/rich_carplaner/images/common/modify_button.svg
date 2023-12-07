@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="134" height="80" viewBox="0 0 134 80">
+    <defs>
+        <style>
+            .cls-1,.cls-4{fill:none}.cls-1{stroke:#454545;stroke-linejoin:round;stroke-width:3px}.cls-2{fill:#08ff00;opacity:0}.cls-3{fill:#454545;font-size:28px;font-family:NotoSansCJKkr-Black,Noto Sans CJK KR;font-weight:800;letter-spacing:-.05em}
+        </style>
+    </defs>
+    <g id="modify_button" transform="translate(-480 -817)">
+        <g id="mypage_modify_ic" transform="translate(183 426.273)">
+            <path id="선_53" d="M0 0h19.671" class="cls-1" data-name="선 53" transform="translate(326.829 435.894)"/>
+            <path id="패스_429" d="M564.147 764.065l4.67 4.67-4.67 4.669" class="cls-1" data-name="패스 429" transform="translate(-222.317 -332.841)"/>
+            <path id="선_54" d="M19.671 0H0" class="cls-1" data-name="선 54" transform="translate(326.829 424.397)"/>
+            <path id="패스_430" d="M535.947 738.874l-4.67 4.67 4.67 4.67" class="cls-1" data-name="패스 430" transform="translate(-204.449 -319.147)"/>
+            <path id="사각형_636" d="M0 0h40v40H0z" class="cls-2" data-name="사각형 636" transform="translate(317 410.727)"/>
+        </g>
+        <text id="수정" class="cls-3" transform="translate(544 868)">
+            <tspan x="0" y="0">수정</tspan>
+        </text>
+        <path id="touch_area" d="M0 0h134v80H0z" class="cls-4" transform="translate(480 817)"/>
+    </g>
+</svg>

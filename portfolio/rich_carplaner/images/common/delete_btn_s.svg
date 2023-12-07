@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#999;stroke-width:3px}.cls-2{fill:#fff;opacity:0}
+        </style>
+    </defs>
+    <g id="delete_btn_s" transform="translate(-249 -751)">
+        <g id="그룹_3340" data-name="그룹 3340" transform="translate(-.5 1.5)">
+            <path id="선_126" d="M0 0l18 18" class="cls-1" data-name="선 126" transform="translate(260.5 760.5)"/>
+            <path id="선_127" d="M0 0l18 18" class="cls-1" data-name="선 127" transform="rotate(-90 519.5 259)"/>
+        </g>
+        <path id="사각형_731" d="M0 0h40v40H0z" class="cls-2" data-name="사각형 731" transform="translate(249 751)"/>
+    </g>
+</svg>

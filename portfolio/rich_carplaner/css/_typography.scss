@@ -1,0 +1,75 @@
+// Noto Sans
+@font-face {
+  font-family: "NotoSans";
+  font-style: normal;
+  font-weight: 100;
+  src: local("NotoSans"),
+    url("fonts/notosans/NotoSans-Thin.woff2") format("woff2"),
+    url("fonts/notosans/NotoSans-Thin.woff") format("woff"),
+    url("fonts/notosans/NotoSans-Thin.eot") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "NotoSans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("NotoSans"),
+    url("fonts/notosans/NotoSans-Regular.woff2") format("woff2"),
+    url("fonts/notosans/NotoSans-Regular.woff") format("woff"),
+    url("fonts/notosans/NotoSans-Regular.eot") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "NotoSans";
+  font-style: normal;
+  font-weight: 500;
+  src: local("NotoSans"),
+    url("fonts/notosans/NotoSans-Medium.woff2") format("woff2"),
+    url("fonts/notosans/NotoSans-Medium.woff") format("woff"),
+    url("fonts/notosans/NotoSans-Medium.eot") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "NotoSans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("NotoSans"),
+    url("fonts/notosans/NotoSans-Bold.woff2") format("woff2"),
+    url("fonts/notosans/NotoSans-Bold.woff") format("woff"),
+    url("fonts/notosans/NotoSans-Bold.eot") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "NotoSans";
+  font-style: normal;
+  font-weight: 900;
+  src: local("NotoSans"),
+    url("fonts/notosans/NotoSans-Black.woff2") format("woff2"),
+    url("fonts/notosans/NotoSans-Black.woff") format("woff"),
+    url("fonts/notosans/NotoSans-Black.eot") format("embedded-opentype");
+}
+
+// Samsung Sharp Sans
+// @font-face {
+//   font-family: "Samsung Sharp Sans";
+//   font-style: normal;
+//   font-weight: normal;
+//   src: local("Samsung Sharp Sans Regular"),
+//     url("fonts/samsungsharpsans/samsungsharpsans.woff") format("woff");
+// }
+
+// @font-face {
+//   font-family: "Samsung Sharp Sans";
+//   font-style: normal;
+//   font-weight: 500;
+//   src: local("Samsung Sharp Sans Medium"),
+//     url("fonts/samsungsharpsans/samsungsharpsans-medium.woff") format("woff");
+// }
+
+// @font-face {
+//   font-family: "Samsung Sharp Sans";
+//   font-style: normal;
+//   font-weight: 700;
+//   src: local("Samsung Sharp Sans Bold"),
+//     url("fonts/samsungsharpsans/samsungsharpsans-bold.woff") format("woff");
+// }

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="76" viewBox="0 0 80 76">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{stroke:#454545;stroke-width:4px}.cls-4{fill:#fff;opacity:0}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h80v76H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="point_drop_down_big_ic" class="cls-2">
+        <path id="패스_434" d="M0 0l12 11.8L0 24" class="cls-3" data-name="패스 434" transform="rotate(90 10 42.5)"/>
+        <path id="사각형_610" d="M0 0h80v76H0z" class="cls-4" data-name="사각형 610"/>
+    </g>
+</svg>

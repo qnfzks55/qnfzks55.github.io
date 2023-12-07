@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+@import "mixin", "variables";
+
+#wrap {
+  width: 100%;
+}
+
+.main {
+  &_wrap {
+    overflow: hidden;
+    position: relative;
+  }
+  &_animate {
+    height: 900px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: url("../img/img_top_pattern.png") no-repeat 0 0;
+    background-size: cover;
+  }
+  &_box {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+  }
+  &_body {
+    position: relative;
+    top: 342px;
+  }
+}
+
+#header {
+  // position: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0, 1);
+  h1 {
+    text-indent: -9999px;
+    background: url("../img/logo_richcar_w.png") no-repeat 0 0;
+    background-size: 207px auto;
+    width: 207px;
+    height: 28px;
+    float: left;
+    margin-top: 31px;
+    a {
+      display: block;
+    }
+  }
+  .gnb {
+    margin-left: 195px;
+    > li {
+      float: left;
+      margin-left: 60px;
+      &:first-child {
+        margin-left: 0;
+      }
+      &.active {
+        a {
+          font-weight: 900;
+        }
+      }
+      a {
+        display: block;
+        font-size: 18px;
+        font-family: $font2;
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: -0.45px;
+        text-align: center;
+        color: #fff;
+        padding: 35px 0;
+      }
+    }
+    @include clearfix();
+  }
+  &.active {
+    background: #f9f9f9;
+    h1 {
+      background: url("../img/logo_cori_kr_r.png") no-repeat 0 0;
+      background-size: cover;
+    }
+    .gnb {
+      > li {
+        a {
+          color: #333;
+        }
+      }
+    }
+  }
+}
+
+#mob_header {
+  background: transparent;
+  h1 {
+    color: transparent;
+    background: url("../img/logo_richcar_w.png") no-repeat 0 0;
+    background-size: VW(312px) auto;
+    width: VW(312px);
+    height: VW(42px);
+    float: left;
+    margin-top: VW(39px);
+    a {
+      color: transparent;
+      display: block;
+      text-indent: -9999px;
+    }
+  }
+  display: none;
+  position: absolute;
+  text-align: right;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-left: 10%;
+  text-align: right;
+  z-index: 1050;
+  .btn_menu {
+    background: url("../img/btn_nav_w.png") no-repeat 0 0;
+    width: VW(124px);
+    height: VW(120px);
+    background-size: cover;
+    text-indent: -9999px;
+    display: inline-block;
+    color: transparent;
+  }
+  &.active {
+    background: rgba(249, 249, 249, 0.94);
+    h1 {
+      background: url("../img/logo_cori_kr_r.png") no-repeat 0 0;
+      background-size: cover;
+    }
+    .btn_menu {
+      background: url("../img/btn_nav.png") no-repeat 0 0;
+      background-size: cover;
+    }
+  }
+}
+
+#container {
+  position: relative;
+  padding-top: 183px;
+}
+
+#footer {
+  margin-top: 500px;
+  background: #ececec;
+  border-top: 1px solid #ccc;
+}
+
+@media screen and (max-width: 1170px) {
+  #header {
+    display: none;
+  }
+  #mob_header {
+    display: block;
+  }
+  .main {
+    &_animate {
+      height: VW(1146px);
+    }
+    &_box {
+      width: auto;
+      padding: 0 10%;
+    }
+    &_body {
+      top: VW(670px);
+    }
+  }
+
+  #container {
+    padding-top: VW(187px);
+  }
+
+  #footer {
+    margin-top: VW(700px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .agree_form {
+    .select_box {
+      height: 58px;
+      border: 2px solid #d2d2d2;
+      margin-bottom: 20px;
+      select {
+        background-size: 60px auto;
+        font-size: 22px;
+        height: 60px;
+        line-height: 60px;
+        padding-left: 10px;
+      }
+    }
+    font-size: 20px;
+    strong {
+      font-size: 30px;
+      &.sub {
+        font-size: 20px !important;
+      }
+    }
+    table {
+      th,
+      td,
+      strong {
+        font-size: 20px !important;
+      }
+    }
+    strong {
+      font-size: 25px !important;
+    }
+  }
+}

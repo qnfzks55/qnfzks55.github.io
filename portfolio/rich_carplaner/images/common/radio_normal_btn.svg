@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="radio_normal_btn" width="44" height="44" viewBox="0 0 44 44">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#959595;stroke-linejoin:round;stroke-width:3px}.cls-2{fill:#00ff4c;opacity:0}
+        </style>
+    </defs>
+    <ellipse id="타원_69" cx="14" cy="14" class="cls-1" data-name="타원 69" rx="14" ry="14" transform="translate(8 8)"/>
+    <path id="사각형_638" d="M0 0h44v44H0z" class="cls-2" data-name="사각형 638"/>
+</svg>

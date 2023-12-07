@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:#454545}.cls-2{fill:#0f2;opacity:0}
+        </style>
+    </defs>
+    <g id="my_notice_ic" transform="translate(-455.541 -389.414)">
+        <g id="그룹_2719" data-name="그룹 2719" transform="translate(461.541 396.414)">
+            <g id="사각형_398" data-name="사각형 398">
+                <path id="사각형_428" d="M0 0h6.29v6.29H0z" class="cls-1" data-name="사각형 428"/>
+            </g>
+            <g id="선_34" data-name="선 34" transform="translate(9.532 2.007)">
+                <path id="사각형_429" d="M0 0h18.673v2.276H0z" class="cls-1" data-name="사각형 429"/>
+            </g>
+            <g id="사각형_399" data-name="사각형 399" transform="translate(0 9.916)">
+                <path id="사각형_430" d="M0 0h6.29v6.29H0z" class="cls-1" data-name="사각형 430"/>
+            </g>
+            <g id="선_35" data-name="선 35" transform="translate(9.532 11.923)">
+                <path id="사각형_431" d="M0 0h18.673v2.276H0z" class="cls-1" data-name="사각형 431"/>
+            </g>
+            <g id="사각형_400" data-name="사각형 400" transform="translate(0 19.831)">
+                <path id="사각형_432" d="M0 0h6.29v6.29H0z" class="cls-1" data-name="사각형 432"/>
+            </g>
+            <g id="선_36" data-name="선 36" transform="translate(9.532 21.839)">
+                <path id="사각형_433" d="M0 0h18.673v2.276H0z" class="cls-1" data-name="사각형 433"/>
+            </g>
+        </g>
+        <path id="사각형_639" d="M0 0h40v40H0z" class="cls-2" data-name="사각형 639" transform="translate(455.541 389.414)"/>
+    </g>
+</svg>
