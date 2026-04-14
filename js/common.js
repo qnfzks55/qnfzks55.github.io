@@ -78,18 +78,15 @@ lmj.lmj_ui.prototype = (function () {
             });
         },
         portfolioScroll: function () {
-            var $img_area = $("#portfolio .image");
-            $img_area.hover(
-                function () {
-                    var $img_h = $(this).find("img").height() - $img_area.height();
-                    $(this)
-                        .find("img")
-                        .css("transform", "translate3d(0, " + -$img_h + "px, 0)");
-                },
-                function () {
+            var $portfolio = $("#portfolio");
+
+            $portfolio.on("mouseenter", ".image", function () {
+                    var $img = $(this).find("img");
+                    var $img_h = $img.height() - $(this).height();
+                    $img.css("transform", "translate3d(0, " + -$img_h + "px, 0)");
+                }).on("mouseleave", ".image", function () {
                     $(this).find("img").css("transform", "translate3d(0, 0, 0)");
-                }
-            );
+                });
         },
         changeAgentMobile: function (type) {
             var varUA = navigator.userAgent.toLowerCase(); //userAgent 값 얻기
