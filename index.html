@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" style="visibility:hidden;">
 <head>
 <title>UX Engineer 이명종</title>
 <meta charset="utf-8" />
@@ -30,6 +30,8 @@
         setTimeout(function () {
             document.querySelector(".loading").classList.add("disabled");
         }, 1500);
+
+        document.documentElement.style.visibility = 'visible';
     });
 </script>
 </head>
@@ -64,11 +66,11 @@
                             <img src="./img/icon_blog.png" alt="블로그" />
                         </a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="http://www.facebook.com/Lmyeongjong" target="_blank" class="icon">
                             <img src="./img/icon_facebook.png" alt="facebook" />
                         </a>
-                    </li>
+                    </li> -->
                     <!--<li><a href="mailto:lmj5@naver.com" class="icon"><img src="./img/icon_mail.png" alt="mail" /></a></li>-->
                 </ul>
             </footer>
